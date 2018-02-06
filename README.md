@@ -2,7 +2,7 @@
 
 Senior project repo
 
-* [Slack]()
+* [Slack](https://seniorproject2018hq.slack.com/messages)
 
 ## Resources
 
