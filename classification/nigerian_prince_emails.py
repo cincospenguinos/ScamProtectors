@@ -7,7 +7,7 @@ to interact with.
 def get_all_emails():
 	emails = []
 
-	with open("dataset/nigerian_prince_emails.txt", encoding='ascii') as f:
+	with open("dataset/nigerian_prince_emails.txt") as f:
 		herp = f.readlines()
 		print(herp)
 
