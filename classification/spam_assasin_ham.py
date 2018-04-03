@@ -10,15 +10,12 @@ from email import *
 get_all_emails()
 
 Returns all ham emails from spam assasin.
-
-TODO: I'm getting weird errors on ubuntu, so I had it ignore the errors. Down the road
-we will want to remove that.
 '''
 def get_all_emails():
 	collection = []
 	names = os.listdir('dataset/spam_assasin_ham')
 	for name in names:
-		with open('dataset/spam_assasin_ham/' + name, 'r', errors='ignore') as f:
+		with open('dataset/spam_assasin_ham/' + name, 'r') as f:
 			text = f.readlines()
 			relevant_text = ''
 			flag = False
@@ -29,14 +26,13 @@ def get_all_emails():
 				if 'Message-ID' in line:
 					flag = True
 
-			mail = Email(relevant_text, 0)
-			collection.append(mail)
+			var1 = Email(relevant_text, 0)
+			collection.append(var1)
 
 	return collection
 
 def main():
 	emails = get_all_emails()
-	print(mail.text)
 
 if __name__ == "__main__":
 	main()
