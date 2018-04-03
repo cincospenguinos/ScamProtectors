@@ -21,6 +21,7 @@ def main():
 	engine = create_engine('mysql://' + local_db_username + ':' + local_db_password + '@localhost:3306/scam_protectors')
 	declarative_base().metadata.create_all(engine)
 
+	
 	ham = spam_assasin_ham_get_all_emails()
 
 	## TODO: Put this into a local database

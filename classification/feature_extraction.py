@@ -81,7 +81,7 @@ def main():
 
     classifier = linear_model.SGDClassifier()
 
-    with open("dataExtraction/data/fradulent_emails.txt") as f:
+    with open("dataset/nigerian_prince_emails.txt") as f:
         examples = f.read().splitlines()[1:]
 
     email_texts = parse_corpora(examples)
