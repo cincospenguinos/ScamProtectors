@@ -8,3 +8,6 @@ Here's my proposed flow:
 4. ????????
 5. Profit
 
+## Resources
+
+* SQLAlchemy

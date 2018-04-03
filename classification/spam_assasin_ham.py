@@ -4,18 +4,19 @@ spam_assasin_ham.py
 Gather up all of the spam assasin ham emails.
 '''
 import os
-from email import *
+from sp_email import ScamProtectorEmail
 
 '''
-get_all_emails()
+spam_assasin_ham_get_all_emails()
 
 Returns all ham emails from spam assasin.
 '''
-def get_all_emails():
+def spam_assasin_ham_get_all_emails():
 	collection = []
 	names = os.listdir('dataset/spam_assasin_ham')
 	for name in names:
 		with open('dataset/spam_assasin_ham/' + name, 'r') as f:
+			# TODO: Get all of the other pieces and include them in the constructor
 			text = f.readlines()
 			relevant_text = ''
 			flag = False
@@ -26,13 +27,13 @@ def get_all_emails():
 				if 'Message-ID' in line:
 					flag = True
 
-			var1 = Email(relevant_text, 0)
-			collection.append(var1)
+			ham = ScamProtectorEmail(relevant_text, 0)
+			collection.append(ham)
 
 	return collection
 
 def main():
-	emails = get_all_emails()
+	emails = spam_assasin_ham_get_all_emails()
 
 if __name__ == "__main__":
 	main()
