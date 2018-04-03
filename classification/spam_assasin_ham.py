@@ -19,16 +19,24 @@ def get_all_emails():
 	names = os.listdir('dataset/spam_assasin_ham')
 	for name in names:
 		with open('dataset/spam_assasin_ham/' + name, 'r', errors='ignore') as f:
-			text = f.read()
-			mail = Email(text, 0)
+			text = f.readlines()
+			relevant_text = ''
+			flag = False
+
+			for line in text:
+				if flag:
+					relevant_text += line
+				if 'Message-ID' in line:
+					flag = True
+
+			mail = Email(relevant_text, 0)
 			collection.append(mail)
 
 	return collection
 
 def main():
 	emails = get_all_emails()
-	for mail in emails:
-		print(mail.text)
+	print(mail.text)
 
 if __name__ == "__main__":
 	main()
