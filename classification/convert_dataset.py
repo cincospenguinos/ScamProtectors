@@ -18,7 +18,7 @@ def main():
 	if local_db_username is None or local_db_password is None:
 		print('$SP_SCHEMA_NAME or $SP_SCHEMA_PASSWORD is not set! Set these variables before attempting to convert the dataset!')
 
-	# engine = create_engine('sqlite:///herp.db')
+	engine = create_engine('mysql://' + local_db_username + ':' + local_db_password + '@localhost:3306/scam_protectors')
 	declarative_base().metadata.create_all(engine)
 
 	ham = spam_assasin_ham_get_all_emails()
