@@ -69,7 +69,6 @@ def spam_assasin_ham_get_all_emails():
 
 def main():
 	emails = spam_assasin_ham_get_all_emails()
-	print(emails[3].full_text)
 
 if __name__ == "__main__":
 	main()
