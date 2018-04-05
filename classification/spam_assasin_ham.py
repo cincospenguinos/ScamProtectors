@@ -16,23 +16,51 @@ def spam_assasin_ham_get_all_emails():
 	collection = []
 	names = os.listdir('dataset/spam_assasin_ham')
 
-	header_pattern = re.compile(r'^[a-zA-Z]+:')
+	header_pattern = re.compile(r'^[\w-]+:\s*|From\s*\w+\@')
+	url_pattern = re.compile(r'^(https?):\/\/[\w\-\_]+')
 
 	for name in names:
 		with open('dataset/spam_assasin_ham/' + name, 'r') as f:
 			text = f.readlines()
-			relevant_text = ''
-			received_flag = False
-			finished_flag = False
+			
+			# Disregard all header info at the top of the email
+			line_count = 0
+			last_header = 0
+			for idx in xrange(len(text)):
+				line = text[idx]
 
-			for line in text:
-				if re.match(header_pattern, line) and not finished_flag:
-					if 'Received' in line:
-						received_flag = True
-					else:
-						received_flag = False
-				elif not received_flag:
-					finished_flag = True
+				if re.match(header_pattern, line) and not re.match(url_pattern, line):
+					last_header = idx
+					line_count = 0
+				else:
+					line_count += 1
+
+				if line_count == 4:
+					break
+
+			# Disregard all header info at the bottom of the email as well
+			other_last_header = len(text)
+			line_count = 0
+			for idx in xrange(len(text) - 1, 0, -1):
+				line = text[idx]
+
+				if idx <= last_header or line_count == 2:
+					break
+
+				if re.match(header_pattern, line) and not re.match(url_pattern, line):
+					other_last_header = idx
+					line_count = 0
+				else:
+					line_count += 1
+
+			# print(name + "\t" + str(last_header == other_last_header))
+
+			relevant_text = ''
+
+			for idx in range(len(text))[last_header + 1:other_last_header]:
+				relevant_text += text[idx]
+
+			# print(name + '\t' + str(not relevant_text))
 
 			ham = ScamProtectorEmail(relevant_text, 0)
 			collection.append(ham)
@@ -41,7 +69,7 @@ def spam_assasin_ham_get_all_emails():
 
 def main():
 	emails = spam_assasin_ham_get_all_emails()
-	print(emails[0].full_text)
+	print(emails[3].full_text)
 
 if __name__ == "__main__":
 	main()
