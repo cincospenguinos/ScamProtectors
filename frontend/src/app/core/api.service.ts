@@ -6,7 +6,6 @@ import { Observable } from 'rxjs/Observable';
 import { catchError } from 'rxjs/operators';
 import 'rxjs/add/observable/throw';
 import { ENV } from './env.config';
-import { EventModel } from './models/event.model';
 import { VtuModel } from './models/vtu.model';
 
 @Injectable()
@@ -21,6 +20,17 @@ export class ApiService {
   }
 
   // GET list of VTUs
+  // getVtus$(): Observable<VtuModel[]> {
+  //   return this.http
+  //   .get(`${ENV.BASE_API}vtus`, {
+  //     headers: new HttpHeaders().set('Authorization', this._authHeader)
+  //   })
+  //   .pipe(
+  //     catchError((error) => this._handleError(error))
+  //   );
+  // }
+  
+  // GET list of public, future events
   getVtus$(): Observable<VtuModel[]> {
     return this.http
       .get(`${ENV.BASE_API}vtus`)

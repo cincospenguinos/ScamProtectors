@@ -3,7 +3,7 @@ const getHost = () => {
   const host = window.location.host;
   return `${protocol}//${host}`;
 };
-const apiURI = 'http://127.0.0.1:8083/api/';
+const apiURI = 'https://endpoints-201605.appspot.com/api/';
 
 export const ENV = {
   BASE_URI: getHost(),

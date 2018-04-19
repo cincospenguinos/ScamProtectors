@@ -52,11 +52,11 @@ module.exports = function(app, config) {
   //   res.send('API works');
   // });
 
-  const _vtuListProjection = 'title startDatetime endDatetime viewPublic';
+  const _vtuListProjection = 'title';
 
   // GET list of public events starting in the future
   app.get('/api/vtus', (req, res) => {
-    Event.find({viewPublic: true, startDatetime: { $gte: new Date() }}, _vtuListProjection, (err, vtus) => {
+    Vtu.find(_vtuListProjection, (err, vtus) => {
       let vtusArr = [];
       if (err) {
         return res.status(500).send({message: err.message});

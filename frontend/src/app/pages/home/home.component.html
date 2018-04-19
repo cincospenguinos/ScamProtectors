@@ -7,6 +7,10 @@
     </header>
 
     <section>
+        <h1 class="text-center">{{pageTitle}}</h1>
+    </section>
+
+    <section>
         <div class="container text-center" style="color:#6c757d">
             <button mat-raised-button color="warn" (click)="_getVtuList()">Get list of accounts</button>
         </div>
@@ -20,10 +24,9 @@
 
                 <!-- Vtus listing -->
                 <section class="list-group">
-                    <a *ngFor="let vtu of vtuList" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <a *ngFor="let vtu of vtuList" class="list-group-item flex-column align-items-start">
                         <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1" [innerHTML]="vtu.title"></h5>
-                            <small>{{vtu.email}}</small>
+                            <h5 class="mb-1">{{vtu.email}}</h5>
                         </div>
                     </a>
                 </section>
