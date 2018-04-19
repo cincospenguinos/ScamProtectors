@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('front-end App', () => {
+describe('mean-rsvp App', () => {
   let page: AppPage;
 
   beforeEach(() => {
