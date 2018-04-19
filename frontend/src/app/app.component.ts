@@ -11,7 +11,6 @@ import { AuthService } from './auth/auth.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  // navOpen: boolean;
   minHeight: string;
   private _initWinHeight = 0;
 

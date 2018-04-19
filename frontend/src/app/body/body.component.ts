@@ -5,13 +5,17 @@ import 'rxjs/add/operator/filter';
 import { AuthService } from './../auth/auth.service';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  selector: 'app-body',
+  templateUrl: './body.component.html',
+  styleUrls: ['./body.component.scss']
 })
-export class HeaderComponent implements OnInit {
+export class BodyComponent implements OnInit {
 
   constructor(private router: Router, public auth: AuthService) { }
 
   ngOnInit() { }
+
+  public authenticate(event) {
+    alert('Sent token for authentication');
+  }
 }

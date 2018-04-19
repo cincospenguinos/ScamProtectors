@@ -146,4 +146,4 @@ def get_vtus():
     return jsonify(vtus)
 
 if __name__ == '__main__':
-    app.run(port=8083)
+    app.run(port=8080)

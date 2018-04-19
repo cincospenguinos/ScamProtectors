@@ -9,6 +9,7 @@ const jwt = require('express-jwt');
 const jwks = require('jwks-rsa');
 const Event = require('./models/Event');
 const Rsvp = require('./models/Rsvp');
+const Vtu = require('./models/Vtu');
 
 /*
  |--------------------------------------
@@ -31,7 +32,13 @@ module.exports = function(app, config) {
     });
 
     // Check for an authenticated admin user
-
+  const adminCheck = (req, res, next) => {
+    const roles = req.user[config.NAMESPACE] || [];
+    if (roles.indexOf('admin') > -1) {
+      next();
+    } else {
+      res.status(401).send({message: 'Not authorized for admin access'});
+    }
   }
 
 /*
@@ -41,8 +48,26 @@ module.exports = function(app, config) {
  */
 
   // GET API root
-  app.get('/api/', (req, res) => {
-    res.send('API works');
+  // app.get('/api/', (req, res) => {
+  //   res.send('API works');
+  // });
+
+  const _vtuListProjection = 'title startDatetime endDatetime viewPublic';
+
+  // GET list of public events starting in the future
+  app.get('/api/vtus', (req, res) => {
+    Event.find({viewPublic: true, startDatetime: { $gte: new Date() }}, _vtuListProjection, (err, vtus) => {
+      let vtusArr = [];
+      if (err) {
+        return res.status(500).send({message: err.message});
+      }
+      if (vtus) {
+        vtus.forEach(vtu => {
+          vtusArr.push(vtu);
+        });
+      }
+      res.send(vtusArr);
+    });
   });
 
 };

@@ -5,29 +5,43 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
-import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AuthService } from './auth/auth.service';
 import { CallbackComponent } from './pages/callback/callback.component';
+import { BodyComponent } from './body/body.component';
 
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HttpClientModule } from '@angular/common/http';
+import { ApiService } from './core/api.service';
+import { LoadingComponent } from './core/loading.component';
+import { DatePipe } from '@angular/common';
+import { UtilsService } from './core/utils.service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HeaderComponent,
     FooterComponent,
-    CallbackComponent
+    CallbackComponent,
+    BodyComponent,
+    LoadingComponent
   ],
   imports: [
     NgbModule.forRoot(),
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [ 
     Title,
-    AuthService
+    AuthService,
+    ApiService,
+    DatePipe,
+    UtilsService
   ],
   bootstrap: 
   [

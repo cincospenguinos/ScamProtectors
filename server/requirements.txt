@@ -4,3 +4,4 @@ python-jose-cryptodome
 flask-cors
 six
 Flask-SQLAlchemy==2.3.2
+pymysql
