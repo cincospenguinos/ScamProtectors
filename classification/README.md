@@ -8,6 +8,10 @@ Here's my proposed flow:
 4. ????????
 5. Profit
 
+## How to use
+
+`virtualenv` is the bomb, man. Just `source bin/activate` and call it a day.
+
 ## Resources
 
 * SQLAlchemy
