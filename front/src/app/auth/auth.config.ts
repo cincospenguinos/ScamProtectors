@@ -1,0 +1,19 @@
+import { ENV } from './../core/env.config';
+
+interface AuthConfig {
+  CLIENT_ID: string;
+  CLIENT_DOMAIN: string;
+  AUDIENCE: string;
+  REDIRECT: string;
+  SCOPE: string;
+  NAMESPACE: string;
+};
+
+export const AUTH_CONFIG: AuthConfig = {
+  CLIENT_ID: 'i21e6XuEIArj9NDvp_UvZCg8-LwrUKnx',
+  CLIENT_DOMAIN: 'scam-protector.auth0.com', // e.g., you.auth0.com
+  AUDIENCE: 'https://endpoints-201605.appspot.com/api/', // e.g., http://localhost:8083/api/
+  REDIRECT: `${ENV.BASE_URI}/callback`,
+  SCOPE: 'openid profile',
+  NAMESPACE: 'http://myapp.com/roles'
+};
