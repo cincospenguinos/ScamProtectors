@@ -1,0 +1,12 @@
+runtime: python
+env: flex
+entrypoint: gunicorn -b :$PORT main:app
+
+env_variables:
+  CLOUDSQL_CONNECTION_NAME: scam-protect:us-central1:scam-protect
+  CLOUDSQL_USER: Jess
+  CLOUDSQL_PASSWORD: scamprotect
+
+libraries:
+- name: MySQLdb
+  version: "latest"

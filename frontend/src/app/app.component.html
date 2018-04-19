@@ -1,0 +1,65 @@
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+
+        <div class="header-page-authStatus">
+  <nav class="navbar navbar-toggleable-md navbar-dark fixed-top" style="background-color:#2c3135" >
+      <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" style="color:ghostwhite" href="#">Scam Protect</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+              <a class="nav-link js-scroll-trigger" style="color:gainsboro" href="#about">About</a>
+          </li>
+          <li class="nav-item js-scroll-trigger">
+              <a class="nav-link js-scroll-trigger" style="color:gainsboro"href="#FAQ">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" style="color:gainsboro"href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger text-info" *ngIf="!auth.loggedIn" (click)="auth.login()">Log In</a>
+             
+          </li>
+
+            <li class="nav-item" *ngIf="auth.loggedIn">
+                <a class="nav-link js-scroll-trigger text-info" >{{auth.userProfile?.name}}</a>
+              </li>
+          <li class="nav-item" *ngIf="auth.loggedIn">
+              <a class="nav-link js-scroll-trigger text-info" (click)="auth.logout()">Log Out</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+</div>
+
+<div class="layout-overflow">
+  <div
+    class="layout-canvas"
+    [ngClass]="{'nav-open': navOpen, 'nav-closed': !navOpen}"
+    [style.min-height]="minHeight">
+
+    <!-- HEADER -->
+    <app-header></app-header>
+
+    <!-- CONTENT -->
+    <div id="layout-view" class="layout-view">
+    </div>
+
+    <!-- FOOTER -->
+    <app-footer></app-footer>
+
+  </div> <!-- /.layout-canvas -->
+</div> <!-- /.layout-overflow -->
