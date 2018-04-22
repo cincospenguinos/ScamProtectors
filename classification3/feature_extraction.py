@@ -76,9 +76,54 @@ def strip_non_words(emails):
         em['email_body_processed'] = scrubbed
 
 
+def print_sample(sample, index=0):
+    print("Random EMail #" + str(index) + '\n')
+    if 'prediction' in list(sample):
+        print("Label: " + str(sample['label']))
+        print("Prediction: " + str(sample['prediction']))
+    print("Processed EMail Body: \n")
+    processed_email = sample['email_body_processed'].split()
+    line = ''
+    for x in range(len(processed_email)):
+        line += processed_email[x] + ' '
+        if x % 15 == 0:
+            print(line)
+            line = ''
+    print("\nOriginal EMail Body: \n")
+    print(sample['email_body_text'] + '\n')
+
+
+def print_samples(data, num_samples):
+    for x in range(num_samples):
+        random_index = random.randint(0, len(data))
+        random_email = data[random_index]
+        print_sample(random_email, index=random_index)
+        # print("Random EMail #" + str(random_index) + '\n')
+        # if 'prediction' in list(data[0]):
+        #     print("Label: " + str(random_email['label']))
+        #     print("Prediction: " + str(random_email['prediction']))
+        # print("Processed EMail Body: \n")
+        # processed_email = random_email['email_body_processed'].split()
+        # line = ''
+        # for x in range(len(processed_email)):
+        #     line += processed_email[x] + ' '
+        #     if x % 15 == 0:
+        #         print(line)
+        #         line = ''
+        # print("Original EMail Body: \n")
+        # print(random_email['email_body_text'] + '\n')
+
+    print()
+
+
 def main():
 
-    num_samples = 0
+    #####################
+    # LOGGING PARAMETERS
+    #####################
+
+    num_samples = 1
+    log_fails = False
 
     #######################
     # Process Scam E-Mails
@@ -104,20 +149,7 @@ def main():
 
     print("Sampling from the Processed Corpus")
 
-    for x in range(num_samples):
-        random_index = random.randint(0, len(scam_emails))
-        random_email = scam_emails[random_index]
-        print("Random EMail #" + str(random_index) + '\n')
-        print("Original EMail Body: \n")
-        print(random_email['email_body_text'] + '\n')
-        print("Processed EMail Body: \n")
-        processed_email = random_email['email_body_processed'].split()
-        line = ''
-        for x in range(len(processed_email)):
-            line += processed_email[x] + ' '
-            if x % 15 == 0:
-                print(line)
-                line = ''
+    print_samples(scam_emails, num_samples)
 
     ###########################
     # Process Non-Scam E-Mails
@@ -144,20 +176,11 @@ def main():
 
     print("Sampling from the Processed Corpus")
 
-    for x in range(num_samples):
-        random_index = random.randint(0, len(non_scam_emails))
-        random_email = non_scam_emails[random_index]
-        print("Random EMail #" + str(random_index) + '\n')
-        print("Original EMail Body: \n")
-        print(random_email['email_body_text'] + '\n')
-        print("Processed EMail Body: \n")
-        processed_email = random_email['email_body_processed'].split()
-        line = ''
-        for x in range(len(processed_email)):
-            line += processed_email[x] + ' '
-            if x % 15 == 0:
-                print(line)
-                line = ''
+    print_samples(non_scam_emails, num_samples)
+
+    ##################################
+    # CREATE TRAIN AND TEST DATA SETS
+    ##################################
 
     all_emails = scam_emails + non_scam_emails
     random.shuffle(all_emails)
@@ -172,6 +195,10 @@ def main():
 
     for i in range(split, len(all_emails)):
         test_data.append(all_emails[i])
+
+    ###################
+    # TRAIN CLASSIFIER
+    ###################
 
     vector_data_text = []
     label_data = []
@@ -199,36 +226,40 @@ def main():
     ##################
     # LOAD CLASSIFIER
     ##################
-    
+
     classifier = joblib.load(filename)
 
+    #######################
+    # ANALYZE TOP FEATURES
+    #######################
+
+    print("Analyzing Top Features... \n")
     features = vectorizer.get_feature_names()
     weights = classifier.coef_[0]
     pairs = {}
 
-    print(features)
-    print(len(features))
-
-    print(weights)
-    print(len(weights))
-
     for feature in range(len(features)):
             pairs[features[feature]] = weights[feature]
 
-    for x in range(20):
+    print("\nTop 5 Features for identifying a scam email: \n")
+    for x in range(5):
         max_feature = max(pairs, key=pairs.get)
         print(max_feature)
         print(pairs[max_feature])
         pairs.pop(max_feature)
 
-    for x in range(20):
+    print("\nTop 5 Features for identifying a non-scam email: \n")
+    for x in range(5):
         min_feature = min(pairs, key=pairs.get)
         print(min_feature)
         print(pairs[min_feature])
         pairs.pop(min_feature)
 
-    return
+    ####################################
+    # TEST CLASSIFIER AGAINST TEST DATA
+    ####################################
 
+    print("\nTesting Classifier and Printing Failed Predictions: \n")
     num_correct = 0
     for test in test_data:
         vector_data = vectorizer.transform([test['email_body_processed']])
@@ -236,42 +267,16 @@ def main():
         test['prediction'] = result
         if result == test['label']:
             num_correct += 1
-        else:
+        elif log_fails:
             print("EMail Not Labeled Correctly:")
-            print("Label: " + str(test['label']))
-            print("Prediction: " + str(test['prediction']))
-            print("Processed EMail Body:\n")
-            processed_email = test['email_body_processed'].split()
-            line = ''
-            for x in range(len(processed_email)):
-                line += processed_email[x] + ' '
-                if x % 15 == 0:
-                    print(line)
-                    line = ''
-            print()
-            print("Original EMail Body:\n")
-            print(test['email_body_text'])
+            print_sample(test)
 
     print("After Training with " + str(len(train_data)) + " emails")
     print("and Testing " + str(len(test_data)) + " emails")
     print(str(num_correct/len(test_data)) + " of emails were correctly classified.")
+    print("\nPrinting samples from the test run: \n")
 
-    for x in range(num_samples):
-        random_index = random.randint(0, len(test_data))
-        random_email = test_data[random_index]
-        print("Random EMail #" + str(random_index) + '\n')
-        print("Original EMail Body: \n")
-        print(random_email['email_body_text'] + '\n')
-        print("Processed EMail Body: \n")
-        processed_email = random_email['email_body_processed'].split()
-        line = ''
-        for x in range(len(processed_email)):
-            line += processed_email[x] + ' '
-            if x % 15 == 0:
-                print(line)
-                line = ''
-        print("Label: " + str(random_email['label']))
-        print("Prediction: " + str(random_email['prediction']))
+    print_samples(test_data, num_samples)
 
 
 if __name__ == "__main__":
