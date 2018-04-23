@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './footer/footer.component';
-import { AuthService } from './auth/auth.service';
+import { AuthorizationService } from './auth/authorization.service';
 import { CallbackComponent } from './pages/callback/callback.component';
 import { BodyComponent } from './body/body.component';
 
@@ -18,6 +18,17 @@ import { DatePipe } from '@angular/common';
 import { UtilsService } from './core/utils.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
+
+import { SocialLoginModule, AuthServiceConfig, GoogleLoginProvider } from "angular5-social-login";
+
+export function provideConfig() {
+  let config = new AuthServiceConfig([{
+    id: GoogleLoginProvider.PROVIDER_ID,
+    provider: new GoogleLoginProvider("127339737905-o2nepu39oigqspfj0j41e1a4p10enlur.apps.googleusercontent.com")
+  }]);
+
+return config;
+}
 
 @NgModule({
   declarations: [
@@ -34,14 +45,19 @@ import { MaterialModule } from './material.module';
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    SocialLoginModule
   ],
   providers: [ 
     Title,
-    AuthService,
+    AuthorizationService,
     ApiService,
     DatePipe,
-    UtilsService
+    UtilsService,
+    {
+      provide: AuthServiceConfig,
+      useFactory: provideConfig
+    }
   ],
   bootstrap: 
   [

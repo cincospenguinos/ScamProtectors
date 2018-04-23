@@ -2,7 +2,7 @@
 
     <header class="text-secondary" style="background-image: url('../assets/computer2.jpg'); background-size: 100%; ">
         <div class="container text-center" style="color:#6c757d">
-            <h1>Scam Protect</h1>
+            <h1>Scam Protector</h1>
         </div>
     </header>
 
@@ -10,15 +10,32 @@
         <h1 class="text-center">{{pageTitle}}</h1>
     </section>
 
-    <section>
+    <!-- <section>
         <div class="container text-center" style="color:#6c757d">
             <button mat-raised-button color="warn" (click)="_getVtuList()">Get list of accounts</button>
         </div>
-    </section>
+    </section> -->
 
     <app-loading *ngIf="loading"></app-loading>
 
     <ng-template [ngIf]="utils.isLoaded(loading)">
+
+        <section class="text-center">
+            <div *ngIf="authorized; then proData else login"></div>
+            <ng-template #login>
+                <button mat-raised-button color="warn" (click)="signInWithGoogle()">Authenticate New Email</button>
+            </ng-template>
+
+            <ng-template #proData>
+                <p *ngIf="result" class="alert alert-success text-center">
+                    Authenticated and added {{user.email}}!
+                </p>
+                <p *ngIf="!result" class="alert alert-danger text-center">
+                    Failed to add {{user.email}}!
+                </p>
+            </ng-template>
+        </section>
+
         <ng-template [ngIf]="vtuList">
             <ng-template [ngIf]="vtuList.length">
 
