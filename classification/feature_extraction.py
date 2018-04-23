@@ -1,15 +1,22 @@
 from sklearn import linear_model
 from sklearn.feature_extraction import DictVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
+from bs4 import BeautifulSoup
 import random
 import re
+import os
+import unicodedata
 
 
 def parse_corpora(examples):
+    """
+    Takes in the raw scam corpora and separates it into individual emails
+    """
     email_texts = []
-    curr_email = examples[0]
+    curr_email = str(examples[0])
 
     for i in range(1, len(examples)):
-        line = examples[i]
+        line = str(examples[i])
         if line.split():
             if line.split()[0] == 'Return-Path:':
                 email_texts.append(curr_email)
@@ -21,9 +28,12 @@ def parse_corpora(examples):
 
 
 def parse_emails(email_texts):
+    """
+    Takes in the separated email texts and parse the headers and the email body
+    """
     emails = []
     header_re = re.compile(r"[a-zA-Z-]*: ")
-    email = {'email_body_text': ''}
+    email = {'email_body_text': '', 'label': 1}
 
     for em in email_texts:
         for line in em.splitlines():
@@ -32,113 +42,197 @@ def parse_emails(email_texts):
             else:
                 email['email_body_text'] += line + '\n'
         emails.append(email)
-        email = {'email_body_text': ''}
+        email = {'email_body_text': '', 'label': 1}
 
     return emails
 
 
-def email_body_next(examples, start):
-    header_re = re.compile(r"[a-zA-Z-]*: ")
-
-    is_body = True
-
-    for x in range(start+1, start+6):
-        if header_re.match(examples[x]):
-            is_body = False
-
-    return is_body
-
-
-def detect_word(eng_set, word):
-    if word in eng_set:
-        return True
-    else:
+def visible(element):
+    if element.parent.name in ['style', 'script', '[document]', 'head', 'title']:
         return False
-
-
-def detect_html(email_body):
-
-    if email_body.count('<') > 5:
-        return True
-    else:
+    elif re.match('<!--.*-->', str(element.encode('utf-8'))):
         return False
+    return True
 
 
-def detect_encrypted(email_body):
-    encrypted = False
-    words = email_body.split()
-    for word in words:
-        if len(word) > 30:
-            encrypted = True
-    return encrypted
+def strip_html(body_text):
+    """
+    Use beautiful soup to remove HTML tags from text
+    """
+    soup = BeautifulSoup(body_text, 'lxml')
+    data = soup.findAll(text=True)
+
+    #result = filter(visible, data)
+
+    return '\n'.join(data)
 
 
-def get_random_email():
-    return 0
-
-
-def main():
-
-    classifier = linear_model.SGDClassifier()
-
-    with open("dataExtraction/data/fradulent_emails.txt") as f:
-        examples = f.read().splitlines()[1:]
-
-    email_texts = parse_corpora(examples)
-
-    emails = parse_emails(email_texts)
-
-    print("Number of EMails: " + str(len(emails)))
-
-    html_count = 0
-    for em in emails:
-        if detect_html(em['email_body_text']):
-            html_count += 1
-            #print(em['email_body_text'])
-
-    print("HTML EMails: " + str(html_count))
-
-    encrypted_count = 0
-    for em in emails:
-        if detect_encrypted(em['email_body_text']):
-            encrypted_count += 1
-
-    print("Encrypted EMails: " + str(encrypted_count))
-
-    # random_email = emails[random.randint(0, len(emails))]
-    # print("Random EMail: \n")
-    #
-    # for key in random_email.keys():
-    #     print('Key: ' + key)
-    #     print('Val: ' + str(random_email[key]))
-
+def strip_non_words(emails):
+    """
+    Check against english dictionary and remove non-words
+    """
     with open('/usr/share/dict/words') as f:
         eng_dic_raw = f.read()
 
     eng_set = set()
 
     for word in eng_dic_raw.split():
-        eng_set.add(word)
+        eng_set.add(word.lower())
 
-    print(emails[127]['email_body_text'])
+    for em in emails:
+        scrubbed = ''
+        for word in em['email_body_processed'].split():
+            if word in eng_set:
+                scrubbed += word + ' '
+        em['email_body_processed'] = scrubbed
 
-    scrubbed = ''
 
-    for word in emails[127]['email_body_text'].split():
-        if detect_word(eng_set, word):
-            scrubbed += word + ' '
+def main():
+    # rel = 'dataset/spam_assasin_ham'
+    # dir = os.path.dirname(__file__)
+    # filename = os.path.join(dir, rel)
+    #
+    # count = 0
+    # for file in os.listdir(filename):
+    #     with open(rel + '/' + file) as text:
+    #         data = text.read()
+    #         data.split()
+    #         # if count > 200:
+    #         #     break
+    #
+    # return
 
-    print(scrubbed)
+    num_samples = 1
 
-    vectorizer = DictVectorizer()
+    #######################
+    # Process Scam E-Mails
+    #######################
 
-    vector_data = vectorizer.fit_transform(emails)
+    with open("dataset/nigerian_prince_emails.txt") as f:
+        examples = f.read().splitlines()[1:]
 
-    print(vector_data.toarray())
+    print("Parsing Scam EMails")
+    email_texts = parse_corpora(examples)
 
-    regr = linear_model.SGDClassifier()
+    print("Parsing Headers and Bodies")
+    scam_emails = parse_emails(email_texts)
 
-    #regr.fit(vector_data)
+    print("Number of EMails Processed: " + str(len(scam_emails)))
+
+    print("Stripping HTML from EMails, Converting to Lower Case for Comparisons (This may take a few minutes)")
+    for em in scam_emails:
+        em['email_body_processed'] = strip_html(em['email_body_text']).lower()
+
+    print("Stripping Non-Words from the EMail Bodies")
+    strip_non_words(scam_emails)
+
+    print("Sampling from the Processed Corpus")
+
+    for x in range(num_samples):
+        random_index = random.randint(0, len(scam_emails))
+        random_email = scam_emails[random_index]
+        print("Random EMail #" + str(random_index) + '\n')
+        print("Original EMail Body: \n")
+        print(random_email['email_body_text'] + '\n')
+        print("Processed EMail Body: \n")
+        processed_email = random_email['email_body_processed'].split()
+        line = ''
+        for x in range(len(processed_email)):
+            line += processed_email[x] + ' '
+            if x % 15 == 0:
+                print(line)
+                line = ''
+
+    ###########################
+    # Process Non-Scam E-Mails
+    ###########################
+
+    print("Processing Non-Scam EMails")
+    non_scam_emails = []
+
+    rel = 'dataset/spam_assasin_ham'
+    dir = os.path.dirname(__file__)
+    filename = os.path.join(dir, rel)
+    for file in os.listdir(filename):
+        with open(rel + '/' + file, 'rb') as text:
+            non_scam_emails.append({'email_body_text': text.read(), 'label': 0})
+
+    print("Number of EMails Processed: " + str(len(non_scam_emails)))
+
+    print("Stripping HTML from EMails, Converting to Lower Case for Comparisons (This may take a few minutes)")
+    for em in non_scam_emails:
+        em['email_body_processed'] = strip_html(em['email_body_text']).lower()
+
+    print("Stripping Non-Words from the EMail Bodies")
+    strip_non_words(non_scam_emails)
+
+    print("Sampling from the Processed Corpus")
+
+    for x in range(num_samples):
+        random_index = random.randint(0, len(non_scam_emails))
+        random_email = non_scam_emails[random_index]
+        print("Random EMail #" + str(random_index) + '\n')
+        print("Original EMail Body: \n")
+        print(random_email['email_body_text'] + '\n')
+        print("Processed EMail Body: \n")
+        processed_email = random_email['email_body_processed'].split()
+        line = ''
+        for x in range(len(processed_email)):
+            line += processed_email[x] + ' '
+            if x % 15 == 0:
+                print(line)
+                line = ''
+
+    all_emails = scam_emails + non_scam_emails
+    #random.shuffle(all_emails)
+
+    print(repr(all_emails[0]['email_body_text']))
+    print(repr(all_emails[0]['label']))
+
+    split = int(len(all_emails) * 0.8)
+
+    train_data = []
+    test_data = []
+
+    for i in range(split):
+        train_data.append(all_emails[i])
+
+    for i in range(split, len(all_emails)):
+        test_data.append(all_emails[i])
+
+    vector_data_text = []
+    label_data = []
+
+    print(repr(train_data[0]['email_body_text']))
+    print(repr(train_data[0]['label']))
+
+    for em in train_data:
+        vector_data_text.append(em['email_body_processed'])
+        #print(repr(em['email_body_processed']))
+        label_data.append(em['label'])
+        #print(repr(em['label']))
+
+    print(repr(vector_data_text[0]))
+    print(repr(label_data[0]))
+
+    classifier = linear_model.SGDClassifier()
+
+    vectorizer = CountVectorizer(analyzer=str.split)
+
+    vector_data = vectorizer.fit_transform(vector_data_text)
+
+    print(vectorizer.get_feature_names())
+
+    classifier.fit(vector_data, label_data)
+
+    num_correct = 0
+    for test in test_data:
+        vector_data = vectorizer.fit_transform([test['email_body_processed']])
+        result = classifier.predict(vector_data)[0]
+        if result == test['label']:
+            num_correct += 1
+
+    print("After Training and Testing " + str(num_correct/len(test_data)) + " of EMails were correctly classified.")
 
 
 if __name__ == "__main__":
