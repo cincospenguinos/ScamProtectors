@@ -115,22 +115,34 @@ def handle_auth_error(ex):
 
 # Controllers API
 
-# This doesn't need authentication
-@app.route("/api/public")
+
+@app.route("/api/log-in/<email>", methods=['POST'])
 @cross_origin(headers=['Content-Type', 'Authorization'])
-def public():
-    return "hello world"
+##@requires_auth
+def log_in(email):
+    query = ("INSERT INTO user_email (EMAIL) VALUES ('{0}')".format(email))
+
+    try:
+        cursor.execute(query)
+        cnx.commit()
+    except pymysql.IntegrityError as e:
+        if not e[0] == 1062:
+            raise
+
+    return jsonify("logged in")
+
 
 # This does need authentication
-@app.route("/api/authenticated-emails/<email>")
+@app.route("/api/flagged-emails/<email>", methods=['GET'])
 @cross_origin(headers=['Content-Type', 'Authorization'])
-@requires_auth
+##@requires_auth
 def get_authenticated_emails(email):
     query = ("SELECT ID FROM user_email WHERE EMAIL='{0}'".format(email))
     cursor.execute(query)
     email_id = cursor.fetchone()[0]
-    print(email_id)
-    query = ("SELECT TOKEN FROM user_token WHERE USER_ID={0}".format(email_id))
+
+
+    query = ("SELECT SUBJECT FROM flagged_emails WHERE USER_ID={0}".format(email_id))
 
     cursor.execute(query)
     row_headers=[x[0] for x in cursor.description] #this will extract row headers
@@ -140,10 +152,40 @@ def get_authenticated_emails(email):
         json_data.append(dict(zip(row_headers,result)))
     return jsonify(json_data)
 
-@app.route("/api/vtus")
+@app.route("/api/vtus/<email>", methods=['GET'])
 @cross_origin(headers=['Content-Type', 'Authorization'])
-def get_vtus():
-    return jsonify(vtus)
+##@requires_auth
+def get_vtus(email):
+    query = ("SELECT ID FROM user_email WHERE EMAIL='{0}'".format(email))
+    cursor.execute(query)
+    email_id = cursor.fetchone()[0]
+    print(email_id)
+    query = ("SELECT vtu_email FROM user_token WHERE USER_ID={0}".format(email_id))
+
+    cursor.execute(query)
+    row_headers=[x[0] for x in cursor.description] #this will extract row headers
+    rv = cursor.fetchall()
+    json_data=[]
+    for result in rv:
+        json_data.append(dict(zip(row_headers,result)))
+    return jsonify(json_data)
+
+@app.route("/api/vtus/<email>", methods=['POST'])
+@cross_origin(headers=['Content-Type', 'Authorization'])
+##@requires_auth
+def add_vtu(email):
+    vtu_email = request.form['email']
+    refresh_token = request.form['token'] 
+
+    query = ("SELECT ID FROM user_email WHERE EMAIL='{0}'".format(email))
+    cursor.execute(query)
+    user_id = cursor.fetchone()[0]
+
+    query = ("INSERT INTO user_token (USER_ID, TOKEN, vtu_email) values ({0}, '{1}', '{2}')".format(user_id, refresh_token, vtu_email))
+    cursor.execute(query)
+    cnx.commit()
+
+    return jsonify(vtu_email), 201
 
 if __name__ == '__main__':
     app.run(port=8080)
