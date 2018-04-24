@@ -24,7 +24,7 @@ import { SocialLoginModule, AuthServiceConfig, GoogleLoginProvider } from "angul
 export function provideConfig() {
   let config = new AuthServiceConfig([{
     id: GoogleLoginProvider.PROVIDER_ID,
-    provider: new GoogleLoginProvider("127339737905-o2nepu39oigqspfj0j41e1a4p10enlur.apps.googleusercontent.com")
+    provider: new GoogleLoginProvider("127339737905-el6kb2rongp4as3h90madfuifmfdt8s6.apps.googleusercontent.com")
   }]);
 
 return config;
