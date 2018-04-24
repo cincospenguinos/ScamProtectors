@@ -44,9 +44,9 @@
                     <a *ngFor="let vtu of vtuList" class="list-group-item flex-column align-items-start">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1 text-center">
-                                <!-- <span ng-repeat="flagged in vtuFlaggedList | filter:vtu">
+                                <span *ngIf="vtu.vtu_email == '2018scamprotectors@gmail.com'">
                                     <img src="../assets/warning.png" height="30" width="30">
-                                </span> -->
+                                </span>
                                 {{vtu.vtu_email}}
                             </h5>
                         </div>
@@ -73,7 +73,7 @@
                 <section class="list-group">
                     <a *ngFor="let vtuFlagged of vtuFlaggedList" class="list-group-item flex-column align-items-start">
                         <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">{{vtuFlagged.vtu_email}}</h5>
+                            <h5 class="mb-1">{{vtuFlagged.SUBJECT}}</h5>
                         </div>
                     </a>
                 </section>
@@ -82,7 +82,7 @@
             <section>
                 <!-- No flagged vtus available -->
                 <p *ngIf="!vtuFlaggedList.length" class="alert alert-info text-center">
-                    No accounts have been flagged.
+                    No emails have been flagged.
                 </p>
             </section>
         </ng-template>
