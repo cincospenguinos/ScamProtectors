@@ -52,77 +52,68 @@ module.exports = function (app, config) {
   //   res.send('API works');
   // });
 
-  const _vtuListProjection = 'title';
-  const _vtuFlaggedListProjection = 'title';
+  // const _vtuListProjection = 'title';
+  // const _vtuFlaggedListProjection = 'title';
 
   // GET list of VTUs under user
   app.get('/api/vtus', (req, res) => {
-    Vtu.find(_vtuListProjection, (err, vtus) => {
-      let vtusArr = [];
-      if (err) {
-        return res.status(500).send({ message: err.message });
-      }
-      if (vtus) {
-        vtus.forEach(vtu => {
-          vtusArr.push(vtu);
-        });
-      }
-      res.send(vtusArr);
-    });
+    let vtusArr = [];
+    if (err) {
+      return res.status(500).send({ message: err.message });
+    }
+    if (vtus) {
+      vtus.forEach(vtu => {
+        vtusArr.push(vtu);
+      });
+    }
+    res.send(vtusArr);
   });
 
   // POST VTU under user
   app.post('/api/vtus', jwtCheck, (req, res) => {
-    Vtu.findOne({ email: req.body.email }, (err) => {
+    if (err) {
+      return res.status(500).send({ message: err.message });
+    }
+    const vtu = new Vtu({
+      email: req.body.email,
+      token: req.body.token
+    });
+    vtu.save((err) => {
       if (err) {
         return res.status(500).send({ message: err.message });
       }
-      const vtu = new Vtu({
-        email: req.body.email,
-        caretaker: req.body.caretaker,
-        token: req.body.token
-      });
-      vtu.save((err) => {
-        if (err) {
-          return res.status(500).send({ message: err.message });
-        }
-        res.send(vtu);
-      });
+      res.send(vtu);
     });
   });
 
+
   // POST user to database
   app.post('/api/log-in', jwtCheck, (req, res) => {
-    Vtu.findOne({ email: req.body.email }, (err) => {
+    if (err) {
+      return res.status(500).send({ message: err.message });
+    }
+    const vtu = new Vtu({
+      email: req.body.email
+    });
+    vtu.save((err) => {
       if (err) {
         return res.status(500).send({ message: err.message });
       }
-      const vtu = new Vtu({
-        email: req.body.email
-      });
-      vtu.save((err) => {
-        if (err) {
-          return res.status(500).send({ message: err.message });
-        }
-        res.send(vtu);
-      });
+      res.send(vtu);
     });
   });
 
   // GET flagged emails under user's account
   app.get('/api/flagged-emails', (req, res) => {
-    Vtu.find(_vtuFlaggedListProjection, (err, vtus) => {
-      let flaggedVtusArr = [];
-      if (err) {
-        return res.status(500).send({ message: err.message });
-      }
-      if (vtus) {
-        vtus.forEach(vtu => {
-          flaggedVtusArr.push(vtu);
-        });
-      }
-      res.send(flaggedVtusArr);
-    });
+    let flaggedVtusArr = [];
+    if (err) {
+      return res.status(500).send({ message: err.message });
+    }
+    if (vtus) {
+      vtus.forEach(vtu => {
+        flaggedVtusArr.push(vtu);
+      });
+    }
+    res.send(flaggedVtusArr);
   });
-
 };

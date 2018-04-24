@@ -1,6 +1,6 @@
 // src/app/core/api.service.ts
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
+import { HttpClient, HttpParams, HttpErrorResponse } from '@angular/common/http';
 import { AuthorizationService } from './../auth/authorization.service';
 import { Observable } from 'rxjs/Observable';
 import { catchError } from 'rxjs/operators';
@@ -19,17 +19,6 @@ export class ApiService {
     return `Bearer ${localStorage.getItem('access_token')}`;
   }
 
-  // GET list of VTUs
-  // getVtus$(): Observable<VtuModel[]> {
-  //   return this.http
-  //   .get(`${ENV.BASE_API}vtus`, {
-  //     headers: new HttpHeaders().set('Authorization', this._authHeader)
-  //   })
-  //   .pipe(
-  //     catchError((error) => this._handleError(error))
-  //   );
-  // }
-  
   // GET list of all authenticated VTUs of current user
   getVtus$(): Observable<VtuModel[]> {
     return this.http
@@ -41,25 +30,27 @@ export class ApiService {
 
   // POST new VTU
   postVtu$(vtuEmail: string, vtuToken: string): Observable<VtuModel> {
+    let params = new HttpParams();
+    params = params.set('email', vtuEmail);
+    params = params.set('token', vtuToken);
     return this.http
-      .post(`${ENV.BASE_API}vtus/`+ this.auth.userProfile.email, {
-        headers: new HttpHeaders({ 'email': vtuEmail, 'token': vtuToken })
-      })
+      .post(`${ENV.BASE_API}vtus/` + this.auth.userProfile.email, params
+      )
       .pipe(
         catchError((error) => this._handleError(error))
       );
   }
 
-    // POST user
-    postUser$(): Observable<VtuModel> {
-      return this.http
-        .post(`${ENV.BASE_API}log-in/`+ this.auth.userProfile.email, null)
-        .pipe(
-          catchError((error) => this._handleError(error))
-        );
-    }
+  // POST user
+  postUser$(): Observable<VtuModel> {
+    return this.http
+      .post(`${ENV.BASE_API}log-in/` + this.auth.userProfile.email, null)
+      .pipe(
+        catchError((error) => this._handleError(error))
+      );
+  }
 
-    // GET list of flagged emails under user
+  // GET list of flagged emails under user
   getFlagged$(): Observable<VtuModel[]> {
     return this.http
       .get(`${ENV.BASE_API}flagged-emails/` + this.auth.userProfile.email)

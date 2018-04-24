@@ -20,7 +20,14 @@ import { HttpClient } from '@angular/common/http';
 })
 
 export class HomeComponent implements OnInit, OnDestroy {
-  pageTitle = 'Accounts';
+  accountsTitle = 'Accounts';
+  flaggedAccountsTitle = 'Flagged Accounts';
+
+  addCaretakerErrorFlag: boolean;
+  getVtusErrorFlag: boolean;
+  getFlaggedErrorFlag: boolean;
+  addVtuErrorFlag: boolean;
+
   userSub: Subscription;
   vtuAddSub: Subscription;
   vtuListSub: Subscription;
@@ -28,7 +35,6 @@ export class HomeComponent implements OnInit, OnDestroy {
   vtuList: VtuModel[];
   vtuFlaggedList: VtuModel[];
   loading: boolean;
-  error: boolean;
 
   private user: SocialUser;
   public authorized: boolean = false;
@@ -46,6 +52,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     if (this.auth.loggedIn) {
       this._addCaretaker();
       this._getVtuList();
+      this._getFlaggedList();
     }
   }
 
@@ -72,9 +79,8 @@ export class HomeComponent implements OnInit, OnDestroy {
         },
         err => {
           console.error(err);
-          this.result = false;
           this.loading = false;
-          this.error = true;
+          this.addCaretakerErrorFlag = true;
         }
       );
   }
@@ -91,7 +97,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         err => {
           console.error(err);
           this.loading = false;
-          this.error = true;
+          this.getVtusErrorFlag = true;
         }
       );
   }
@@ -108,7 +114,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         err => {
           console.error(err);
           this.loading = false;
-          this.error = true;
+          this.getFlaggedErrorFlag = true;
         }
       );
   }
@@ -123,9 +129,8 @@ export class HomeComponent implements OnInit, OnDestroy {
         },
         err => {
           console.error(err);
-          this.result = false;
           this.loading = false;
-          this.error = true;
+          this.addVtuErrorFlag = true;
         }
       );
   }

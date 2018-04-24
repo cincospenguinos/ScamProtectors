@@ -6,10 +6,6 @@
         </div>
     </header>
 
-    <section>
-        <h1 class="text-center">{{pageTitle}}</h1>
-    </section>
-
     <!-- <section>
         <div class="container text-center" style="color:#6c757d">
             <button mat-raised-button color="warn" (click)="_getVtuList()">Get list of accounts</button>
@@ -30,10 +26,14 @@
                 <p *ngIf="result" class="alert alert-success text-center">
                     Authenticated and added {{user.email}}!
                 </p>
-                <p *ngIf="!result" class="alert alert-danger text-center">
-                    Failed to add {{user.email}}!
+                <p *ngIf="addVtuErrorFlag" class="alert alert-danger text-center">
+                    Failed to add {{user.email}}. Please try again.
                 </p>
             </ng-template>
+        </section>
+
+        <section>
+            <h2 class="text-center">{{accountsTitle}}</h2>
         </section>
 
         <ng-template [ngIf]="vtuList">
@@ -43,24 +43,64 @@
                 <section class="list-group">
                     <a *ngFor="let vtu of vtuList" class="list-group-item flex-column align-items-start">
                         <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">{{vtu.email}}</h5>
+                            <h5 class="mb-1 text-center">
+                                <!-- <span ng-repeat="flagged in vtuFlaggedList | filter:vtu">
+                                    <img src="../assets/warning.png" height="30" width="30">
+                                </span> -->
+                                {{vtu.vtu_email}}
+                            </h5>
                         </div>
                     </a>
                 </section>
             </ng-template>
 
             <section>
-                <!-- No upcoming public vtus available -->
+                <!-- No vtus available -->
                 <p *ngIf="!vtuList.length" class="alert alert-info text-center">
-                    No accounts available.
+                    No accounts have been added.
                 </p>
             </section>
         </ng-template>
 
         <section>
-            <!-- Error loading vtus -->
-            <p *ngIf="error" class="alert alert-danger text-center">
-                <strong>Oops!</strong> There was an error retrieving account data.
+            <h2 class="text-center">{{flaggedAccountsTitle}}</h2>
+        </section>
+
+        <ng-template [ngIf]="vtuFlaggedList">
+            <ng-template [ngIf]="vtuFlaggedList.length">
+
+                <!-- Flagged Vtus listing -->
+                <section class="list-group">
+                    <a *ngFor="let vtuFlagged of vtuFlaggedList" class="list-group-item flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">{{vtuFlagged.vtu_email}}</h5>
+                        </div>
+                    </a>
+                </section>
+            </ng-template>
+
+            <section>
+                <!-- No flagged vtus available -->
+                <p *ngIf="!vtuFlaggedList.length" class="alert alert-info text-center">
+                    No accounts have been flagged.
+                </p>
+            </section>
+        </ng-template>
+
+        <section>
+            <!-- Error adding caretaker to DB -->
+            <p *ngIf="addCaretakerErrorFlag" class="alert alert-danger text-center">
+                <strong>Oops!</strong> We tried to add you to our system, but something went wrong.
+            </p>
+
+            <!-- Error getting VTUs from DB -->
+            <p *ngIf="getVtusErrorFlag" class="alert alert-danger text-center">
+                <strong>Oops!</strong> We tried to get your accounts, but something went wrong.
+            </p>
+
+            <!-- Error getting flagged VTUs from DB -->
+            <p *ngIf="getFlaggedErrorFlag" class="alert alert-danger text-center">
+                <strong>Oops!</strong> We tried to get the list of flagged accounts, but something went wrong.
             </p>
         </section>
 
