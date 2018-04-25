@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 import random
 import re
 import os
+import pickle
 
 
 def parse_corpora(examples):
@@ -222,6 +223,7 @@ def main():
     filename = 'bow_classifier.joblib.pkl'
 
     _ = joblib.dump(classifier, filename, compress=3)
+    pickle.dump(vectorizer, open('bow_classifier_vectorizer.pkl', 'wb'))
 
     ##################
     # LOAD CLASSIFIER

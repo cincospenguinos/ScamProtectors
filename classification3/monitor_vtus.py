@@ -14,8 +14,13 @@ from oauth2client.file import Storage
 
 from sklearn import linear_model
 from sklearn.externals import joblib
+from sklearn.feature_extraction.text import CountVectorizer
+
+from bs4 import BeautifulSoup
+
 import pymysql
 import base64
+import pickle
 
 try:
 	import argparse
@@ -61,8 +66,72 @@ def get_credentials():
 		print('Storing credentials to ' + credential_path)
 	return credentials
 
+def strip_html(body_text):
+    """
+    Use beautiful soup to remove HTML tags from text
+    """
+    soup = BeautifulSoup(body_text, 'lxml')
+    data = soup.findAll(text=True)
+
+    return '\n'.join(data)
+
+def strip_non_words(emails):
+	"""
+	Check against english dictionary and remove non-words
+	"""
+	with open('/usr/share/dict/words') as f:
+		eng_dic_raw = f.read()
+
+	eng_set = set()
+
+	for word in eng_dic_raw.split():
+		eng_set.add(word.lower())
+
+	for em in emails:
+		scrubbed = ''
+		for word in em['email_body_processed'].split():
+			if word in eng_set:
+				scrubbed += word + ' '
+
+	em['email_body_processed'] = scrubbed
+
 def get_db_connection():
 	return pymysql.connect(user=os.environ['SP_DATABASE_USERNAME'], password=os.environ['SP_DATABASE_PASSWORD'], host=os.environ['SP_DATABASE_HOST'], database=os.environ['SP_DATABASE_SCHEMA'])
+
+def extract_body(mail):
+	body = ''
+
+	if not 'parts' in mail['payload']:
+		return None
+
+	for part in mail['payload']['parts']:
+		body += str(base64.urlsafe_b64decode(part['body']['data'].encode('UTF-8')))
+
+	# Use BeautifulSoup to clean it up
+	body = strip_html(body)
+	
+	# Remove all the non-words
+	with open('/usr/share/dict/words') as f:
+		eng_dic_raw = f.read()
+
+	eng_set = set()
+
+	for word in eng_dic_raw.split():
+		eng_set.add(word.lower())
+
+	scrubbed = ''
+
+	for word in body.split():
+		if word in eng_set:
+			scrubbed += word + ' '
+
+	return scrubbed
+
+def is_scam_email(body, classifier):
+	vectorizer = pickle.load(open('bow_classifier_vectorizer.pkl', 'rb'))
+	data = vectorizer.transform([body])
+	result = classifier.predict(data)[0]
+	return result == 1
 
 def main():
 	classifier = get_classifier()
@@ -83,16 +152,15 @@ def main():
 			mail_id = msg['id']
 			mail = service.users().messages().get(userId='me', id=mail_id, format='full').execute()
 			
-			for part in mail['payload']['parts']:
-				body = base64.urlsafe_b64decode(part['body']['data'].encode('UTF-8'))
-				print(body)
+			# Grab all the separate parts of the body
+			body = extract_body(mail)
 
-			# TODO: Check with the classifier
-			if False:
+			if body and is_scam_email(body, classifier):
+				print('Found scam!')
 				# TODO: query = ("INSERT INTO flagged_emails (USER_ID, SUBJECT, TOKEN_ID) VALUES (57, '{0}', 29);".format(subject))
-				service.users().messages().trash(userId='me', id=mail_id).execute()
+				# service.users().messages().trash(userId='me', id=mail_id).execute()
 			else:
-				print('All good.')
+				print('\n')
 
 		if 'nextPageToken' in msgs:
 			msgs = service.users().messages().list(userId='me', pageToken=msgs['nextPageToken']).execute()
