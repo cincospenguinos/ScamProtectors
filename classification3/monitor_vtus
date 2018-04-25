@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+source ~/.bash_profile
+source /home/alafleur/git/ScamProtectors/classification3/venv/bin/activate
+python3.6 /home/alafleur/git/ScamProtectors/classification3/monitor_vtus.py

@@ -167,7 +167,7 @@ def main():
 				subject = get_subject(mail)
 				print('Found scam! \"' + subject + '\"')
 				success = cursor.execute('INSERT INTO flagged_emails (USER_ID, SUBJECT, TOKEN_ID) VALUES (57, "{0}", 29)'.format(subject))
-				print(success == 1)
+                                db_connection.commit()
 				service.users().messages().trash(userId='me', id=mail_id).execute()
 
 		if 'nextPageToken' in msgs:

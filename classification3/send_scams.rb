@@ -27,10 +27,12 @@ MRS. HELLEN ANYANWU. Please send your response to (hellenpeterson@gmail.com)
 From r  Sun Jul 16 13:27:23 2006
 TEXT
 
+subject_line = 'SCAM_TEST_' + ('a'..'z').to_a.shuffle[0,8].join
+
 Gmail.connect!(ENV['SP_GMAIL_USERNAME'], ENV['SP_GMAIL_PASSWORD']) do |gmail|
   gmail.deliver do
     to ENV['SP_GMAIL_USERNAME']
-    subject 'SCAM_TEST'
+    subject subject_line
     text_part { body text }
   end
 end
