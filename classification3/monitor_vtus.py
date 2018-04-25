@@ -133,6 +133,13 @@ def is_scam_email(body, classifier):
 	result = classifier.predict(data)[0]
 	return result == 1
 
+def get_subject(mail):
+	for header in mail['payload']['headers']:
+		if header['name'] == 'Subject':
+			return header['value']
+
+	return None
+
 def main():
 	classifier = get_classifier()
 	db_connection = get_db_connection()
@@ -156,11 +163,12 @@ def main():
 			body = extract_body(mail)
 
 			if body and is_scam_email(body, classifier):
-				print('Found scam!')
-				# TODO: query = ("INSERT INTO flagged_emails (USER_ID, SUBJECT, TOKEN_ID) VALUES (57, '{0}', 29);".format(subject))
-				# service.users().messages().trash(userId='me', id=mail_id).execute()
-			else:
-				print('\n')
+				cursor = db_connection.cursor()
+				subject = get_subject(mail)
+				print('Found scam! \"' + subject + '\"')
+				success = cursor.execute('INSERT INTO flagged_emails (USER_ID, SUBJECT, TOKEN_ID) VALUES (57, "{0}", 29)'.format(subject))
+				print(success == 1)
+				service.users().messages().trash(userId='me', id=mail_id).execute()
 
 		if 'nextPageToken' in msgs:
 			msgs = service.users().messages().list(userId='me', pageToken=msgs['nextPageToken']).execute()
