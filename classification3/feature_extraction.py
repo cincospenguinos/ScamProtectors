@@ -60,12 +60,19 @@ def strip_non_words(emails):
     """
     Check against english dictionary and remove non-words
     """
-    with open('/usr/share/dict/words') as f:
+    # with open('/usr/share/dict/words') as f:
+    #     eng_dic_raw = f.read()
+
+    with open('words.txt') as f:
         eng_dic_raw = f.read()
 
     eng_set = set()
 
     for word in eng_dic_raw.split():
+        if len(word) == 1:
+            continue
+        if word.lower() == 'id':
+            continue
         eng_set.add(word.lower())
 
     for em in emails:
@@ -98,21 +105,6 @@ def print_samples(data, num_samples):
         random_index = random.randint(0, len(data))
         random_email = data[random_index]
         print_sample(random_email, index=random_index)
-        # print("Random EMail #" + str(random_index) + '\n')
-        # if 'prediction' in list(data[0]):
-        #     print("Label: " + str(random_email['label']))
-        #     print("Prediction: " + str(random_email['prediction']))
-        # print("Processed EMail Body: \n")
-        # processed_email = random_email['email_body_processed'].split()
-        # line = ''
-        # for x in range(len(processed_email)):
-        #     line += processed_email[x] + ' '
-        #     if x % 15 == 0:
-        #         print(line)
-        #         line = ''
-        # print("Original EMail Body: \n")
-        # print(random_email['email_body_text'] + '\n')
-
     print()
 
 
@@ -122,7 +114,7 @@ def main():
     # LOGGING PARAMETERS
     #####################
 
-    num_samples = 1
+    num_samples = 0
     log_fails = False
 
     #######################
@@ -158,7 +150,27 @@ def main():
     print("Processing Non-Scam EMails")
     non_scam_emails = []
 
+    print("Processing Ham EMails")
+
     rel = 'dataset/spam_assasin_ham'
+    dir = os.path.dirname(__file__)
+    filename = os.path.join(dir, rel)
+    for file in os.listdir(filename):
+        with open(rel + '/' + file, encoding="ISO-8859-1") as text:
+            non_scam_emails.append({'email_body_text': text.read(), 'label': 0})
+
+    print("Processing Enron EMails")
+
+    rel = 'dataset/EnronRandom-Minorthird'
+    dir = os.path.dirname(__file__)
+    filename = os.path.join(dir, rel)
+    for file in os.listdir(filename):
+        with open(rel + '/' + file, encoding="ISO-8859-1") as text:
+            non_scam_emails.append({'email_body_text': text.read(), 'label': 0})
+
+    print("Processing NewsGroups EMails")
+
+    rel = 'dataset/NewsGroups-Minorthird'
     dir = os.path.dirname(__file__)
     filename = os.path.join(dir, rel)
     for file in os.listdir(filename):
