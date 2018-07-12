@@ -1,34 +1,248 @@
+#########################################
+# LOG: ALL INCORRECTLY PREDICTED EMAILS
+########################################
 Incorrectly Labeled EMail
-Label: 0
-Prediction: 1
+Label: 1
+Prediction: 0
 Processed EMail Body: 
-jun 
-commodities ltd. here is spreadsheet from the confirmations group of all financial trades between ena 
 
 Original EMail Body: 
-Message-ID: <12601370.1072126303887.JavaMail.evans@thyme>
-Date: Wed, 6 Jun 2001 02:38:00 -0700 (PDT)
-From: brant.reves@enron.com
-To: frank.sayre@enron.com, susan.bailey@enron.com
-Subject: Glencore Commodities Ltd.
-Mime-Version: 1.0
-Content-Type: multipart/mixed; 
-	boundary="----=_Part_78846_23862389.1072126303867"
 
-------=_Part_78846_23862389.1072126303867
-Content-Type: text/plain; charset=us-ascii
-Content-Transfer-Encoding: 7bit
 
-Hello,
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+by 
 
-Here is a spreadsheet from the confirmations group of all financial trades 
-between ENA and this entity that have ever been entered into.
+Original EMail Body: 
+ by 0.0.0.0 with SMTP; Thu, 23 Nov 2006 13:46:08 +0800
+	boundary="MTc5ODk3MDUxOTQwMDg1MTE2NDI2MDc2NQ===HTML=="
+--MTc5ODk3MDUxOTQwMDg1MTE2NDI2MDc2NQ===HTML==
+	charset="GB2312"
+SGVsbG8gU2lyLA0KSSBnb3QgeW91ciBjb250YWN0IGVtYWlsIGFkZHJlc3MgdGhyb3VnaCBhIHBlcnNv
+bmFsIHNlYXJjaCBhbmQgZGVjaWRlZCB0byBsZXQgeW91IGtub3cgYWJvdXQgdGhpcyBwYWNrYWdlZCBm
+aW5hbmNpYWwgdHJhbnNhY3Rpb24uSSBhbSBNci5KZXJyeSBNZW5zYWgsb25lIG9mIHRoZSByZWdpb25h
+bCBicmFuY2ggbWFuYWdlciBvZiBJbnRlcm5hdGlvbmFsIENvbW1lcmNpYWwgQmFuayBvZiBHaGFuYSBM
+dGQgQWNjcmEtR2hhbmEuDQpPbiB0aGUgY291cnNlIG9mIGxhc3QgeWVhciAyMDA1LzIwMDYgYnVzaW5l
+c3MgcmVwb3J0LEkgZGlzY292ZXJlZCB0aGF0IG15IGJyYW5jaCBtYWRlIGV4Y2VzcyBwcm9maXQgb2Yg
+VHdlbHZlIE1pbGxpb24sIFNldmVuIEh1bmRyZWQsIFRob3VzYW5kIERvbGxhcnMgKCQxMiw3MDAsMDAw
+LjAwKSBvZiB3aGljaCBteSBoZWFkIE9mZmljZSBpcyBub3QgYXdhcmUgb2YgYW5kIHdpbGwgbmV2ZXIg
+YmUgYXdhcmUgb2YgYW5kIHRoZW4gSSBQbGFjZWQgdGhpcyBmdW5kIG9uIEVTQ1JPVyBDQUxMIEFDQ09V
+TlQgd2l0aG91dCBhIGJlbmVmaWNpYXJ5LkFzIGEgTWFuYWdlciBpbiB0aGUgYmFuaywgSSBjYW5ub3Qg
+YmUgZGlyZWN0bHkgY29ubmVjdGVkIHRvIHRoaXMgbW9uZXkgdGh1cyBJIGFtIGNvbXBlbGxlZCB0byBy
+ZXF1ZXN0IGZvciB5b3VyIGFzc2lzdGFuY2UgdG8gc3RhbmQgb24gbXkgYmVoYWxmIGFuZCByZWNlaXZl
+IHRoaXMgbW9uZXkgaW50byB5b3VyIGJhbmsgYWNjb3VudC5JIHdpbGwgY29tcGVuc2F0ZSB5b3Ugd2l0
+aCA0MCUgb2YgdGhlIHRvdGFsIGFtb3VudCBpbnZvbHZlZCBhcyBncmF0aWZpY2F0aW9uIGFuZCB0aGUg
+cmVzdCB3aWxsIGJlIG1pbmUuDQpQbGVhc2UgaWYgeW91IHdpc2ggdG8gYXNzaXN0IG1lIGluIHRoaXMg
+YnVzaW5lc3MscmVwbHkgYW5kIGNvbnRhY3QgbWUgaW1tZWRpYXRlbHkgc28gdGhhdCB3ZSBjYW4gZGlz
+Y3VzcyB0aGUgbW9kYWxpdGllcyB0byBhY3R1YWxpemUgdGhpcyB0cmFuc2FjdGlvbixZb3UgY2FuIHJl
+YWNoIG1lIG9uIG15IHByaXZhdGUgcGhvbmUgKzIzMzItNzUxMy0xMTE3LmZvciBtb3JlIGRldGFpbHMu
+DQpOT1RFOiBUaGVyZSBhcmUgcHJhY3RpY2FsbHkgbm8gcmlzayBpbnZvbHZlIGluIHRoaXMgdHJhbnNh
+Y3Rpb24uIEl0IHdpbGwgYmUgYSBiYW5rLXRvLWJhbmsgdHJhbnNmZXIgYW5kIHdpbGwgb25seSB0YWtl
+IHVzIHRocmVlIGJhbmtpbmcgZGF5cyB0byByZWZsZWN0IGluIHlvdXIgZGVzaWduYXRlZCBhY2NvdW50
+LGlmIHlvdSBhcmUgbm90IHdpbGxpbmcgdG8gYXNzaXN0IG1lIHBsZWFzZSBkbyBub3QgYnVyZ2hlciB5
+b3Vyc2VsZiB0byByZXBseS4NCldhaXRpbmcgdG8gaGVhciBmcm9tIHlvdS4NCldpdGggUmVnYXJkcywN
+Ck1yLkplcnJ5IE1lbnNhaC4NClByaXZhdGUgUGhvbmU6KzIzMzItNzUxMy0xMTE3LCBmb3IgbW9yZSBk
+ZXRhaWxzLiAKCgoKCgoKCi0tzeK5+rv10rKzrLHj0sshIAotLWh0dHA6Ly9mcmVlbWFpbDUuZXlvdS5j
+b20vc3lzX3NpZy5waHA/dXJsPWFIUjBjRG92TDJWNWIzVmhabkF1WVd4c2VXVnpMbU52YlM5dFlXbHVM
+MkZrWm1Oc2FXTnJQMlJpUFdWNWIzVmhabkFtWW1sa1BUazFMRGd4TERNbVkybGtQVGN6TERrc01TWnph
+V1E5TVRZNEptRmtkbWxrUFRRbVkyRnRhV1E5TkNaemFHOTNQV2xuYm05eVpTWjFjbXc5YUhSMGNEb3ZM
+MkZrWm1GeWJTNXRaV1JwWVhCc1pYZ3VZMjl0TDJGa0wyTnJMelF3T0RBdE1qSTVNRE10T1RRNU9TMHdQ
+MkZwWkQxbGVXOTFPM1JsZUhRN01UQXpKbTF3Y204OWFIUjBjRG92TDNCaFoyVnpMbVZpWVhrdVkyOXRM
+bU51TDNkdmNteGtZblY1TDNWellTNW9kRzFzCgotLWh0dHA6Ly9zbXMuZXlvdS5jb20KLS3O3tPHtv62
+/tfloaLX48fytPO4u87MLi4uvqHU2tLa08q2zNDF
+--MTc5ODk3MDUxOTQwMDg1MTE2NDI2MDc2NQ===HTML==
+	charset="GB2312"
+SGVsbG8gU2lyLDxiciAvPkkgZ290IHlvdXIgY29udGFjdCBlbWFpbCBhZGRyZXNzIHRocm91Z2ggYSBw
+ZXJzb25hbCBzZWFyY2ggYW5kIGRlY2lkZWQgdG8gbGV0IHlvdSBrbm93IGFib3V0IHRoaXMgcGFja2Fn
+ZWQgZmluYW5jaWFsIHRyYW5zYWN0aW9uLkkgYW0gTXIuSmVycnkgTWVuc2FoLG9uZSBvZiB0aGUgcmVn
+aW9uYWwgYnJhbmNoIG1hbmFnZXIgb2YgSW50ZXJuYXRpb25hbCBDb21tZXJjaWFsIEJhbmsgb2YgR2hh
+bmEgTHRkIEFjY3JhLUdoYW5hLjxiciAvPk9uIHRoZSBjb3Vyc2Ugb2YgbGFzdCB5ZWFyIDIwMDUvMjAw
+NiBidXNpbmVzcyByZXBvcnQsSSBkaXNjb3ZlcmVkIHRoYXQgbXkgYnJhbmNoIG1hZGUgZXhjZXNzIHBy
+b2ZpdCBvZiBUd2VsdmUgTWlsbGlvbiwgU2V2ZW4gSHVuZHJlZCwgVGhvdXNhbmQgRG9sbGFycyAoJDEy
+LDcwMCwwMDAuMDApIG9mIHdoaWNoIG15IGhlYWQgT2ZmaWNlIGlzIG5vdCBhd2FyZSBvZiBhbmQgd2ls
+bCBuZXZlciBiZSBhd2FyZSBvZiBhbmQgdGhlbiBJIFBsYWNlZCB0aGlzIGZ1bmQgb24gRVNDUk9XIENB
+TEwgQUNDT1VOVCB3aXRob3V0IGEgYmVuZWZpY2lhcnkuQXMgYSBNYW5hZ2VyIGluIHRoZSBiYW5rLCBJ
+IGNhbm5vdCBiZSBkaXJlY3RseSBjb25uZWN0ZWQgdG8gdGhpcyBtb25leSB0aHVzIEkgYW0gY29tcGVs
+bGVkIHRvIHJlcXVlc3QgZm9yIHlvdXIgYXNzaXN0YW5jZSB0byBzdGFuZCBvbiBteSBiZWhhbGYgYW5k
+IHJlY2VpdmUgdGhpcyBtb25leSBpbnRvIHlvdXIgYmFuayBhY2NvdW50Lkkgd2lsbCBjb21wZW5zYXRl
+IHlvdSB3aXRoIDQwJSBvZiB0aGUgdG90YWwgYW1vdW50IGludm9sdmVkIGFzIGdyYXRpZmljYXRpb24g
+YW5kIHRoZSByZXN0IHdpbGwgYmUgbWluZS48YnIgLz5QbGVhc2UgaWYgeW91IHdpc2ggdG8gYXNzaXN0
+IG1lIGluIHRoaXMgYnVzaW5lc3MscmVwbHkgYW5kIGNvbnRhY3QgbWUgaW1tZWRpYXRlbHkgc28gdGhh
+dCB3ZSBjYW4gZGlzY3VzcyB0aGUgbW9kYWxpdGllcyB0byBhY3R1YWxpemUgdGhpcyB0cmFuc2FjdGlv
+bixZb3UgY2FuIHJlYWNoIG1lIG9uIG15IHByaXZhdGUgcGhvbmUgKzIzMzItNzUxMy0xMTE3LmZvciBt
+b3JlIGRldGFpbHMuPGJyIC8+Tk9URTogVGhlcmUgYXJlIHByYWN0aWNhbGx5IG5vIHJpc2sgaW52b2x2
+ZSBpbiB0aGlzIHRyYW5zYWN0aW9uLiBJdCB3aWxsIGJlIGEgYmFuay10by1iYW5rIHRyYW5zZmVyIGFu
+ZCB3aWxsIG9ubHkgdGFrZSB1cyB0aHJlZSBiYW5raW5nIGRheXMgdG8gcmVmbGVjdCBpbiB5b3VyIGRl
+c2lnbmF0ZWQgYWNjb3VudCxpZiB5b3UgYXJlIG5vdCB3aWxsaW5nIHRvIGFzc2lzdCBtZSBwbGVhc2Ug
+ZG8gbm90IGJ1cmdoZXIgeW91cnNlbGYgdG8gcmVwbHkuPGJyIC8+V2FpdGluZyB0byBoZWFyIGZyb20g
+eW91LjxiciAvPldpdGggUmVnYXJkcyw8YnIgLz5Nci5KZXJyeSBNZW5zYWguPGJyIC8+UHJpdmF0ZSBQ
+aG9uZTorMjMzMi03NTEzLTExMTcsIGZvciBtb3JlIGRldGFpbHMuIAoKCjwhLS0gZm9vdGVyIHN0YXJ0
+IC8vLS0+Cjxicj4KPGJyPgoKPGJyPi0tPGEgdGFyZ2V0PSdfYmxhbmsnIGhyZWY9J2h0dHA6Ly9mcmVl
+bWFpbDUuZXlvdS5jb20vc3lzX3NpZy5waHA/dXJsPWFIUjBjRG92TDJWNWIzVmhabkF1WVd4c2VXVnpM
+bU52YlM5dFlXbHVMMkZrWm1Oc2FXTnJQMlJpUFdWNWIzVmhabkFtWW1sa1BUazFMRGd4TERNbVkybGtQ
+VGN6TERrc01TWnphV1E5TVRZNEptRmtkbWxrUFRRbVkyRnRhV1E5TkNaemFHOTNQV2xuYm05eVpTWjFj
+bXc5YUhSMGNEb3ZMMkZrWm1GeWJTNXRaV1JwWVhCc1pYZ3VZMjl0TDJGa0wyTnJMelF3T0RBdE1qSTVN
+RE10T1RRNU9TMHdQMkZwWkQxbGVXOTFPM1JsZUhRN01UQXpKbTF3Y204OWFIUjBjRG92TDNCaFoyVnpM
+bVZpWVhrdVkyOXRMbU51TDNkdmNteGtZblY1TDNWellTNW9kRzFzJz48Zm9udCBjb2xvcj0icmVkIj7N
+4rn6u/XSsrOssePSyyEgPC9mb250PjwvYT4KPGJyPi0tPGEgaHJlZj0iaHR0cDovL3Ntcy5leW91LmNv
+bSI+aHR0cDovL3Ntcy5leW91LmNvbTwvYT4KPGJyPi0tzt7Tx7b+tv7X5aGi1+PH8rTzuLvOzC4uLr6h
+1NrS2tPKtszQxQo8YnI+CjwhLS0gZm9vdGVyIGVuZCAvLy0tPgoK
+--MTc5ODk3MDUxOTQwMDg1MTE2NDI2MDc2NQ===HTML==--
+From r  Thu Nov 23 04:12:05 2006
 
-Let me know what you think.
 
-brant
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
 
-------=_Part_78846_23862389.1072126303867--
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+by 
+with smtp aug this is message in mime public untitled document sit and get paid 
+for what you paid to take online surveys to per paid to participate in online 
+focus groups to per paid to try new products keep the products and get paid 
+paid to preview movie trailers to per to cease future mailings click on this wd 
+
+Original EMail Body: 
+	by deadpool.mr.itd.UM (3.6u) with SMTP id h714SOA29340; Fri, 1 Aug 2003 00:28:25 -0400 (EDT)
+	<btice@UM>, <dkazneck@UM>, <R@M>,
+	<saffronc@UM>, <jfinkels@UM>, <chauk@UM>,
+	<jfinn@UM>, <azmat@UM>, <trehan@UM>,
+	<dkblair@UM>
+	boundary=".29D0E..9E32A"
+This is a multi-part message in MIME format.
+--.29D0E..9E32A
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859=
+-1">
+</head>
+<body>
+<p>Sit Back, Relax, and Get Paid for What You Think!!</p>
+<p>-Get paid to take online surveys<br>
+  $5 to $75 per survey! </p>
+<p>-Get paid to participate in online <br>
+  focus groups $50 to $150 per <br>
+  hour!</p>
+<p>-Get paid to try new products - <br>
+  keep the products and get paid <br>
+  too! </p>
+<p>-Get paid to preview movie trailers<br>
+  $4 to $25 per hour!</p>
+<p><a href=3D"http://www.silverstate.co.sy@search.ph-search.ph/search.php?=
+id=3Dsicosyl">http://www.silverstate.co.sy@search.ph-search.ph/search.php?=
+id=3Dsicosyl</a></p>
+<p>&nbsp;</p>
+<p><font size=3D"2">to cease future mailings <a href=3D"http://www.silvers=
+tate.co.sy@search.ph-search.ph/search.php?id=3Dsicosyx">click 
+  on this</a></font></p>
+</body>
+</html>
+qynpnudbstqjlcupkbpdbyrpt ifl
+ ywzyjkanfzpo
+hhz wd
+nmocefjf pof jblvalsxtc
+goouo kdxlkolky
+--.29D0E..9E32A--
+From r  Fri Aug  1 13:13:53 2003
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+for 
+
+Original EMail Body: 
+	for <acl-webmaster@cs.CU>; Fri, 1 Aug 2003 13:13:42 -0400 (EDT)
+U1RSSUNUTFkgUFJJVkFURSAmIENPTkZJREVOVElBTA0KDQpFTkdSLkFMSSBSQVpBSy4NClByZXRv
+cmlhLA0KU291dGggQWZyaWNhLiANCg0KRGVhciBTaXIvbWFkYW0sIA0KDQpJdCBpcyBteSBncmVh
+dCBwbGVhc3VyZSB0byB3cml0ZSB5b3UgdGhpcyBsZXR0ZXIgb24NCmJlaGFsZiBvZiBteSBjb2xs
+ZWFndWVzLiBZb3VyIGluZm9ybWF0aW9uIHdlcmUgZ2l2ZW4NCnRvIG1lIGJ5IGEgbWVtYmVyIG9m
+IHRoZSBTb3V0aCBBZnJpY2FuIEV4cG9ydA0KUHJvbW90aW9uIENvdW5jaWwgKFNBRVBDKSB3aG8g
+d2FzIHdpdGggdGhlIA0KQmxhY2sgRWNvbm9taWMgRW1wb3dlcm1lbnQgQ29tbWlzc2lvbiAoR292
+ZXJubWVudCkNCmRlbGVnYXRpb24gb24gYSB0cmlwIHRvIHRoZSBVbml0ZWQgU3RhdGVzIGR1cmlu
+ZyBhDQpiaWxhdGVyYWwgY29uZmVyZW5jZSB0YWxrIHRvIGVuY291cmFnZSBmb3JlaWduDQppbnZl
+c3RvcnMuIEkgaGF2ZSBkZWNpZGVkIHRvIHNlZWsgYSBjb25maWRlbnRpYWwgDQpjby1vcGVyYXRp
+b24gd2l0aCB5b3UgaW4gZXhlY3V0aW9uIG9mIGEgZGVhbCBoZXJldW5kZXINCmZvciB0aGUgYmVu
+ZWZpdCBvZiBhbGwgcGFydGllcywgYW5kIGhvcGUgeW91IHdpbGwga2VlcA0KaXQgY29uZmlkZW50
+aWFsIGJlY2F1c2Ugb2YgdGhlIG5hdHVyZSBvZiB0aGlzDQpidXNpbmVzcy4gDQoNCldpdGhpbiB0
+aGUgRGVwYXJ0bWVudCBvZiBNaW5pbmcgUmVzb3VyY2VzIHdoZXJlIEkgd29yaw0KYXMgdGhlIERp
+cmVjdG9yIG9mIFByb2plY3QgSW1wbGVtZW50YXRpb24sIHdpdGgNCmNvLW9wZXJhdGlvbiBvZiB0
+d28gb3RoZXIgdG9wIG9mZmljaWFscywgd2UgaGF2ZSBpbg0Kb3VyIHBvc3Nlc3Npb24sIGFuIG92
+ZXJkdWUgcGF5bWVudCBpbiBVUyBmdW5kcy4gDQoNClRoZSBzYWlkIGZ1bmRzIHJlcHJlc2VudCBj
+ZXJ0YWluIHBlcmNlbnRhZ2Ugb2YgdGhlDQpjb250cmFjdCB2YWx1ZSBleGVjdXRlZCBvbiBiZWhh
+bGYgb2YgbXkgTWluaXN0cnkgYnkgYQ0KZm9yZWlnbiBjb250cmFjdGluZyBmaXJtLCB3aGljaCB3
+ZSB0aGUgb2ZmaWNpYWxzDQpvdmVyLWludm9pY2VkIHRvIHRoZSBhbW91bnQgb2YgVVMkMjYsNDAw
+LDAwMC4wMCANCihUd2VudHkgU2l4IE1pbGxpb24gRm91ciBIdW5kcmVkIFRob3VzYW5kIFVuaXRl
+ZA0KU3RhdGVzIERvbGxhcnMpLiBUaG91Z2ggdGhlIGFjdHVhbCBjb250cmFjdCBjb3N0IGhhcw0K
+YmVlbiBwYWlkIHRvIHRoZSBvcmlnaW5hbCBjb250cmFjdG9yLCBsZWF2aW5nIHRoZQ0KZXhjZXNz
+IGJhbGFuY2UgdW5jbGFpbWVkLiANCg0KVGhlIEdvdmVybm1lbnQgb2YgdGhlIFJlcHVibGljIG9m
+IFNvdXRoIEFmcmljYSBiZWxpZXZlDQp0aGF0IHByaXZhdGUgaW52ZXN0bWVudCBpbiBnZW5lcmFs
+LCBhbmQgZm9yZWlnbiBkaXJlY3QNCmludmVzdG1lbnQgaW4gcGFydGljdWxhciwgYXJlIHRoZSBy
+ZWFsIGVuZ2luZXMgZm9yDQpzdXN0YWluYWJsZSBlY29ub21pYyBkZXZlbG9wbWVudCwgZm9yIHdo
+aWNoIHJlYXNvbiBpdA0KaGFzIGNvbnRpbnVlZCB0byBlbmNvdXJhZ2VkIGludmVzdG1lbnQgaW4g
+dGhlIGtleQ0KZ3Jvd3RoLW9yaWVudGVkIHNlY3RvciBvZiBNaW5pbmcgd2l0aCBzaW5jZXJlDQpk
+ZXRlcm1pbmF0aW9uIHRvIHBheSBmb3JlaWduIGNvbnRyYWN0b3JzIGFsbCBkZWJ0cw0Kb3dlZCB0
+byB0aGVtLCBzbyBhcyB0byBjb250aW51ZSB0byBlbmpveSBjbG9zZQ0KcmVsYXRpb25zaGlwLCBh
+bmQgbXV0dWFsbHkgYmVuZWZpY2lhbCBjby1vcGVyYXRpb24NCndpdGggZm9yZWlnbiBnb3Zlcm5t
+ZW50cyBhbmQgbm9uLWdvdmVybm1lbnRhbA0KZmluYW5jaWFsIGFnZW5jaWVzLiBBcyBhIHJlc3Vs
+dCB3ZSBpbmNsdWRlZCBvdXIgDQpiaWxscyBmb3IgYXBwcm92YWxzIHdpdGggdGhlIGNvLW9wZXJh
+dGlvbiBvZiBzb21lDQpvZmZpY2lhbHMgYXQgdGhlIERlcGFydG1lbnQgb2YgRmluYW5jZSBhbmQg
+dGhlIFJlc2VydmUNCkJhbmsgb2YgU291dGggQWZyaWNhIChSQlNBKS4gDQoNCldlIGFyZSBzZWVr
+aW5nIHlvdXIgYXNzaXN0YW5jZSB0byBiZSB0aGUgYmVuZWZpY2lhcnkNCm9mIHRoZSB1bmNsYWlt
+ZWQgZnVuZHMsIHNpbmNlIHdlIGFyZSBub3QgYWxsb3dlZCB0bw0Kb3BlcmF0ZSBmb3JlaWduIGFj
+Y291bnQuIFRoZSBjaGFuZ2luZyBvZiBiZW5lZmljaWFyeSdzDQppbmZvcm1hdGlvbi8gZGV0YWls
+cyBhbmQgb3RoZXIgZm9ybXMgb2YgZG9jdW1lbnRhdGlvbg0KdXBvbiBhcHBsaWNhdGlvbiBmb3Ig
+Y2xhaW0gdG8gcmVmbGVjdCB0aGUgY29udHJhY3QgDQptb25leSBhbmQgaXRzIGFwcHJvdmFscyB3
+aWxsIGJlIHNlY3VyZWQgb24gYmVoYWxmIG9mDQp5b3VyIGNvbXBhbnkgb3IgeW91ciBzZWxmLiAN
+Cg0KSSBoYXZlIHRoZSBhdXRob3JpdHkgb2YgbXkgY29sbGVhZ3VlcyBpbnZvbHZlZCB0bw0KcHJv
+cG9zZSB0aGF0LCBzaG91bGQgeW91IGJlIHdpbGxpbmcgdG8gYXNzaXN0IHVzIGluDQp0aGlzIHRy
+YW5zYWN0aW9uIHlvdXIgc2hhcmUgYXMgY29tcGVuc2F0aW9uIHdpbGwgYmUNCjIwJSB3aGlsZSBt
+eSBjb2xsZWFndWVzIGFuZCBJIHNoYWxsIHJlY2VpdmUgNzAlLCBhbmQNCnRoZSBiYWxhbmNlIG9m
+IDEwJSBzaGFsbCBiZSB1c2VkIHRvIHJlaW1idXJzZSBhbGwNCmV4cGVuZGl0dXJlcywgdGF4ZXMg
+YW5kIG1pc2NlbGxhbmVvdXMgZXhwZW5zZXMgc28NCmluY3VycmVkLiANCg0KSXQgZG9lcyBub3Qg
+bWF0dGVyIHdoZXRoZXIgb3Igbm90IHlvdXIgY29tcGFueSBkb2VzDQpjb250cmFjdCBwcm9qZWN0
+cyBvZiB0aGUgbmF0dXJlIGRlc2NyaWJlZCBoZXJlLiBUaGUNCmFzc3VtcHRpb24gaXMgdGhhdCB5
+b3VyIGNvbXBhbnkgd29uIHRoZSBtYWpvciBjb250cmFjdA0KYW5kIHN1YmNvbnRyYWN0ZWQgaXQg
+dG8gb3RoZXIgY29tcGFuaWVzLiBNb3JlIG9mdGVuDQp0aGFuIG5vdCwgYmlnIHRyYWRpbmcgY29t
+cGFuaWVzIGFuZCBmaXJtcyBvZiB1bnJlbGF0ZWQNCg0KZmllbGRzIHdpbiBtYWpvciBjb250cmFj
+dHMsIGFuZCBzdWJjb250cmFjdCB0byBtb3JlDQpzcGVjaWFsaXplZCBmaXJtcyBmb3IgZXhlY3V0
+aW9uLiANCg0KVGhpcyBidXNpbmVzcyBpdHNlbGYgaXMgMTAwJSBzYWZlLCBwcm92aWRlZCB5b3Ug
+dHJlYXQNCml0IHdpdGggdXRtb3N0IGNvbmZpZGVudGlhbGl0eS4gQWxzbyB5b3VyDQpzcGVjaWFs
+aXphdGlvbiBpcyBub3QgYSBoaW5kcmFuY2UgdG8gdGhlIHN1Y2Nlc3NmdWwNCmV4ZWN1dGlvbiBv
+ZiB0aGlzIG11dHVhbCBiZW5lZmljaWFyeSB0cmFuc2FjdGlvbi4gDQpJIGhhdmUgcmVwb3NlZCBt
+eSBjb25maWRlbmNlIGluIHlvdSBhbmQgaG9wZSB0aGF0IHlvdQ0Kd2lsbCBub3QgZGlzYXBwb2lu
+dCB1cy4gS2luZGx5IG5vdGlmeSBtZSBmb3IgZnVydGhlcg0KZGV0YWlscywgdXBvbiB5b3VyIGFj
+Y2VwdGFuY2Ugb2YgdGhpcyBwcm9wb3NhbC4gDQoNClJlZ2FyZHMsIA0KDQpFbmdyLiBBbGkgUmF6
+YWsNCg0KIA==
+From r  Sat Aug  2 06:40:11 2003
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
 
 
 Incorrectly Labeled EMail
@@ -36,113 +250,84 @@ Label: 0
 Prediction: 1
 Processed EMail Body: 
 apr 
-letter dated april ms. thank you for your recent letter regarding my personal financial do 
-appreciate your concern and have very qualified financial advisor who handles all of my personal 
+verification we ordered etc. we just returned the susan pereira pm sent susan verification you 
+did not order susan pm verification we returned the printer we had ordered through we 
+did not reorder another printer through susan pereira pm sent susan verification dear the team 
+has received an invoice for the subsidized portion of your this email is to verify 
+that you have received your dell pc if you can disregard this message and enjoy 
+your if you have not received your or you returned it and have chosen to 
+not participate in the please reply to this email or email the team at to 
 
 Original EMail Body: 
-Message-ID: <12854649.1072124613894.JavaMail.evans@thyme>
-Date: Tue, 24 Apr 2001 01:56:00 -0700 (PDT)
-From: cindy.stark@enron.com
-To: marilyn_conners@prusec.com
-Subject: LETTER DATED APRIL 18, 2001
+Message-ID: <16064358.1072137993798.JavaMail.evans@thyme>
+Date: Mon, 9 Apr 2001 00:56:00 -0700 (PDT)
+From: susan.pereira@enron.com
+Subject: Re: ClickAtHome Verification
 Mime-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
 Content-Transfer-Encoding: 7bit
 
-Ms. Conners:
+We ordered a computer, printer, scanner, etc.  We just returned the printer.
 
-Thank you for your recent letter regarding my personal financial 
-situation.    I do appreciate your concern and interest; however, I have a 
-very qualified financial advisor who handles ALL of my personal financial 
-needs.
-
-Please remove my name from your written correspondence/phone call contact 
-list.
-
-Sincerely,
-Stan Horton
-Enron
-
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-
-Original EMail Body: 
+Susan Pereira
 
 
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-from 
-
-Original EMail Body: 
-RGVhciBTaXIsDQoNCkZpcnN0LCBJIG11c3Qgc29saWNpdCB5b3VyIHN0cmljdGVzdCBjb25maWRl
-bmNlIGluDQp0aGlzIHRyYW5zYWN0aW9uLlRoaXMgaXMgYnkgdmlydHVlIG9mIGl0cyBuYXR1cmUg
-YXMgYmVpbmcgdXR0ZXJseSBjb25maWRlbnRpYWwgDQphbmQgJ3RvcCBzZWNyZXQnLiANCiBZb3Ug
-aGF2ZSBiZWVuIHJlY29tbWVuZGVkIGJ5IGFuIGFzc29jaWF0ZSB3aG8gYXNzdXJlZCBtZSBpbiAN
-CmNvbmZpZGVuY2Ugb2YgeW91ciBhYmlsaXR5IGFuZCByZWxpYWJpbGl0eSAgdG8gcHJvc2VjdXRl
-IGEgdHJhbnNhY3Rpb24gb2YgZ3JlYXQgDQptYWduaXR1ZGUgaW52b2x2aW5nIGEgcGVuZGluZyBi
-dXNpbmVzcyB0cmFuc2FjdGlvbiByZXF1aXJpbmcgbWF4aW11bSANCmNvbmZpZGVuY2UuDQogV2Ug
-YXJlIHRvcCBvZmZpY2lhbHMgb2YgdGhlIEZlZGVyYWwgR292ZXJubWVudCAgQ29udHJhY3QgUmV2
-aWV3IFBhbmVsIA0Kd2hvIGFyZSBpbnRlcmVzdGVkIGluIGltcG9ydGF0aW9uIG9mIGdvb2RzIGlu
-dG8gb3VyIGNvdW50cnkgd2l0aCBmdW5kcyANCndoaWNoIGFyZSBwcmVzZW50bHkgdHJhcHBlZCBp
-biBOaWdlcmlhLiBJbiBvcmRlciB0byBjb21tZW5jZSB0aGlzIA0KYnVzaW5lc3Mgd2Ugc29saWNp
-dCB5b3VyIGFzc2lzdGFuY2UgdG8gZW5hYmxlIHVzIHRyYW5zZmVyIGludG8geW91ciBhY2NvdW50
-IA0KdGhlIHNhaWQgdHJhcHBlZCBmdW5kcy4gICAgICANCiAgVGhlIHNvdXJjZSBvZiB0aGlzIGZ1
-bmQgaXMgYXMgZm9sbG93czogRHVyaW5nIHRoZQ0KbGFzdCBNaWxpdGFyeSBSZWdpbWUgaGVyZSBp
-biBOaWdlcmlhLCB0aGUgR292ZXJubWVudCBvZmZpY2lhbHMgc2V0IHVwIA0KY29tcGFuaWVzIGFu
-ZCBhd2FyZGVkIHRoZW1zZWx2ZXMgY29udHJhY3RzIHdoaWNoIHdlcmUgZ3Jvc3NseSBvdmVyLSAN
-Cmludm9pY2VkIGluIHZhcmlvdXMgIG1pbmlzdHJpZXMuDQogVGhlIHByZXNlbnQgZ292ZXJubWVu
-dCBzZXQgdXAgYSBDb250cmFjdCBSZXZpZXcgUGFuZWwgYW5kIHdlIGhhdmUgDQppZGVudGlmaWVk
-IGEgbG90IG9mIGluZmxhdGVkIGNvbnRyYWN0IGZ1bmRzIHdoaWNoIGFyZSBwcmVzZW50bHkgZmxv
-YXRpbmcgaW4gdGhlIA0KQ2VudHJhbCBCYW5rIE9mIE5pZ2VyaWEgcmVhZHkgZm9yIHBheW1lbnQu
-IEhvd2V2ZXIsIGJ5IHZpcnR1ZSBvZiANCm91ciBwb3NpdGlvbiBhcyBjaXZpbCBzZXJ2YW50cyBh
-bmQgbWVtYmVycyBvZiB0aGlzDQpwYW5lbCwgd2UgY2Fubm90IGFjcXVpcmUgdGhpcyBtb25leSBp
-biBvdXIgbmFtZXMuSSBoYXZlIHRoZXJlZm9yZSwgYmVlbiANCmRlbGVnYXRlZCAgYnkgbXkgb3Ro
-ZXIgY29sbGVhZ3VlcyBpbiB0aGUgcGFuZWwgdG9sb29rIGZvciBhbiBvdmVyc2VhcyANCnBhcnRu
-ZXIgaW50byB3aG9zZSBhY2NvdW50IHdlIHdvdWxkICB0cmFuc2ZlciB0aGUgc3VtIG9mIFVTDQok
-MjEsNTAwLDAwMC4wMCBbVHdlbnR5LU9uZSBNaWxsaW9uLCBGaXZlIEh1bmRyZWQgdGhvdXNhbmQg
-VS5TIERvbGxhcnMuICANCiAgSGVuY2Ugd2UgYXJlIHdyaXRpbmcgeW91IHRoaXMgbGV0dGVyLg0K
-IFdlIGhhdmUgYWdyZWVkIHRvIHNoYXJlIHRoZSBtb25leSB0aHVzOg0KICAgIDEuIDIwJSBmb3Ig
-dGhlIGFjY291bnQgb3duZXIoIHlvdSkNCiAgICAyLiA3MCUgZm9yIHVzIFsgTXlzZWxmIGFuZCBv
-dGhlciBtZW1iZXJzIG9mIG15IHBhbmVsIF0NCiAgICAzLiAxMCUgdG8gYmUgdXNlZCBpbiBzZXR0
-bGluZyB0YXhhdGlvbiBhbmQgYWxsDQogIGxvY2FsIGFuZCBmb3JlaWduIGV4cGVuc2VzIGRpcmVj
-dCBvciBpbmNpZGVudGFsIHRvIHRoZSBleGVjdXRpb24gb2YgdGhpcyANCnRyYW5zYWN0aW9uLg0K
-IEl0IGlzIGZyb20gdGhlIDcwJSB0aGF0IHdlIHdpc2ggdG8gY29tbWVuY2UgdGhlIGltcG9ydGF0
-aW9uIA0KYnVzaW5lc3MuUGxlYXNlLCBub3RlIHRoYXQgdGhpcyB0cmFuc2FjdGlvbiBpcyAxMDAl
-IHNhZmUgYW5kIHdlIGhvcGUgdG8gDQpjb21tZW5jZSB0aGUgdHJhbnNmZXIgbGF0ZXN0IFRlbiAo
-MTApIGJhbmtpbmcgZGF5cyBmcm9tIHRoZSBkYXRlIG9mIHRoZSANCnJlY2VpcHQgDQpvZiB0aGUg
-Zm9sbG93aW5nIGluZm9ybWF0aW9uLGNvbXBhbnkncyBuYW1lLCBBZGRyZXNzLCBUZWxlcGhvbmUg
-YW5kIA0KRmF4IG51bWJlci4NCg0KIFRoZSBhYm92ZSBpbmZvcm1hdGlvbiB3aWxsIGVuYWJsZSB1
-cyB3cml0ZSBsZXR0ZXJzDQpvZiBjbGFpbSBhbmQgam9iIGRlc2NyaXB0aW9uIHJlc3BlY3RpdmVs
-eS4gVGhpcyB3YXkgd2Ugd2lsbCB1c2UgeW91ciANCmNvbXBhbnkncyBuYW1lIHRvIGFwcGx5IGZv
-ciBwYXltZW50IGFuZCByZS1hd2FyZCB0aGUgY29udHJhY3QgaW4geW91ciANCmNvbXBhbnkncyBu
-YW1lLg0KIFdlIGFyZSBsb29raW5nIGZvcndhcmQgdG8gZG9pbmcgdGhpcyBidXNpbmVzcyB3aXRo
-IHlvdSBhbmQgc29saWNpdCB5b3VyIA0KY29uZmlkZW50aWFsaXR5IGluIHRoaXMgdHJhbnNhY3Rp
-b24uDQoNCiBQbGVhc2UgYWNrbm93bGVkZ2UgdGhlIHJlY2VpcHQgb2YgdGhpcyBsZXR0ZXIgdXNp
-bmcgdGhlIGFib3ZlIEVtYWlsIA0KYWRkcmVzcy4NCiBJIHdpbGwgYnJpbmcgeW91IGludG8gdGhl
-IGNvbXBsZXRlIHBpY3R1cmUgb2YgdGhpcyBwZW5kaW5nIHByb2plY3Qgd2hlbiBJIA0KaGF2ZSBo
-ZWFyZCBmcm9tIHlvdS4NCiBSZW1lbWJlciB0aGlzIGlzIGEgRGVhbCBzbyB0cmVhdCB3aXRoIHV0
-bW9zdA0KY29uZmlkZW50aWFsaXR5Lg0KWW91cnMgZmFpdGhmdWxseSwNCiANCllpbmthIERhdmlz
-From r  Thu Sep 25 20:29:21 2003
 
 
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-
-Original EMail Body: 
 
 
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
+ClickAtHome@ENRON
+04/06/2001 04:10 PM
+Sent by: Clickathome@ENRON
+To: Susan W Pereira/HOU/ECT@ECT
+cc:  
+Subject: Re: ClickAtHome Verification  
 
-Original EMail Body: 
+You did not order a computer?
+
+
+
+Susan W Pereira@ECT
+04/06/2001 02:02 PM
+To: ClickAtHome@ENRON
+cc:  
+
+Subject: Re: ClickAtHome Verification  
+
+We returned the printer we had ordered through Click-at-Home.  We did not 
+reorder another printer through ClickatHome.
+
+Susan Pereira
+
+
+
+
+ClickAtHome@ENRON
+03/28/2001 06:34 PM
+Sent by: Clickathome@ENRON
+To: Clickathome/NA/Enron@Enron
+cc:  (bcc: Susan W Pereira/HOU/ECT)
+Subject: ClickAtHome Verification
+
+Dear ClickAtHome Participant, 
+
+The ClickAtHome Team has received an invoice for the Enron subsidized portion 
+of your ClickAtHome Computer.  This email is to verify that you have received 
+your Dell PC successfully.  If so, you can disregard this message and enjoy 
+your computer.
+
+If you have not received your PC, or you returned it and have chosen to not 
+participate in the ClickAtHome program, PLEASE reply to this email or email 
+the ClickAtHome Team at clickathome@enron.com to notify us of this billing 
+error.
+
+Thank you,
+ClickAtHome Team!
+
+
+
+
+
 
 
 Incorrectly Labeled EMail
@@ -165,157 +350,72 @@ Incorrectly Labeled EMail
 Label: 0
 Prediction: 1
 Processed EMail Body: 
-jul 
-commercial reasons for good talking to you this am. you can send the email to 
+dec 
+for your help with my parking will contact louis and hopefully he can take care 
+of can you give me call sometime tuesday have some about the and savings chris 
 
 Original EMail Body: 
-Message-ID: <31403561.1072143116255.JavaMail.evans@thyme>
-Date: Fri, 28 Jul 2000 01:15:00 -0700 (PDT)
-From: drew_a_brabb@calpx.com
-To: robert.badeer@enron.com
-Subject: Bonafide Commercial Reasons for non-delivery
-Cc: russell_c_mills@calpx.com, mark_a_thompson@calpx.com
+Message-ID: <23159717.1072136866763.JavaMail.evans@thyme>
+Date: Mon, 4 Dec 2000 08:00:00 -0800 (PST)
+From: chris.dorland@enron.com
+To: kim.melodick@enron.com
+Subject: 
 Mime-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
 Content-Transfer-Encoding: 7bit
-Bcc: russell_c_mills@calpx.com, mark_a_thompson@calpx.com
 
-Bob,
-Good talking to you this am.
-You can send the email to the following people:
+Kim,
 
-rmills@calpx.com
-mathompson@calpx.com
-dabrabb@calpx.com
+Thanx for your help with my parking problem. I will contact Louis and 
+hopefully he can take care of it. Can you give me a call sometime Tuesday 
+afternoon. I have some ?'s about the 401K and savings plans. 
 
-Regards,
-Drew
+Thanx
 
+Chris
 
 Incorrectly Labeled EMail
 Label: 1
 Prediction: 0
 Processed EMail Body: 
+for 
 
 Original EMail Body: 
-
-
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-from 
-
-Original EMail Body: 
-	boundary="qzsoft_directmail_seperator"
---qzsoft_directmail_seperator
-	charset="DEFAULT"
-RlJPTTogT0ZGSUNFIE9GIFJFVkQuRlIgUEVURVIgQ0xBUksgRElSRUNUT1IgU1BFQ0lBTCBEVVRJ
-RVMsVU5JVEVEIE5BVElPTlMgSU4gQ09OSlVOQ1RJT04gV0lUSCBUSEUgSU5URVJOQVRJT05BTCBN
-T05FVEFSWSBGVU5EIFdPUkxEIEJBTksgU1BFQ0lBTCBEVVRJRVMgT0ZGSUNFIERBS0FSLFNFTkVH
-QUwuIFRFTDorKDIyMSk0NDg4NDY5IEVNQUlMOnJldmQuZnIucGV0ZXJjbGFya0BrYXRhbWFpbC5j
-b20KCkRlYXIgRnJpZW5kLgpJIGFtIFJldi4gRnIuIFBldGVyIENsYXJrLCBhIHNlbmlvciBzdGFm
-ZiB3aXRoIHRoZSBVTiBzcGVjaWFsIGR1dGllcyBvZmZpY2UgO215IG9mZmljZSBtb25pdG9ycyBh
-bmQgY29udHJvbHMgdGhlIGFmZmFpcnMgb2YgYWxsIGJhbmtzIGFuZCBmaW5hbmNpYWwgaW5zdGl0
-dXRpb25zLiBJIGhhdmUgYmVmb3JlIG1lIGxpc3Qgb2YgZnVuZHMsIHdoaWNoIGNvdWxkIG5vdCBi
-ZSB0cmFuc2ZlcnJlZCB0byBzb21lIG5vbWluYXRlZCBhY2NvdW50cyBhcyB0aGVzZSBhY2NvdW50
-cyBoYXZlIGJlZW4gaWRlbnRpZmllZCBlaXRoZXIgYXMgZ2hvc3QgYWNjb3VudHMsIHVuY2xhaW1l
-ZCBkZXBvc2l0cyBhbmQgb3Zlci1pbnZvaWNlZCBzdW0gZXRjOyBJIGhhdmUgdGhlIG9wcG9ydHVu
-aXR5IHRvIHdyaXRlIHlvdSBiYXNlZCBvbiB0aGUgaW5zdHJ1Y3Rpb25zIGFtb25nIG90aGVycyBp
-IHJlY2VpdmVkIGRheXMgYWdvIGZyb20gdGhlIG9mZmljZXIgaW4gdGhlIGNvbXB1dGVyIHNlY3Rp
-b24gaW4gcGVyc29uIG9mIEVuZ2luZWVyIFBldGVyIENsaWZmLHRvIGJyaW5nIG91dCBwYXJ0IG9m
-IHlvdXIgdG90YWwgcGVuZGluZyBwYXltZW50IHdpdGggcmVmZXJlbmNlIG51bWJlciAoTE0tMDUt
-MzcxKSBhbW91bnRpbmcgVVMkMTAgbWlsbGlvbi5UaGUgKFRlbiBNaWxsaW9uIERvbGxhcnMpIGlz
-IGJlZW4gYXJyYW5nZWQgaW4gYSBzZWN1cml0eS1wcm9vZiBib3ggd2VpZ2hpbmcgNzVrZy4gSW4g
-b3JkZXIgdG8gZ2V0IHRoZSBib3ggc2hpcHBlZCB0byB5b3UuCgpBIGxvdCBvZiBwZW9wbGUgYXJl
-IGludGVyZXN0ZWQgaW4geW91ciBwYXltZW50IGFuZCB0aG9zZSBwZW9wbGUgYXJlIG1lcmVseSBk
-b2luZyBwYXBlciB3b3JrcyB3aXRoIHlvdSBhbmQgdGhhdCBleHBsYWlucyB3aHkgeW91IHJlY2Vp
-dmUgZGlmZmVyZW50IGtpbmRzIG9mIHVudHJ1ZSBmYXggYW5kIHBob25lIG1lc3NhZ2VzIGZyb20g
-ZGlmZmVyZW50IHBlb3BsZSBldmVyeWRheS4gQXMgSSBmb3VuZCBvdXQgdGhhdCB5b3UgaGF2ZSBh
-bG1vc3QgbWV0IGFsbCB0aGUgc3RhdHV0b3J5IHJlcXVpcmVtZW50cyBpbiByZXNwZWN0IG9mIHlv
-dXIgcGVuZGluZyBwYXltZW50LiBBbHNvIHdlIGZvdW5kIG91dCB0aGF0IHNvbWUgb2YgdGhlIG9m
-ZmljaWFscyBvZiB0aGUgcGFyYXN0YXRhbHMgaGF2ZSBiZWVuIGV4dG9ydGluZyBtb25leSBmcm9t
-IHlvdSB3aXRoIHRoZSBwcmV0ZXh0IG9mIGhlbHBpbmcgeW91IHJlY2VpdmUgeW91ciBtb25leS4g
-SSBjYW4gYXNzdXJlIHlvdSB0aGlzIHdpbGwga2VlcCBoYXBwZW5pbmcgaWYgeW91IGRvIG5vdCBk
-byBhd2F5IHdpdGggdGhvc2Ugb2ZmaWNlcnMuSSBhbSB0aGUgZmluYWwgc2lnbmF0b3J5IHRvIGFu
-eSB0cmFuc2ZlciBvciByZW1pdHRhbmNlIG9mIGh1Z2UgZnVuZHMgbW92aW5nIHdpdGhpbiBiYW5r
-cyBib3RoIG9uIHRoZSBsb2NhbCBhbmQgaW50ZXJuYXRpb25hbCBsZXZlbHMuCgpBIGZyaWVuZCBv
-ZiBtaW5lIHdobyBpcyBhIGRpcGxvbWF0IGRpc2Nsb3NlZCB0byBtZSB0aGF0IHRoZXJlIGlzIGEg
-c2VjdXJpdHkgY291cmllciBzZXJ2aWNlIGNvbXBhbnkgdGhhdCBpcyBzcGVjaWFsaXNlZCBpbiBz
-ZW5kaW5nIGRpcGxvbWF0aWMgbWF0ZXJpYWxzIGFuZCBpbmZvcm1hdGlvbiBmcm9tIG9uZSBjb3Vu
-dHJ5IHRvIGFub3RoZXIsIHdpdGggZGlwbG9tYXRpYyBpbW11bml0eSBhbmQgY29uc2lnbm1lbnQg
-c3VjaCBhcyB0aGlzIGNhbm5vdCBiZSBjaGVja2VkIGJ5IGFueSBjdXN0b21zIGFueXdoZXJlIGlu
-IHRoZSB3b3JsZCB1bmxpa2UgRGhsLCBFbXMsIEZlZEV4IGFuZCBVcHMgYmVjYXVzZSB0aGV5IHdp
-bGwgaGF2ZSB0byBvcGVuIHRoZSBib3ggZm9yIGluc3BlY3Rpb24gYnkgdGhlIGN1c3RvbXMgYmVm
-b3JlIHNoaXBtZW50LiBJIGhhdmUgdGhlcmVmb3JlIG1ldCB0aGUgb2ZmaWNpYWwgb2YgdGhlIHNl
-Y3VyaXR5IGNvdXJpZXIgc2VydmljZSBhbmQgY29uY2x1ZGVkIHNoaXBwaW5nIGFycmFuZ2VtZW50
-IHdpdGggdGhlbSwgd2hpY2ggdGhleSB3aWxsIGNvbW1lbmNlIGFzIHNvb24gYXMgSSBoYXZlIHlv
-dXIgZ28gYWhlYWQgb3JkZXIuIFRoZSBkaXBsb21hdCB3aWxsIGJyaW5nIHRoZSBjb25zaWdubWVu
-dCB0byB5b3UgaGUgaGFzIGJlZW4gaW4gdGhpcyBsaW5lIG9mIHdvcmsgZm9yIG1hbnkgeWVhcnMg
-bm93IDtzbyB5b3UgaGF2ZSBub3R0aW5nIHRvIHdvcnJ5IGFib3V0LgoKQmUgdGhhdCBhcyBpdCBt
-YXksIEkgYW0gY29uZGl0aW9uYWxseSBwcmVwYXJlZCB0byBhc3Npc3QgeW91IGdldCB0aGUgbW9u
-ZXksIHByYWN0aWNhbGx5IGFmdGVyIHN0dWR5aW5nIHRoZSBwYXJ0IGxlYWRpbmcgdG8gdGhpcyBw
-YXJ0aWN1bGFyIHN0YWdlIGluIHRoZSBwYXltZW50IHByb2Nlc3MgaW4gY29ubml2YW5jZSB3aXRo
-IHlvdXIgbG9jYWwgY29sbGFib3JhdG9ycyB0byBjb25jZWFsIHRoZSBhdXRoZW50aWMgc291cmNl
-IG9mIHRoZSBmdW5kcy4KCkFuZCBteSBvbmx5IGNvbmRpdGlvbiBmb3IgdGhlIHVudXN1YWwgYXNz
-aXN0YW5jZSBpcyBmb3IgeW91IHRvIHJlYWNoIG1lIGRpcmVjdGx5IG9uIG15IHByaXZhdGUgVEVM
-OiArKDIyMSk0NDgtODQ2OS4gSXQgaXMgdmVyeSB1cmdlbnQgdGhhdCB5b3UgcmVhY2ggbWUgb24g
-cGhvbmUgZm9yIGEgZ2VudGxlbWFubHkgbXV0dWFsIGFncmVlbWVudCwgQWZ0ZXIgYWxsIGFycmFu
-Z2VtZW50cyB3ZSBoYXZlIGNvbmNsdWRlZCB0aGF0IHlvdSBtdXN0IGRvbmF0ZSBGaXZlIEh1bmRy
-ZWQgVGhvdXNhbmQgVW5pdGVkIFN0YXRlcyBkb2xsYXJzIChVUyQ1MDAsMDAwLjAwKSB0byBhbnkg
-Y2hhcml0eSBvcmdhbmlzYXRpb24gSSBkZXNpZ25hdGUgYXMgc29vbiBhcyB5b3UgcmVjZWl2ZSB5
-b3VyIG1vbmV5LiBUbyB0aGlzIGVmZmVjdCwgeW91IHdpbGwgc2VuZCB0byB1cyBhIHByb21pc3Nv
-cnkgbm90ZSBmb3IgdGhlIGRvbmF0aW9uIGFsb25nIHdpdGggeW91ciBhZGRyZXNzIHdoZXJlIHlv
-dSB3aWxsIGxpa2UgdGhlIGJveCB0byBiZSBkZWxpdmVyZWQgdG8gYnkgY291cmllci4gUGxlYXNl
-IG1haW50YWluIHRvcG1vc3Qgc2VjcmVjeSBhcyBpdCBtYXkgY2F1c2UgYSBsb3Qgb2YgcHJvYmxl
-bXMgaWYgZm91bmQgb3V0IHRoYXQgd2UgYXJlIHVzaW5nIHRoaXMgd2F5IHRvIGhlbHAgeW91LiBZ
-b3UgYXJlIGFkdmlzZWQgbm90IGluZm9ybSBhbnlvbmUgYWJvdXQgdGhpcyB1bnRpbCB5b3UgcmVj
-ZWl2ZWQgeW91ciBtb25leS4gV2hlbiB5b3UgY29uY2x1ZGUgdGhpcyB3ZSB3aWxsIGhlbHAgdG8g
-c2hpcCB0aGUgZmluYWwgcGFydCBvZiB5b3VyIG1vbmV5IHRvIHlvdS4KCllvdXJzIEZhaXRoZnVs
-bHksClJldmQuIEZyLiBQZXRlciBDbGFyay4KRGlyZWN0b3IsIFNwZWNpYWwgRHV0aWVzLlVOL1dC
-Ri4=
---qzsoft_directmail_seperator--
-From r  Tue Apr 11 04:18:14 2006
-
-
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-
-Original EMail Body: 
-
-
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-
-Original EMail Body: 
-
-
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-
-Original EMail Body: 
-
-
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-
-Original EMail Body: 
-
-
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-
-Original EMail Body: 
+	for <R@K>; Thu, 23 Sep 2004 07:07:52 -0400
+------=_NextPart_000_004C_7A83A5F1.50D36B2B
+DQpBdHRuOiBTaXIsDQogDQpNeSBuYW1lIGlzIE1yLiBBa2ltIEkgd29yayBpbiB0aGUgSW50
+ZXJuYXRpb25hbCBvcGVyYXRpb24gZGVwYXJ0bWVudCBpbiBhIA0KQmFuayBoZXJlIGluIEFm
+cmljYS4gT24gYSByb3V0aW5lIGluc3BlY3Rpb24gSSBkaXNjb3ZlcmVkIGEgZG9ybWFudA0K
+DQpEb21pY2lsaWFyeSBhY2NvdW50IHdpdGggYSBCYWxhbmNlIG9mICQyNiwwMDAsMDAwIFVT
+RCAoVHdlbnR5IFNpeCBNaWxsaW9uIFVTRCkgb24gDQpmdXJ0aGVyIGNpcmN1bXNwZWN0aW9u
+LCBJIGFsc28gZGlzY292ZXJlZCB0aGF0IHRoZSBhY2NvdW50DQoNCmhvbGRlciBoYXMgbG9u
+ZyBwYXNzZWQgYXdheSAoZGVhZCkgbGVhdmluZyBubyBiZW5lZmljaWFyeSB0byB0aGUgYWNj
+b3VudC4gDQoNCiANClRoZSBiYW5rIHdpbGwgYXBwcm92ZSB0aGlzIG1vbmV5IHRvIGFueSBm
+b3JlaWduZXIgd2l0aCB0aGUgY29ycmVjdCBhY2NvdW50IGluZm9ybWF0aW9uDQp3aGljaCBp
+IHdpbGwgcHJlc2VudCBvbiB5b3VyIGJlaGFsZiAgYmVjYXVzZSB0aGUgZm9ybWVyIG9wZXJh
+dG9yIG9mIHRoZSBhY2NvdW50IGlzIGEgZm9yZWlnbmUuDQoNCkhlIGRpZWQgaW4gYSBjYXIg
+YWNjaWRlbnQgZWlnaHQgeWVhcnMgYWdvLCBub2JvZHkgZWxzZSBrbm93cyANCmFib3V0IHRo
+ZXNlIGZ1bmRzLCBhbmQgb25seSBhIGZvcmVpZ25lciB3aXRoIHRoZSBsZWdhbCBkb2N1bWVu
+dHMgb2YgdGhlIGFjY291bnQgY2FuIGNsYWltIA0KdGhpcyBtb25leSwgc28gdGhhdJJzIHdo
+eSBJIG5lZWQgeW91ciBjb29wZXJhdGlvbiBmb3IgaSBjYW5ub3QgZG8gdGhpcyBteXNlbGYg
+b3Igd2l0aCANCmFueWJvZHkgaGVyZSBpbiBteSBjb3VudHJ5Lg0KDQoNCkkgd2lsbCBwcm92
+aWRlIHRoZSBuZWNlc3NhcnkgaW5mb3JtYXRpb24gbmVlZGVkIGluIG9yZGVyIHRvIGNsYWlt
+IHRoaXMgbW9uZXksIEJ1dCB5b3UgDQp3aWxsIG5lZWQgdG8gcHJvdmlkZSBhbiBhY2NvdW50
+IHdoZXJlIHRoaXMgbW9uZXkgY2FuIGJlIHRyYW5zZmVycmVkLiANCg0KIA0KSSB3aXNoIGZv
+ciB1dG1vc3QgY29uZmlkZW50aWFsaXR5IGluIGhhbmRsaW5nIHRoaXMgdHJhbnNhY3Rpb24g
+YXMgbXkgam9iIGFuZCB0aGUgZnV0dXJlDQoNCm9mIG15IGZhbWlseSB3b3VsZCBiZSBqZW9w
+YXJkaXplZCBpZiBpdCB3ZXJlIGJyZWFjaGVkLg0KDQogDQpJIHdhbnQgdG8gYXNzdXJlIHlv
+dSB0aGF0IHRoZSB0cmFuc2FjdGlvbiBpcyB3aXRob3V0IHJpc2sgaWYgZHVlIHByb2Nlc3Mg
+aXMgZm9sbG93ZWQgDQphY2NvcmRpbmdseS4gRmluYWxseSwgSSB3aWxsIGdpdmUgeW91IDI5
+JSBvZiB0aGUgdG90YWwgc3VtIGZvciB5b3VyIGNvbnRyaWJ1dGlvbiBhbmQgZWZmb3J0cy4N
+Cg0KIA0KSWYgaW50ZXJlc3RlZCBhbmQgY2FwYWJsZSB0byBhc3Npc3QgbWUgaW4gdGhpcyB0
+cmFuc2FjdGlvbiwgcGxlYXNlIGdldCBiYWNrIHRvIG1lIA0KaW1tZWRpYXRlbHkuIA0KDQog
+DQpJIGxvb2sgZm9yd2FyZCB0byBhIGZhdm9yYWJsZSByZXNwb25zZSBmcm9tIHlvdSB0aHJv
+dWdoIHRoZSBjb250YWN0cyBiZWxvdy4NCg0KIA0KWW91cnMNCg0KIA0KDQpNci4gQWtpbQ0K
+DQpFbWFpbDo+IGFraW1haG1lZEB0ZWNoZW1haWwuY29tIA0KUGhvbmU6PiArMjM0LTgwLTQy
+MTQxNDExICAgICAgICAgICAgICANCiAgICAgICAgICAgICAg
+------=_NextPart_000_004C_7A83A5F1.50D36B2B--
+From r  Thu Sep 23 07:29:04 2004
 
 
 Incorrectly Labeled EMail
@@ -323,56 +423,45 @@ Label: 0
 Prediction: 1
 Processed EMail Body: 
 jan 
-thanks for your nice do hope that everyone on my team sees the promotion as 
-recognition of the value of the roles that we all that should make it easier 
-to attract and retain talented people that make my job easier and more will ask 
-patti to schedule some time for us to get together when am back in the 
-office next have good thomas am sally congratulations on your promotion to in addition to 
-being great personal your promotion helps to raise the awareness of the importance of the 
-tasks performed by you and your look forward to speaking with you upon your return 
 
 Original EMail Body: 
-Message-ID: <17764349.1072135521124.JavaMail.evans@thyme>
-Date: Tue, 16 Jan 2001 00:46:00 -0800 (PST)
-From: sally.beck@enron.com
-To: thomas.gros@enron.com
-Subject: Re: Congratulations!
+Message-ID: <20926025.1072131363691.JavaMail.evans@thyme>
+Date: Thu, 25 Jan 2001 05:55:00 -0800 (PST)
+From: beth.cherry@enform.com
+To: jason.wolfe@enron.com
+Subject: you think you have problems......
 Mime-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
 Content-Transfer-Encoding: 7bit
 
-Thanks for your nice note.  I do hope that everyone on my team sees the 
-promotion as recognition of the value of the roles that we perform.  All that 
-should make it easier to attract and retain talented people that make my job 
-easier and more fun!  
+http://www.cnn.com/2001/US/01/25/sawed.off.hand.ap/index.html
 
-I will ask Patti to schedule some time for us to get together when I am back 
-in the office next Monday.  Have a good week.  ---Sally 
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+dec 
+send me stuff on performance this year and where you would rank need this for 
 
+Original EMail Body: 
+Message-ID: <18873592.1072125186663.JavaMail.evans@thyme>
+Date: Sun, 10 Dec 2000 03:00:00 -0800 (PST)
+From: john.lavorato@enron.com
+To: tim.belden@enron.com
+Subject: 
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
 
+Send me stuff on Wolfe's performance this year and where you would rank him.  
+I need this for tomorrow.
 
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
 
-Thomas D Gros@ENRON
-01/16/2001 08:38 AM
-To: Sally Beck/HOU/ECT@ECT
-cc:  
-Subject: Congratulations!
-
-Congratulations on your promotion to MD!  
-
-In addition to being a great personal achievement,  your promotion helps to 
-raise the awareness of the importance of the tasks performed by you and your 
-team.  
-
-I look forward to speaking with you upon your return from Europe.
-
-All the best,
-
-Tom
-
-
-
-
+Original EMail Body: 
 
 
 Incorrectly Labeled EMail
@@ -396,47 +485,424 @@ Label: 0
 Prediction: 1
 Processed EMail Body: 
 mar 
-contact number chris contact have been unsuccessful at finding your phone number so will try 
-this email address received from kim have recently moved from portland office where worked for 
-chris to houston to our gas marketing efforts in the chris has been turning over 
-the gas responsibilities he retained after moving to could you change the contact that you 
-have in your system from chris foster to my name is kim ward and my 
+new pictures of will new pictures of will here are six month deanna and will 
 
 Original EMail Body: 
-Message-ID: <33311662.1072131459161.JavaMail.evans@thyme>
-Date: Fri, 16 Mar 2001 03:50:00 -0800 (PST)
-From: chris.foster@enron.com
-To: kim.ward@enron.com
-Subject: Re: Enron contact
+Message-ID: <2625769.1072131643911.JavaMail.evans@thyme>
+Date: Mon, 5 Mar 2001 09:53:00 -0800 (PST)
+From: jeff_deanna_harris@hotmail.com
+To: kkampe@denus.jnj.com, mandy.hurt@ey.com, mvogt@architecturalimpact.com, 
+	oscar.durham@ps.net, ryanw@gensis.net, stacey.w.white@enron.com, 
+	momdonovan@hotmail.com, woodfin@itexas.net, 
+	heather_mcginty@roundrockisd.org
+Subject: New Pictures of Will
 Mime-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
 Content-Transfer-Encoding: 7bit
 
-Mary's number 213/244-3898.
-
-C
+New Pictures of Will
 
 
-To: mreed@socalgas.com
-cc: Chris H Foster/HOU/ECT@ECT 
-Subject: Enron contact
+Here are Will's six month pictures!
 
-Mary,
+Enjoy,
 
-I have been unsuccessful at finding your phone number so I will try this 
-email address I received from Kim Olinger.  I have recently moved from 
-Enron's Portland office where I worked for Chris Foster, to Houston to 
-re-initiate our gas marketing efforts in the west.  Chris has been turning 
-over the gas responsibilities he retained after moving to Portland.  Could 
-you change the Enron contact that you have in your system from Chris Foster 
-to me?  My name is Kim Ward and my number is 713-853-0685.  Please call me 
-with any questions you might have. 
-
-Thanks,
-
-Kim Ward
+Deanna and Will
 
 
+
+
+
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+apr 
+system notice soliciting electronic bids post april short-term firm capacity offers soliciting electronic bids notice 
+all shippers dated april all shippers candace c. wk cellular williams gas northwest pipeline transportation 
+soliciting electronic bids for available firm mainline transportation capacity on transmission system northwest has posted 
+the following package of available firm large customer transportation capacity to its electronic bulletin board 
+for competitive bid pursuant to the posting of pipeline provision of which requires availability of 
+capacity to be posted to the ebb subject to all prearranged terms are indicated if 
+the prearranged shipper has the right to match the highest economic value at the end 
+of the bid if the prearranged shipper does not match the highest economic award of 
+such capacity will be made according to bids for posted capacity will be conducted electronically 
+as closed bids on northwest please contact candace or your marketing services representative if you 
+encounter any problems with your ebb don't wait until the last minute to post your 
+time deadlines are electronically monitored and package from the april posting ebb offer initial prearranged 
+contract offer yes min. acceptable per dth of daily reservation contract demand for flexible point 
+rights min. acceptable bid max. acceptable bid bid open pm central bid close pm central 
+award pm central none special terms see and special terms and conditions the discount rate 
+shall apply to points utilized by the original shipper entering into the transportation agreement with 
+shipper will be allowed to release and/or segment and release the capacity and shipper and 
+replacement shipper may utilize any available points on transmission system without impacting the discount for 
+the original this prearranged offer is for reservation contract demand in addition to the reservation 
+charge shipper will pay the volumetric the applicable surcharges and procedure for bidding for available 
+transportation capacity the following guidelines will be adhered to for all posted packages of transportation 
+capacity for electronic bid or shipper must submit separate electronic bid for each package of 
+available transportation multiple electronic can be submitted for the total available transportation capacity under the 
+specified package or multiple rates can be submitted each for partial amount of available transportation 
+capacity under the specified if the same shipper submits multiple the highest present value for 
+such package of available transportation capacity shall be considered the valid all other bids from 
+the same shipper for the same package of transportation capacity will be northwest awards bids 
+based on net present value if bid rate is less than minimum tariff the following 
+formula is bid rate interest rate the maximum bid quantity or if the maximum rate 
+is the following formula is bid rate interest rate maximum bid quantity days in case 
+of each tied shipper will have the right to improve its bid by submitting an 
+improved bid within hours of the bid close such improved bid shall be faxed to 
+to candace or patrick if tie still such capacity shall be awarded on prorata northwest 
+will not accept bids with primary contract term longer than indicated for the capacity unless 
+maximum rate is instructions for creating bid for firm capacity release offers select application in 
+northwest select bid for all current offers will highlight the offer you are interested in 
+by clicking the left mouse button on the select the button at the top of 
+the which is now the screen will allow you to review the conditions of the 
+close this screen when you have finished at this point you can review current bids 
+posted for this offer by selecting the close this screen when you have finished if 
+you would like to create bid for this select if you want to bid the 
+maximum rate for the select the max highlight the if you want to modify the 
+end date of the term of your if you want to modify the point maximum 
+and minimum highlight the point section with the left mouse button and modify select if 
+an error appears at the button of the the error will need to be corrected 
+and the data will need to be saved if message will appear indicating the bid 
+information has saved and the bid rate must be select select the enter the bid 
+select you have just your bid for the you now need to your bid as 
+close out of all screens and return to the menu to submit or review your 
+select the cap all of your bids will highlight the in draft that you would 
+like to select the button at the top of the screen to post the to 
+withdraw your select the all of your bids will if the bid has not yet 
+been highlight the in draft that you would like to select the button at the 
+top of the screen to withdraw the after bid has been you can select the 
+button at the top of the screen to delete it from the after each always 
+
+Original EMail Body: 
+Message-ID: <3091691.1072124637894.JavaMail.evans@thyme>
+Date: Thu, 26 Apr 2001 09:25:00 -0700 (PDT)
+From: miki.bode@williams.com
+To: abenton@utilicorp.com, abenton@utilicorp.com, anita.reubens@swgas.com, 
+	bblanar@coral-energy.com, bob.mattice@engageenergy.com, 
+	bob.mattice@engageenergy.com, browning@wasatchenergy.com, 
+	bruce_langmade@gapac.com, bymank@wdni.com, cards@wdni.com, 
+	caver_ealy@pgn.com, ccoyle@americansoda.com, cmcgra@puget.com, 
+	cpavlica@enerad.com, craig.provenzano@powersrc.com, cridin@puget.com, 
+	cslaman@usg.com, cwduke@duke-energy.com, darena@national-energy.com, 
+	dave.dungan@weyerhaeuser.com, deborahs@kimballenergy.com, 
+	derek.danyliw@husky-oil.com, dlh@nwnatural.com, fermis@enron.com, 
+	geek@bp.com, gilesmh@bp.com, janderson@clarkpud.com, 
+	jane@itcoworld.com, jennifer_owen@pgn.com, 
+	jmmcarthur@duke-energy.com, jsanders@clarkpud.com, 
+	kims@kimballenergy.com, klambe@puget.com, 
+	llightfoot@coral-energy.com, lmansi@sdge.com, lprior@enron.com, 
+	mbeckner@utilicorp.com, mcano@enerad.com, michelle_hunter@pgn.com, 
+	niels_a_vervloet@reliantenergy.com, pschmidt@kimballresources.com, 
+	ramperms@bp.com, rcooper@usg.com, rfm@nwnatural.com, 
+	robert.harp@engageenergy.com, robert.harp@engageenergy.com, 
+	ron.smith@ashgrove.com, rony@panalberta.com, ryan.watt@enron.com, 
+	sakom@attglobal.net, sbrewer@enron.com, scott.linkletter@neg.pge.com, 
+	scotts@kimballenergy.com, sghill@bcgas.com, spjutd2@wdni.com, 
+	ssouth@enron.com, stephane.brodeur@enron.com, tbrother@utilicorp.com, 
+	tdizona@coral-energy.com, tjmi@dynegy.com, 
+	tom.mckay@engageenergy.com, tom.mckay@engageenergy.com, 
+	val_yildirok@pgn.com, wharlan@kimballresources.com, 
+	zcourns@national-fuel.com, jshadie@idahopower.com
+Subject: NWP System Notice - 01-237 Soliciting Electronic Bids
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ANSI_X3.4-1968
+Content-Transfer-Encoding: 7bit
+
+Post Date: April 26, 2001 
+Category: SHORT-TERM FIRM CAPACITY 
+Subcategory: NWP OFFERS 
+Subject: 01-237 Soliciting Electronic Bids 
+
+Notice Text: 
+
+All Shippers Notification: 01-237?????? Dated April 26, 2001 
+
+
+
+TO:???? ??????? ALL SHIPPERS 
+
+FROM:?? Candace C. Karpakis- (801) 584-6996 wk 
+?????????????????????????????????????????????????????????????? (801) 971-5983 
+cellular 
+
+Williams Gas Pipeline-West 
+Northwest Pipeline Transportation 
+
+SUBJECT:??????? SOLICITING ELECTRONIC BIDS FOR 
+AVAILABLE FIRM MAINLINE TRANSPORTATION 
+CAPACITY ON NORTHWEST'S TRANSMISSION 
+SYSTEM 
+
+Northwest has posted the following package of available firm TF-1 
+Large Customer transportation capacity to its Electronic Bulletin 
+Board ("EBB") for competitive bid pursuant to the "Right-of-First- 
+Refusal; Posting of Pipeline Capacity" provision of Northwest's 
+Tariff, which requires availability of capacity to be posted to the 
+EBB subject to bid.? All prearranged terms are indicated below, if 
+applicable.? The prearranged shipper has the right to match the 
+highest economic value at the end of the bid period.? If the 
+prearranged shipper does not match the highest economic value, award 
+of such capacity will be made according to Northwest's tariff. 
+
+NOTE:? BIDS FOR POSTED CAPACITY WILL BE CONDUCTED ELECTRONICALLY AS 
+CLOSED BIDS ON NORTHWEST PIPELINE'S EBB.? Please contact Candace 
+Karpakis or your Marketing Services Representative if you encounter 
+any problems with your EBB bid(s).? DON'T WAIT UNTIL THE LAST MINUTE 
+TO POST YOUR BID.? Time deadlines are electronically monitored and 
+implemented. 
+
+PACKAGE "SS-1" 
+From the 
+April 19, 2001 Posting 
+EBB OFFER # 510 
+
+RECEIPT????????????? DELIVERY????????? TOTAL?????? INITIAL PRIMARY????? 
+PREARRANGED 
+POINT????????????????????? POINT???????????? DTH/D??????? CONTRACT 
+TERM?????????? OFFER 
+
+Sumas?? ??????????? Reno???????????? 3,399????????? 
+05/01/01-05/31/01???????????? YES 
+????????? 
+Min. Acceptable Bid:??? $0.03 per Dth of daily Reservation Contract Demand 
+for 
+?????????????????????????????????????????????? Flexible Receipt/Delivery 
+Point Rights 
+Min. Acceptable Bid Vol:??????? 1 Dth/d 
+Max. Acceptable Bid Vol:??????? 3,399 Dth/d 
+Bid Open Date:? 04/26/01 - (4:00 pm Central Time) 
+Bid Close Date: 04/27/01 - (4:00 pm Central Time) 
+Award Deadline: 04/27/01 - (5:00 pm Central Time) 
+Evergreen:????? ??????? NONE 
+Special Terms & Cond:?? See 1, 2 and 3 Below. 
+
+
+
+SPECIAL TERMS AND CONDITIONS 
+
+1. The discount rate shall apply to points utilized by the original shipper 
+entering into the transportation agreement with Northwest. 
+
+2. A shipper will be allowed to release and/or segment and release the 
+capacity 
+and shipper and replacement shipper may utilize any available points on 
+Northwest's transmission system without impacting the discount for the 
+original shipper. 
+
+3. This prearranged offer is for a reservation contract demand rate.? In 
+addition 
+to the Reservation Charge Bid, shipper will pay the volumetric charge, the 
+applicable surcharges and fuel. 
+
+
+
+PROCEDURE FOR BIDDING FOR 
+AVAILABLE TRANSPORTATION CAPACITY 
+
+The following guidelines will be adhered to for all posted packages of 
+transportation 
+capacity for electronic bid ("package or packages"): 
+
+1. Shipper must submit a separate electronic bid for each package of 
+available 
+transportation capacity.? Multiple electronic bid(s) can be submitted for the 
+total available transportation capacity under the specified package OR 
+multiple 
+rates can be submitted each for a partial amount of available transportation 
+capacity under the specified package.? If the same Shipper submits multiple 
+bids, 
+the highest present value for such package of available transportation 
+capacity 
+shall be considered the valid bid. All other bids from the same Shipper for 
+the 
+same package of transportation capacity will be discarded. 
+
+2. Northwest awards bids based on a net present value calculation.? If bid 
+rate is 
+??????? less than minimum tariff rate, the following formula is utilized:? 
+Bid Rate x 
+??????? FERC Interest Rate x The Maximum Bid Quantity x 365 days/100/12; or 
+if the 
+??????? maximum rate is bid, the following formula is utilized:? Bid Rate x 
+FERC Interest 
+??????? Rate x Maximum Bid Quantity x days bid/100. In case of a tie, each 
+tied shipper 
+??????? will have the right to improve its bid by submitting an improved bid 
+within 24 
+??????? hours of the bid close time.? Such improved bid shall be faxed to 
+(801) 584-7076 
+??????? to Candace Karpakis or Patrick Aman.? If a tie still exists, such 
+capacity shall 
+??????? be awarded on a prorata basis. 
+
+3. Northwest will not accept bids with a primary contract term (Term) longer 
+than 
+??????? indicated for the capacity unless maximum rate is bid. 
+
+
+
+INSTRUCTIONS FOR CREATING A BID FOR 
+NORTHWEST'S FIRM CAPACITY RELEASE 
+OFFERS 
+
+1. Select "CAPACITY RELEASE" application in Northwest Passage. 
+2. Select "CREATE/SUB BID FOR NWP CAP" application.? All current offers will 
+appear. 
+3. Highlight the offer you are interested in by clicking the left mouse 
+button 
+on the offer. 
+4. Select the "TERMS & COND" button at the top of the screen, which is now 
+active.? The screen will allow you to review the conditions of the offer. 
+Close this screen when you have finished reviewing. 
+5. At this point you can review current bids posted for this offer by 
+selecting 
+the "VIEW BID" button.? Close this screen when you have finished viewing. 
+6. If you would like to create a bid for this offer, select "CREATE BID" 
+button. 
+7. If you want to bid the maximum rate for the capacity, select the "BID MAX 
+RATE" button. 
+8. Highlight the "END DATE" if you want to modify the end date of the term of 
+your offer. 
+9. If you want to modify the receipt/delivery point maximum and minimum 
+volume, 
+highlight the receipt/delivery point section with the left mouse button and 
+modify accordingly. Select "SAVE".? If an error appears at the button of the 
+screen, the error will need to be corrected and the data will need to be 
+saved again.? If successful, a message will appear indicating the bid 
+information has saved and the bid rate must be entered.? Select "OK". 
+10. Select the "RATE" button.? Enter the bid rate.? Select "SAVE". 
+
+You have just "CREATED" your bid for the offer.? You now need to 
+"SUBMIT" your bid as follows: 
+
+11. Close out of all screens and return to the "CAPACITY RELEASE" menu 
+screens. 
+
+12. To Submit or Review your bid(s), select the "REV/SUB/WDRW NWP CAP BID" 
+button. 
+All of your bids will appear.? Highlight the "BID IN DRAFT STATUS" that you 
+would like to submit.? Select the "SUBMIT" button at the top of the screen 
+to post the bid. 
+
+To Withdraw your bid(s), select the "REV/SUB/WDRW NWP CAP" button. 
+All of your bids will appear.? If the bid has not yet been submitted, 
+highlight the "BID IN DRAFT STATUS" that you would like to withdraw. 
+Select the "WITHDRAW" button at the top of the screen to withdraw the 
+bid.? After a bid has been withdrawn, you can select the "DELETE" 
+button at the top of the screen to delete it from the screen. 
+NOTE:? After each selection, always "REFRESH" the screen to get the latest 
+status. 
+
+
+
+Word: F\Short Term/Capacity for Bid-All 2001 April 26, 2001 01-237 Res.doc 
+
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+apr 
+registration cancellation notification according to our records you are the student ordering this due to 
+this fact you are receiving copy of this order modification registration cancellation notification on training 
+services april registrations department registration cancellation notification registration vendor course wellhead to class apr apr 
+houston tx student joseph dear we have received your cancellation this serves as your confirmation 
+of the please click here for information regarding supplier fees that may be associated with 
+this if you have received this message in error or you have please contact me 
+directly at extension for your information we have included the cancellation policy of this class 
+as cancellation of class must be received at least business days prior to class time 
+in order to prevent charges to your cost all will be charged the full cost 
+of the substitutes may be sent provided they have satisfied all course order taxes and 
+shipping charges will be billed when order is processed thank patricia lopez registration department project 
+
+Original EMail Body: 
+Message-ID: <26795338.1072131439245.JavaMail.evans@thyme>
+Date: Tue, 17 Apr 2001 05:39:00 -0700 (PDT)
+From: trainingorders@vertical.net
+To: joe.stepenovitch@enron.com
+Subject: Registration Cancellation Notification
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+ According to our records you are the student ordering this course.  Due to 
+this fact you are receiving a copy of this order modification email.  
+
+
+ Registration Cancellation Notification on 04/17/2001
+
+From: VerticalNet Training Services (auto-generated)
+Sent: Tuesday, April 17, 2001
+To:    joe.stepenovitch@enron.com
+Cc:   Registrations Department 
+Subject: Registration Cancellation Notification 
+
+
+Registration ID: 14601
+Vendor Name: Enron 
+
+Course name:  Wellhead to BurnerTip
+Class Date: Apr 24 2001 - Apr 25 2001
+Location:  Houston TX
+Student Enrolled: JOSEPH STEPENOVITCH
+
+
+
+
+
+Dear Registrant, We have received your cancellation request.   This e-mail 
+serves as your confirmation of the cancellation.   Please CLICK HERE for 
+information regarding  supplier fees that may be associated with this 
+cancellation.  If you have received this message in error or  you have 
+questions, please contact me directly  at 800-642-3187 extension 1514.   
+
+For your information we have included the cancellation policy of this class 
+as follows: 
+Cancellation of class must be received at least 3 business days prior to 
+class time in order to prevent charges to your Cost Center. All "No Shows" 
+will be charged the full cost of the course. Substitutes may be sent provided 
+they have satisfied all course prerequisites.     
+
+Order Comments:
+
+
+Taxes and Shipping Charges will be billed seperately when order is processed 
+
+Thank you,
+
+Patricia Lopez
+Registration Department
+Project Manager, Registration
+VerticalNet, Inc.
+(713) 331 - 1514
+
+ CLICK HERE to view this registration record. 
 
 Incorrectly Labeled EMail
 Label: 1
@@ -489,5 +955,118 @@ MA
 01440
 USA
 From r  Tue Sep 26 07:22:54 2006
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+this 
+is message in mime for less struggle going they are securing the bound man to 
+the complete corruption of public for less com struggle going they are securing the bound 
+
+Original EMail Body: 
+	boundary="----=_NextPart_000_0001_01C6F4F1.0A976EF0"
+This is a multi-part message in MIME format.
+------=_NextPart_000_0001_01C6F4F1.0A976EF0
+	charset="us-ascii"
+Hi,
+VdIAGRA for LESS http://www.oertionpidsadjinde.com
+=20
+struggle going on-apparently they are securing the bound man to the
+indeed! A complete corruption of history.
+------=_NextPart_000_0001_01C6F4F1.0A976EF0
+	charset="us-ascii"
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii">
+<META content=3D"MSHTML 6.00.2800.1106" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV>Hi,</DIV>
+<H2>VdIAGRA for LESS <A =
+href=3D"http://www.oertionpidsadjinde.com">http://www.oertionpidsadjinde.=
+com</A></H2>
+<DIV>&nbsp;</DIV>
+<DIV>struggle  going on-apparently they are securing the bound man  to  =
+the<BR>
+indeed! A complete corruption of history.<BR></DIV></BODY></HTML>
+------=_NextPart_000_0001_01C6F4F1.0A976EF0--
+From r  Mon Oct 23 09:48:04 2006
+
+
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+slavery 
+why is sex only allowed in cadence design inc. apr gmt in article this all 
+sounds so everyone helping each other and always smiling fluffy bunnies wake people are just 
+not like it evident from history that no society has succeeded when it had to 
+rely the goodwill and unselfishness of the isn't it obvious from like iran that even 
+if there are only few greedy people in society they are going to be attracted 
+to positions of sounds like for i'll give you an example of my father recently 
+bought the business price was pounds and my father approached the people in the community 
+for he raised pounds in interest free loans from friends and relatives and muslims he 
+had cash and the rest he got business after paying off the muslim lenders many 
+of them helped him with further loans to help him clear the bank debt and 
+save him from further this is an example of muslim community helping one why did 
+they help because of their common identity as in turn my father has helped with 
+people buying houses to minimise the amount of they pay and in some cases buy 
+houses free with the help of those more fortunate in the the fact is leonard 
+it does work without fluffy bunny in is the beauty of mas inc. ahmed khan 
+
+Original EMail Body: 
+Newsgroups: alt.atheism
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!spool.mu.edu!uunet!Cadence.COM!mas
+From: mas@Cadence.COM (Masud Khan)
+Subject: Re: Slavery (was Re: Why is sex only allowed in marriage: ...)
+Message-ID: <1993Apr15.081303.16532@Cadence.COM>
+Organization: Cadence Design Systems, Inc.
+References: <1993Apr10.180803.14677@ultb.isc.rit.edu> <1993Apr12.124221.22592@bradford.ac.uk>
+Date: Thu, 15 Apr 1993 08:13:03 GMT
+Lines: 39
+
+In article <1993Apr12.124221.22592@bradford.ac.uk> L.Newnham@bradford.ac.uk (Leonard Newnham) writes:
+>
+>Oh, this all sounds so nice!  Everyone helping each other and always smiling
+>and fluffy bunnies everywhere.  Wake up!  People are just not like that.  It
+>seems evident from history that no society has succeeded when it had to rely
+>upon the goodwill and unselfishness of the people.  Isn't it obvious from
+>places like Iran that even if there are only a few greedy people in society
+>then they are going to be attracted to positions of power?  Sounds like a
+>recipe for disaster.
+>
+>-- 
+>
+>Leonard               e-mail:  L.Newnham@bradford.ac.uk
+
+Leonard, I'll give you an example of this....
+
+My father recently bought a business, the business price was 150,000 pounds
+and my father approached the people in the community for help, he raised
+60,000 pounds in interest free loans from friends and relatives and 
+Muslims he knew, 50,000 had cash and the rest he got a business loan, after
+paying off the Muslim lenders many of them helped him with further loans
+to help him clear the bank debt and save him from further intrest, this
+is an example of a Muslim community helping one another, why did they help
+because of their common identity as Muslims. In turn my father has helped
+with people buying houses to minimise the amount of intrest they pay 
+and in some cases buy houses intrest free with the help of those more
+fortunate in the community. 
+
+The fact is Leonard it DOES work without a fluffy bunny in sight!
+iThat is the beauty of Islam.
+
+Mas
+
+
+-- 
+C I T I Z E N  +-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
+_____   _____  | C A D E N C E  D E S I G N  S Y S T E M S  Inc. |
+     \_/       | Masud Ahmed Khan mas@cadence.com All My Opinions|
+_____/ \_____  +-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
 
 

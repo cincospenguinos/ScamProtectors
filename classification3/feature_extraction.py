@@ -113,10 +113,19 @@ def print_sample(sample, index=-1):
 
 def log_samples(data, num_samples, num_scam):
     sample_log = ''
+    sample_log += "#####################################\n" \
+                  "# LOG: SAMPLES FROM PROCESSED EMAILS\n" \
+                  "#####################################\n"
+    sample_log += "##############\n" \
+                  "# SCAM EMAILS\n" \
+                  "##############\n"
     for x in range(num_samples):
         random_index = random.randint(0, num_scam)
         random_email = data[random_index]
         sample_log += print_sample(random_email, index=random_index)
+    sample_log += "##################\n" \
+                  "# NON-SCAM EMAILS\n" \
+                  "##################\n"
     for x in range(num_samples):
         random_index = random.randint(num_scam, len(data))
         random_email = data[random_index]
@@ -132,6 +141,9 @@ def log_features(features, weights):
         pairs[features[feature]] = weights[feature]
 
     feature_log = ''
+    feature_log += "#######################################\n" \
+                  "# LOG: BEST FEATURES IN THE CLASSIFIER\n" \
+                  "#######################################\n"
     feature_log += "\nTop 10 Features for identifying a scam email: \n"
     for x in range(10):
         max_feature = max(pairs, key=pairs.get)
@@ -151,12 +163,6 @@ def log_features(features, weights):
 
 
 def main():
-
-    #####################
-    # LOGGING PARAMETERS
-    #####################
-
-    num_samples = 3
 
     #######################
     # Process Scam E-Mails
@@ -224,7 +230,7 @@ def main():
 
     print("\nLogging Scam and Non-Scam Samples from the Processed Corpus")
 
-    log_samples(all_emails, num_samples, num_scam)
+    log_samples(all_emails, 3, num_scam)
 
     ##################################
     # CREATE TRAIN AND TEST DATA SETS
@@ -296,6 +302,9 @@ def main():
     num_predicted_scam = 0
     num_labeled_scam = 0
     fails_log = ''
+    fails_log += "#########################################\n" \
+                  "# LOG: ALL INCORRECTLY PREDICTED EMAILS\n" \
+                  "########################################\n"
     for test in test_data:
         vector_data = vectorizer.transform([test['email_body_processed']])
         result = classifier.predict(vector_data)[0]
