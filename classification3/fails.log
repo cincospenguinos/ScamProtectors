@@ -1,0 +1,493 @@
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+jun 
+commodities ltd. here is spreadsheet from the confirmations group of all financial trades between ena 
+
+Original EMail Body: 
+Message-ID: <12601370.1072126303887.JavaMail.evans@thyme>
+Date: Wed, 6 Jun 2001 02:38:00 -0700 (PDT)
+From: brant.reves@enron.com
+To: frank.sayre@enron.com, susan.bailey@enron.com
+Subject: Glencore Commodities Ltd.
+Mime-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_78846_23862389.1072126303867"
+
+------=_Part_78846_23862389.1072126303867
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+Here is a spreadsheet from the confirmations group of all financial trades 
+between ENA and this entity that have ever been entered into.
+
+Let me know what you think.
+
+brant
+
+------=_Part_78846_23862389.1072126303867--
+
+
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+apr 
+letter dated april ms. thank you for your recent letter regarding my personal financial do 
+appreciate your concern and have very qualified financial advisor who handles all of my personal 
+
+Original EMail Body: 
+Message-ID: <12854649.1072124613894.JavaMail.evans@thyme>
+Date: Tue, 24 Apr 2001 01:56:00 -0700 (PDT)
+From: cindy.stark@enron.com
+To: marilyn_conners@prusec.com
+Subject: LETTER DATED APRIL 18, 2001
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Ms. Conners:
+
+Thank you for your recent letter regarding my personal financial 
+situation.    I do appreciate your concern and interest; however, I have a 
+very qualified financial advisor who handles ALL of my personal financial 
+needs.
+
+Please remove my name from your written correspondence/phone call contact 
+list.
+
+Sincerely,
+Stan Horton
+Enron
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+from 
+
+Original EMail Body: 
+RGVhciBTaXIsDQoNCkZpcnN0LCBJIG11c3Qgc29saWNpdCB5b3VyIHN0cmljdGVzdCBjb25maWRl
+bmNlIGluDQp0aGlzIHRyYW5zYWN0aW9uLlRoaXMgaXMgYnkgdmlydHVlIG9mIGl0cyBuYXR1cmUg
+YXMgYmVpbmcgdXR0ZXJseSBjb25maWRlbnRpYWwgDQphbmQgJ3RvcCBzZWNyZXQnLiANCiBZb3Ug
+aGF2ZSBiZWVuIHJlY29tbWVuZGVkIGJ5IGFuIGFzc29jaWF0ZSB3aG8gYXNzdXJlZCBtZSBpbiAN
+CmNvbmZpZGVuY2Ugb2YgeW91ciBhYmlsaXR5IGFuZCByZWxpYWJpbGl0eSAgdG8gcHJvc2VjdXRl
+IGEgdHJhbnNhY3Rpb24gb2YgZ3JlYXQgDQptYWduaXR1ZGUgaW52b2x2aW5nIGEgcGVuZGluZyBi
+dXNpbmVzcyB0cmFuc2FjdGlvbiByZXF1aXJpbmcgbWF4aW11bSANCmNvbmZpZGVuY2UuDQogV2Ug
+YXJlIHRvcCBvZmZpY2lhbHMgb2YgdGhlIEZlZGVyYWwgR292ZXJubWVudCAgQ29udHJhY3QgUmV2
+aWV3IFBhbmVsIA0Kd2hvIGFyZSBpbnRlcmVzdGVkIGluIGltcG9ydGF0aW9uIG9mIGdvb2RzIGlu
+dG8gb3VyIGNvdW50cnkgd2l0aCBmdW5kcyANCndoaWNoIGFyZSBwcmVzZW50bHkgdHJhcHBlZCBp
+biBOaWdlcmlhLiBJbiBvcmRlciB0byBjb21tZW5jZSB0aGlzIA0KYnVzaW5lc3Mgd2Ugc29saWNp
+dCB5b3VyIGFzc2lzdGFuY2UgdG8gZW5hYmxlIHVzIHRyYW5zZmVyIGludG8geW91ciBhY2NvdW50
+IA0KdGhlIHNhaWQgdHJhcHBlZCBmdW5kcy4gICAgICANCiAgVGhlIHNvdXJjZSBvZiB0aGlzIGZ1
+bmQgaXMgYXMgZm9sbG93czogRHVyaW5nIHRoZQ0KbGFzdCBNaWxpdGFyeSBSZWdpbWUgaGVyZSBp
+biBOaWdlcmlhLCB0aGUgR292ZXJubWVudCBvZmZpY2lhbHMgc2V0IHVwIA0KY29tcGFuaWVzIGFu
+ZCBhd2FyZGVkIHRoZW1zZWx2ZXMgY29udHJhY3RzIHdoaWNoIHdlcmUgZ3Jvc3NseSBvdmVyLSAN
+Cmludm9pY2VkIGluIHZhcmlvdXMgIG1pbmlzdHJpZXMuDQogVGhlIHByZXNlbnQgZ292ZXJubWVu
+dCBzZXQgdXAgYSBDb250cmFjdCBSZXZpZXcgUGFuZWwgYW5kIHdlIGhhdmUgDQppZGVudGlmaWVk
+IGEgbG90IG9mIGluZmxhdGVkIGNvbnRyYWN0IGZ1bmRzIHdoaWNoIGFyZSBwcmVzZW50bHkgZmxv
+YXRpbmcgaW4gdGhlIA0KQ2VudHJhbCBCYW5rIE9mIE5pZ2VyaWEgcmVhZHkgZm9yIHBheW1lbnQu
+IEhvd2V2ZXIsIGJ5IHZpcnR1ZSBvZiANCm91ciBwb3NpdGlvbiBhcyBjaXZpbCBzZXJ2YW50cyBh
+bmQgbWVtYmVycyBvZiB0aGlzDQpwYW5lbCwgd2UgY2Fubm90IGFjcXVpcmUgdGhpcyBtb25leSBp
+biBvdXIgbmFtZXMuSSBoYXZlIHRoZXJlZm9yZSwgYmVlbiANCmRlbGVnYXRlZCAgYnkgbXkgb3Ro
+ZXIgY29sbGVhZ3VlcyBpbiB0aGUgcGFuZWwgdG9sb29rIGZvciBhbiBvdmVyc2VhcyANCnBhcnRu
+ZXIgaW50byB3aG9zZSBhY2NvdW50IHdlIHdvdWxkICB0cmFuc2ZlciB0aGUgc3VtIG9mIFVTDQok
+MjEsNTAwLDAwMC4wMCBbVHdlbnR5LU9uZSBNaWxsaW9uLCBGaXZlIEh1bmRyZWQgdGhvdXNhbmQg
+VS5TIERvbGxhcnMuICANCiAgSGVuY2Ugd2UgYXJlIHdyaXRpbmcgeW91IHRoaXMgbGV0dGVyLg0K
+IFdlIGhhdmUgYWdyZWVkIHRvIHNoYXJlIHRoZSBtb25leSB0aHVzOg0KICAgIDEuIDIwJSBmb3Ig
+dGhlIGFjY291bnQgb3duZXIoIHlvdSkNCiAgICAyLiA3MCUgZm9yIHVzIFsgTXlzZWxmIGFuZCBv
+dGhlciBtZW1iZXJzIG9mIG15IHBhbmVsIF0NCiAgICAzLiAxMCUgdG8gYmUgdXNlZCBpbiBzZXR0
+bGluZyB0YXhhdGlvbiBhbmQgYWxsDQogIGxvY2FsIGFuZCBmb3JlaWduIGV4cGVuc2VzIGRpcmVj
+dCBvciBpbmNpZGVudGFsIHRvIHRoZSBleGVjdXRpb24gb2YgdGhpcyANCnRyYW5zYWN0aW9uLg0K
+IEl0IGlzIGZyb20gdGhlIDcwJSB0aGF0IHdlIHdpc2ggdG8gY29tbWVuY2UgdGhlIGltcG9ydGF0
+aW9uIA0KYnVzaW5lc3MuUGxlYXNlLCBub3RlIHRoYXQgdGhpcyB0cmFuc2FjdGlvbiBpcyAxMDAl
+IHNhZmUgYW5kIHdlIGhvcGUgdG8gDQpjb21tZW5jZSB0aGUgdHJhbnNmZXIgbGF0ZXN0IFRlbiAo
+MTApIGJhbmtpbmcgZGF5cyBmcm9tIHRoZSBkYXRlIG9mIHRoZSANCnJlY2VpcHQgDQpvZiB0aGUg
+Zm9sbG93aW5nIGluZm9ybWF0aW9uLGNvbXBhbnkncyBuYW1lLCBBZGRyZXNzLCBUZWxlcGhvbmUg
+YW5kIA0KRmF4IG51bWJlci4NCg0KIFRoZSBhYm92ZSBpbmZvcm1hdGlvbiB3aWxsIGVuYWJsZSB1
+cyB3cml0ZSBsZXR0ZXJzDQpvZiBjbGFpbSBhbmQgam9iIGRlc2NyaXB0aW9uIHJlc3BlY3RpdmVs
+eS4gVGhpcyB3YXkgd2Ugd2lsbCB1c2UgeW91ciANCmNvbXBhbnkncyBuYW1lIHRvIGFwcGx5IGZv
+ciBwYXltZW50IGFuZCByZS1hd2FyZCB0aGUgY29udHJhY3QgaW4geW91ciANCmNvbXBhbnkncyBu
+YW1lLg0KIFdlIGFyZSBsb29raW5nIGZvcndhcmQgdG8gZG9pbmcgdGhpcyBidXNpbmVzcyB3aXRo
+IHlvdSBhbmQgc29saWNpdCB5b3VyIA0KY29uZmlkZW50aWFsaXR5IGluIHRoaXMgdHJhbnNhY3Rp
+b24uDQoNCiBQbGVhc2UgYWNrbm93bGVkZ2UgdGhlIHJlY2VpcHQgb2YgdGhpcyBsZXR0ZXIgdXNp
+bmcgdGhlIGFib3ZlIEVtYWlsIA0KYWRkcmVzcy4NCiBJIHdpbGwgYnJpbmcgeW91IGludG8gdGhl
+IGNvbXBsZXRlIHBpY3R1cmUgb2YgdGhpcyBwZW5kaW5nIHByb2plY3Qgd2hlbiBJIA0KaGF2ZSBo
+ZWFyZCBmcm9tIHlvdS4NCiBSZW1lbWJlciB0aGlzIGlzIGEgRGVhbCBzbyB0cmVhdCB3aXRoIHV0
+bW9zdA0KY29uZmlkZW50aWFsaXR5Lg0KWW91cnMgZmFpdGhmdWxseSwNCiANCllpbmthIERhdmlz
+From r  Thu Sep 25 20:29:21 2003
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+jul 
+commercial reasons for good talking to you this am. you can send the email to 
+
+Original EMail Body: 
+Message-ID: <31403561.1072143116255.JavaMail.evans@thyme>
+Date: Fri, 28 Jul 2000 01:15:00 -0700 (PDT)
+From: drew_a_brabb@calpx.com
+To: robert.badeer@enron.com
+Subject: Bonafide Commercial Reasons for non-delivery
+Cc: russell_c_mills@calpx.com, mark_a_thompson@calpx.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Bcc: russell_c_mills@calpx.com, mark_a_thompson@calpx.com
+
+Bob,
+Good talking to you this am.
+You can send the email to the following people:
+
+rmills@calpx.com
+mathompson@calpx.com
+dabrabb@calpx.com
+
+Regards,
+Drew
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+from 
+
+Original EMail Body: 
+	boundary="qzsoft_directmail_seperator"
+--qzsoft_directmail_seperator
+	charset="DEFAULT"
+RlJPTTogT0ZGSUNFIE9GIFJFVkQuRlIgUEVURVIgQ0xBUksgRElSRUNUT1IgU1BFQ0lBTCBEVVRJ
+RVMsVU5JVEVEIE5BVElPTlMgSU4gQ09OSlVOQ1RJT04gV0lUSCBUSEUgSU5URVJOQVRJT05BTCBN
+T05FVEFSWSBGVU5EIFdPUkxEIEJBTksgU1BFQ0lBTCBEVVRJRVMgT0ZGSUNFIERBS0FSLFNFTkVH
+QUwuIFRFTDorKDIyMSk0NDg4NDY5IEVNQUlMOnJldmQuZnIucGV0ZXJjbGFya0BrYXRhbWFpbC5j
+b20KCkRlYXIgRnJpZW5kLgpJIGFtIFJldi4gRnIuIFBldGVyIENsYXJrLCBhIHNlbmlvciBzdGFm
+ZiB3aXRoIHRoZSBVTiBzcGVjaWFsIGR1dGllcyBvZmZpY2UgO215IG9mZmljZSBtb25pdG9ycyBh
+bmQgY29udHJvbHMgdGhlIGFmZmFpcnMgb2YgYWxsIGJhbmtzIGFuZCBmaW5hbmNpYWwgaW5zdGl0
+dXRpb25zLiBJIGhhdmUgYmVmb3JlIG1lIGxpc3Qgb2YgZnVuZHMsIHdoaWNoIGNvdWxkIG5vdCBi
+ZSB0cmFuc2ZlcnJlZCB0byBzb21lIG5vbWluYXRlZCBhY2NvdW50cyBhcyB0aGVzZSBhY2NvdW50
+cyBoYXZlIGJlZW4gaWRlbnRpZmllZCBlaXRoZXIgYXMgZ2hvc3QgYWNjb3VudHMsIHVuY2xhaW1l
+ZCBkZXBvc2l0cyBhbmQgb3Zlci1pbnZvaWNlZCBzdW0gZXRjOyBJIGhhdmUgdGhlIG9wcG9ydHVu
+aXR5IHRvIHdyaXRlIHlvdSBiYXNlZCBvbiB0aGUgaW5zdHJ1Y3Rpb25zIGFtb25nIG90aGVycyBp
+IHJlY2VpdmVkIGRheXMgYWdvIGZyb20gdGhlIG9mZmljZXIgaW4gdGhlIGNvbXB1dGVyIHNlY3Rp
+b24gaW4gcGVyc29uIG9mIEVuZ2luZWVyIFBldGVyIENsaWZmLHRvIGJyaW5nIG91dCBwYXJ0IG9m
+IHlvdXIgdG90YWwgcGVuZGluZyBwYXltZW50IHdpdGggcmVmZXJlbmNlIG51bWJlciAoTE0tMDUt
+MzcxKSBhbW91bnRpbmcgVVMkMTAgbWlsbGlvbi5UaGUgKFRlbiBNaWxsaW9uIERvbGxhcnMpIGlz
+IGJlZW4gYXJyYW5nZWQgaW4gYSBzZWN1cml0eS1wcm9vZiBib3ggd2VpZ2hpbmcgNzVrZy4gSW4g
+b3JkZXIgdG8gZ2V0IHRoZSBib3ggc2hpcHBlZCB0byB5b3UuCgpBIGxvdCBvZiBwZW9wbGUgYXJl
+IGludGVyZXN0ZWQgaW4geW91ciBwYXltZW50IGFuZCB0aG9zZSBwZW9wbGUgYXJlIG1lcmVseSBk
+b2luZyBwYXBlciB3b3JrcyB3aXRoIHlvdSBhbmQgdGhhdCBleHBsYWlucyB3aHkgeW91IHJlY2Vp
+dmUgZGlmZmVyZW50IGtpbmRzIG9mIHVudHJ1ZSBmYXggYW5kIHBob25lIG1lc3NhZ2VzIGZyb20g
+ZGlmZmVyZW50IHBlb3BsZSBldmVyeWRheS4gQXMgSSBmb3VuZCBvdXQgdGhhdCB5b3UgaGF2ZSBh
+bG1vc3QgbWV0IGFsbCB0aGUgc3RhdHV0b3J5IHJlcXVpcmVtZW50cyBpbiByZXNwZWN0IG9mIHlv
+dXIgcGVuZGluZyBwYXltZW50LiBBbHNvIHdlIGZvdW5kIG91dCB0aGF0IHNvbWUgb2YgdGhlIG9m
+ZmljaWFscyBvZiB0aGUgcGFyYXN0YXRhbHMgaGF2ZSBiZWVuIGV4dG9ydGluZyBtb25leSBmcm9t
+IHlvdSB3aXRoIHRoZSBwcmV0ZXh0IG9mIGhlbHBpbmcgeW91IHJlY2VpdmUgeW91ciBtb25leS4g
+SSBjYW4gYXNzdXJlIHlvdSB0aGlzIHdpbGwga2VlcCBoYXBwZW5pbmcgaWYgeW91IGRvIG5vdCBk
+byBhd2F5IHdpdGggdGhvc2Ugb2ZmaWNlcnMuSSBhbSB0aGUgZmluYWwgc2lnbmF0b3J5IHRvIGFu
+eSB0cmFuc2ZlciBvciByZW1pdHRhbmNlIG9mIGh1Z2UgZnVuZHMgbW92aW5nIHdpdGhpbiBiYW5r
+cyBib3RoIG9uIHRoZSBsb2NhbCBhbmQgaW50ZXJuYXRpb25hbCBsZXZlbHMuCgpBIGZyaWVuZCBv
+ZiBtaW5lIHdobyBpcyBhIGRpcGxvbWF0IGRpc2Nsb3NlZCB0byBtZSB0aGF0IHRoZXJlIGlzIGEg
+c2VjdXJpdHkgY291cmllciBzZXJ2aWNlIGNvbXBhbnkgdGhhdCBpcyBzcGVjaWFsaXNlZCBpbiBz
+ZW5kaW5nIGRpcGxvbWF0aWMgbWF0ZXJpYWxzIGFuZCBpbmZvcm1hdGlvbiBmcm9tIG9uZSBjb3Vu
+dHJ5IHRvIGFub3RoZXIsIHdpdGggZGlwbG9tYXRpYyBpbW11bml0eSBhbmQgY29uc2lnbm1lbnQg
+c3VjaCBhcyB0aGlzIGNhbm5vdCBiZSBjaGVja2VkIGJ5IGFueSBjdXN0b21zIGFueXdoZXJlIGlu
+IHRoZSB3b3JsZCB1bmxpa2UgRGhsLCBFbXMsIEZlZEV4IGFuZCBVcHMgYmVjYXVzZSB0aGV5IHdp
+bGwgaGF2ZSB0byBvcGVuIHRoZSBib3ggZm9yIGluc3BlY3Rpb24gYnkgdGhlIGN1c3RvbXMgYmVm
+b3JlIHNoaXBtZW50LiBJIGhhdmUgdGhlcmVmb3JlIG1ldCB0aGUgb2ZmaWNpYWwgb2YgdGhlIHNl
+Y3VyaXR5IGNvdXJpZXIgc2VydmljZSBhbmQgY29uY2x1ZGVkIHNoaXBwaW5nIGFycmFuZ2VtZW50
+IHdpdGggdGhlbSwgd2hpY2ggdGhleSB3aWxsIGNvbW1lbmNlIGFzIHNvb24gYXMgSSBoYXZlIHlv
+dXIgZ28gYWhlYWQgb3JkZXIuIFRoZSBkaXBsb21hdCB3aWxsIGJyaW5nIHRoZSBjb25zaWdubWVu
+dCB0byB5b3UgaGUgaGFzIGJlZW4gaW4gdGhpcyBsaW5lIG9mIHdvcmsgZm9yIG1hbnkgeWVhcnMg
+bm93IDtzbyB5b3UgaGF2ZSBub3R0aW5nIHRvIHdvcnJ5IGFib3V0LgoKQmUgdGhhdCBhcyBpdCBt
+YXksIEkgYW0gY29uZGl0aW9uYWxseSBwcmVwYXJlZCB0byBhc3Npc3QgeW91IGdldCB0aGUgbW9u
+ZXksIHByYWN0aWNhbGx5IGFmdGVyIHN0dWR5aW5nIHRoZSBwYXJ0IGxlYWRpbmcgdG8gdGhpcyBw
+YXJ0aWN1bGFyIHN0YWdlIGluIHRoZSBwYXltZW50IHByb2Nlc3MgaW4gY29ubml2YW5jZSB3aXRo
+IHlvdXIgbG9jYWwgY29sbGFib3JhdG9ycyB0byBjb25jZWFsIHRoZSBhdXRoZW50aWMgc291cmNl
+IG9mIHRoZSBmdW5kcy4KCkFuZCBteSBvbmx5IGNvbmRpdGlvbiBmb3IgdGhlIHVudXN1YWwgYXNz
+aXN0YW5jZSBpcyBmb3IgeW91IHRvIHJlYWNoIG1lIGRpcmVjdGx5IG9uIG15IHByaXZhdGUgVEVM
+OiArKDIyMSk0NDgtODQ2OS4gSXQgaXMgdmVyeSB1cmdlbnQgdGhhdCB5b3UgcmVhY2ggbWUgb24g
+cGhvbmUgZm9yIGEgZ2VudGxlbWFubHkgbXV0dWFsIGFncmVlbWVudCwgQWZ0ZXIgYWxsIGFycmFu
+Z2VtZW50cyB3ZSBoYXZlIGNvbmNsdWRlZCB0aGF0IHlvdSBtdXN0IGRvbmF0ZSBGaXZlIEh1bmRy
+ZWQgVGhvdXNhbmQgVW5pdGVkIFN0YXRlcyBkb2xsYXJzIChVUyQ1MDAsMDAwLjAwKSB0byBhbnkg
+Y2hhcml0eSBvcmdhbmlzYXRpb24gSSBkZXNpZ25hdGUgYXMgc29vbiBhcyB5b3UgcmVjZWl2ZSB5
+b3VyIG1vbmV5LiBUbyB0aGlzIGVmZmVjdCwgeW91IHdpbGwgc2VuZCB0byB1cyBhIHByb21pc3Nv
+cnkgbm90ZSBmb3IgdGhlIGRvbmF0aW9uIGFsb25nIHdpdGggeW91ciBhZGRyZXNzIHdoZXJlIHlv
+dSB3aWxsIGxpa2UgdGhlIGJveCB0byBiZSBkZWxpdmVyZWQgdG8gYnkgY291cmllci4gUGxlYXNl
+IG1haW50YWluIHRvcG1vc3Qgc2VjcmVjeSBhcyBpdCBtYXkgY2F1c2UgYSBsb3Qgb2YgcHJvYmxl
+bXMgaWYgZm91bmQgb3V0IHRoYXQgd2UgYXJlIHVzaW5nIHRoaXMgd2F5IHRvIGhlbHAgeW91LiBZ
+b3UgYXJlIGFkdmlzZWQgbm90IGluZm9ybSBhbnlvbmUgYWJvdXQgdGhpcyB1bnRpbCB5b3UgcmVj
+ZWl2ZWQgeW91ciBtb25leS4gV2hlbiB5b3UgY29uY2x1ZGUgdGhpcyB3ZSB3aWxsIGhlbHAgdG8g
+c2hpcCB0aGUgZmluYWwgcGFydCBvZiB5b3VyIG1vbmV5IHRvIHlvdS4KCllvdXJzIEZhaXRoZnVs
+bHksClJldmQuIEZyLiBQZXRlciBDbGFyay4KRGlyZWN0b3IsIFNwZWNpYWwgRHV0aWVzLlVOL1dC
+Ri4=
+--qzsoft_directmail_seperator--
+From r  Tue Apr 11 04:18:14 2006
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+jan 
+thanks for your nice do hope that everyone on my team sees the promotion as 
+recognition of the value of the roles that we all that should make it easier 
+to attract and retain talented people that make my job easier and more will ask 
+patti to schedule some time for us to get together when am back in the 
+office next have good thomas am sally congratulations on your promotion to in addition to 
+being great personal your promotion helps to raise the awareness of the importance of the 
+tasks performed by you and your look forward to speaking with you upon your return 
+
+Original EMail Body: 
+Message-ID: <17764349.1072135521124.JavaMail.evans@thyme>
+Date: Tue, 16 Jan 2001 00:46:00 -0800 (PST)
+From: sally.beck@enron.com
+To: thomas.gros@enron.com
+Subject: Re: Congratulations!
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Thanks for your nice note.  I do hope that everyone on my team sees the 
+promotion as recognition of the value of the roles that we perform.  All that 
+should make it easier to attract and retain talented people that make my job 
+easier and more fun!  
+
+I will ask Patti to schedule some time for us to get together when I am back 
+in the office next Monday.  Have a good week.  ---Sally 
+
+
+
+
+Thomas D Gros@ENRON
+01/16/2001 08:38 AM
+To: Sally Beck/HOU/ECT@ECT
+cc:  
+Subject: Congratulations!
+
+Congratulations on your promotion to MD!  
+
+In addition to being a great personal achievement,  your promotion helps to 
+raise the awareness of the importance of the tasks performed by you and your 
+team.  
+
+I look forward to speaking with you upon your return from Europe.
+
+All the best,
+
+Tom
+
+
+
+
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+
+Original EMail Body: 
+
+
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+mar 
+contact number chris contact have been unsuccessful at finding your phone number so will try 
+this email address received from kim have recently moved from portland office where worked for 
+chris to houston to our gas marketing efforts in the chris has been turning over 
+the gas responsibilities he retained after moving to could you change the contact that you 
+have in your system from chris foster to my name is kim ward and my 
+
+Original EMail Body: 
+Message-ID: <33311662.1072131459161.JavaMail.evans@thyme>
+Date: Fri, 16 Mar 2001 03:50:00 -0800 (PST)
+From: chris.foster@enron.com
+To: kim.ward@enron.com
+Subject: Re: Enron contact
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Mary's number 213/244-3898.
+
+C
+
+
+To: mreed@socalgas.com
+cc: Chris H Foster/HOU/ECT@ECT 
+Subject: Enron contact
+
+Mary,
+
+I have been unsuccessful at finding your phone number so I will try this 
+email address I received from Kim Olinger.  I have recently moved from 
+Enron's Portland office where I worked for Chris Foster, to Houston to 
+re-initiate our gas marketing efforts in the west.  Chris has been turning 
+over the gas responsibilities he retained after moving to Portland.  Could 
+you change the Enron contact that you have in your system from Chris Foster 
+to me?  My name is Kim Ward and my number is 713-853-0685.  Please call me 
+with any questions you might have. 
+
+Thanks,
+
+Kim Ward
+
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+authenticated 
+user by with sep dear and how are i'm dr raymond dennis the ceo budget 
+trip could you please check through these group requests and get back to me on 
+how best you assist with dr departure date return date economy class mr. mr mr 
+mr mrs or departure date return date economy class airline preference ethiopian airline or kenya 
+airways will be looking forward to have the fare which include all taxes and your 
+agency on the payment for these trip will be with credit card details of each 
+passengers authorising the charge on his or her payment thanks and dr raymond dennis budget 
+
+Original EMail Body: 
+        (SquirrelMail authenticated user 
+     prettypertimejob@erbankresource.com)
+        by www.cedishost.com with HTTP;
+        Tue, 26 Sep 2006 03:36:54 -0500 (CDT)
+Dear Sir/Mdm.
+Good'day and how are you?
+I'm Dr Raymond Dennis the Ceo BUDGET TRIP INTERNATIONAL.
+Could you please check through these group requests and get back to me on
+how best you assist with them;
+1. RAYMOND/DENNIS DR
+JFK-ADD-ACC-ADD-JFK
+DEPARTURE DATE : 29/10/06
+RETURN DATE : 20/11/06
+ECONOMY CLASS
+2. IDDRIS/LAMINA MR.
+3. MORTON/MORISSON MR
+4.KENT/MORTON MR
+5. ABRAHAM/PATRICK MR
+6. ADAMS/SHERIFAT MRS
+ACC-ADD-HKG-ADD-ACC OR ACC-NBO-HKG-NBO-ACC
+DEPARTURE DATE : 30/10/06
+RETURN DATE : 10/11/2006
+ECONOMY CLASS
+AIRLINE PREFERENCE : ETHIOPIAN AIRLINE OR KENYA AIRWAYS
+I will be looking forward to have the fare which include all taxes and
+your agency commison on the group.
+Payment for these trip will be adviced with credit card details of each
+passengers authorising the charge on his or her payment details.
+Thanks and regards.
+DR RAYMOND DENNIS
+BUDGET TRIP INTERNATIONAL
+113 EMERALD STREET
+GARDNER
+MA
+01440
+USA
+From r  Tue Sep 26 07:22:54 2006
+
+

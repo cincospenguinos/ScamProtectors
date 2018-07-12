@@ -69,11 +69,8 @@ def strip_non_words(emails):
     eng_set = set()
 
     for word in eng_dic_raw.split():
-        if len(word) == 1:
-            continue
-        if word.lower() == 'id':
-            continue
-        eng_set.add(word.lower())
+        if not_classifier_flag(word.lower()):
+            eng_set.add(word.lower())
 
     for em in emails:
         scrubbed = ''
@@ -83,29 +80,74 @@ def strip_non_words(emails):
         em['email_body_processed'] = scrubbed
 
 
-def print_sample(sample, index=0):
-    print("Random EMail #" + str(index) + '\n')
+def not_classifier_flag(string):
+    classifier_flags = {'id', 'imap'}
+    if string in classifier_flags:
+        return False
+    if len(string) < 2:
+        return False
+    return True
+
+
+def print_sample(sample, index=-1):
+    sample_string = ''
+    if index == -1:
+        sample_string += "Incorrectly Labeled EMail" + '\n'
+    else:
+        sample_string += "Random EMail #" + str(index) + '\n'
+    sample_string += "Label: " + str(sample['label']) + '\n'
     if 'prediction' in list(sample):
-        print("Label: " + str(sample['label']))
-        print("Prediction: " + str(sample['prediction']))
-    print("Processed EMail Body: \n")
+        sample_string += "Prediction: " + str(sample['prediction']) + '\n'
+    sample_string += "Processed EMail Body: \n"
     processed_email = sample['email_body_processed'].split()
     line = ''
     for x in range(len(processed_email)):
         line += processed_email[x] + ' '
         if x % 15 == 0:
-            print(line)
+            sample_string += line + '\n'
             line = ''
-    print("\nOriginal EMail Body: \n")
-    print(sample['email_body_text'] + '\n')
+    sample_string += "\nOriginal EMail Body: \n"
+    sample_string += sample['email_body_text'] + '\n'
+    return sample_string
 
 
-def print_samples(data, num_samples):
+def log_samples(data, num_samples, num_scam):
+    sample_log = ''
     for x in range(num_samples):
-        random_index = random.randint(0, len(data))
+        random_index = random.randint(0, num_scam)
         random_email = data[random_index]
-        print_sample(random_email, index=random_index)
-    print()
+        sample_log += print_sample(random_email, index=random_index)
+    for x in range(num_samples):
+        random_index = random.randint(num_scam, len(data))
+        random_email = data[random_index]
+        sample_log += print_sample(random_email, index=random_index)
+    with open('samples.log', 'w') as f:
+        f.write(sample_log)
+
+
+def log_features(features, weights):
+    pairs = {}
+
+    for feature in range(len(features)):
+        pairs[features[feature]] = weights[feature]
+
+    feature_log = ''
+    feature_log += "\nTop 10 Features for identifying a scam email: \n"
+    for x in range(10):
+        max_feature = max(pairs, key=pairs.get)
+        feature_log += max_feature + '\n'
+        feature_log += str(pairs[max_feature]) + '\n'
+        pairs.pop(max_feature)
+
+    feature_log += "\nTop 10 Features for identifying a non-scam email: \n"
+    for x in range(10):
+        min_feature = min(pairs, key=pairs.get)
+        feature_log += min_feature + '\n'
+        feature_log += str(pairs[min_feature]) + '\n'
+        pairs.pop(min_feature)
+
+    with open('features.log', 'w') as f:
+        f.write(feature_log)
 
 
 def main():
@@ -114,40 +156,28 @@ def main():
     # LOGGING PARAMETERS
     #####################
 
-    num_samples = 0
-    log_fails = False
+    num_samples = 3
 
     #######################
     # Process Scam E-Mails
     #######################
 
-    with open("dataset/nigerian_prince_emails.txt", encoding="ISO-8859-1") as f:
+    with open("dataset/nigerian_prince_emails.txt") as f:
         examples = f.read().splitlines()[1:]
 
-    print("Parsing Scam EMails")
+    print("\nParsing Scam EMails")
     email_texts = parse_corpora(examples)
 
     print("Parsing Headers and Bodies")
     scam_emails = parse_emails(email_texts)
 
-    print("Number of EMails Processed: " + str(len(scam_emails)))
-
-    print("Stripping HTML from EMails, Converting to Lower Case for Comparisons (This may take a few minutes)")
-    for em in scam_emails:
-        em['email_body_processed'] = strip_html(em['email_body_text']).lower()
-
-    print("Stripping Non-Words from the EMail Bodies")
-    strip_non_words(scam_emails)
-
-    print("Sampling from the Processed Corpus")
-
-    print_samples(scam_emails, num_samples)
+    num_scam = len(scam_emails)
 
     ###########################
     # Process Non-Scam E-Mails
     ###########################
 
-    print("Processing Non-Scam EMails")
+    print("\nProcessing Non-Scam EMails")
     non_scam_emails = []
 
     print("Processing Ham EMails")
@@ -156,7 +186,7 @@ def main():
     dir = os.path.dirname(__file__)
     filename = os.path.join(dir, rel)
     for file in os.listdir(filename):
-        with open(rel + '/' + file, encoding="ISO-8859-1") as text:
+        with open(rel + '/' + file) as text:
             non_scam_emails.append({'email_body_text': text.read(), 'label': 0})
 
     print("Processing Enron EMails")
@@ -165,7 +195,7 @@ def main():
     dir = os.path.dirname(__file__)
     filename = os.path.join(dir, rel)
     for file in os.listdir(filename):
-        with open(rel + '/' + file, encoding="ISO-8859-1") as text:
+        with open(rel + '/' + file) as text:
             non_scam_emails.append({'email_body_text': text.read(), 'label': 0})
 
     print("Processing NewsGroups EMails")
@@ -174,27 +204,32 @@ def main():
     dir = os.path.dirname(__file__)
     filename = os.path.join(dir, rel)
     for file in os.listdir(filename):
-        with open(rel + '/' + file, encoding="ISO-8859-1") as text:
+        with open(rel + '/' + file) as text:
             non_scam_emails.append({'email_body_text': text.read(), 'label': 0})
 
-    print("Number of EMails Processed: " + str(len(non_scam_emails)))
+    num_non_scam = len(non_scam_emails)
 
-    print("Stripping HTML from EMails, Converting to Lower Case for Comparisons (This may take a few minutes)")
-    for em in non_scam_emails:
+    ####################
+    # COMBINE DATA SETS
+    ####################
+
+    all_emails = scam_emails + non_scam_emails
+
+    print("\nStripping HTML from EMails, Converting to Lower Case for Comparisons (This may take a few minutes)")
+    for em in all_emails:
         em['email_body_processed'] = strip_html(em['email_body_text']).lower()
 
     print("Stripping Non-Words from the EMail Bodies")
-    strip_non_words(non_scam_emails)
+    strip_non_words(all_emails)
 
-    print("Sampling from the Processed Corpus")
+    print("\nLogging Scam and Non-Scam Samples from the Processed Corpus")
 
-    print_samples(non_scam_emails, num_samples)
+    log_samples(all_emails, num_samples, num_scam)
 
     ##################################
     # CREATE TRAIN AND TEST DATA SETS
     ##################################
 
-    all_emails = scam_emails + non_scam_emails
     random.shuffle(all_emails)
 
     split = int(len(all_emails) * 0.8)
@@ -212,6 +247,7 @@ def main():
     # TRAIN CLASSIFIER
     ###################
 
+    print("\nTraining the classifier")
     vector_data_text = []
     label_data = []
 
@@ -232,6 +268,7 @@ def main():
     ###################
 
     filename = 'bow_classifier.joblib.pkl'
+    print("Storing classifier as " + filename)
 
     _ = joblib.dump(classifier, filename, compress=3)
 
@@ -245,50 +282,45 @@ def main():
     # ANALYZE TOP FEATURES
     #######################
 
-    print("Analyzing Top Features... \n")
+    print("\nLogging feature analysis")
     features = vectorizer.get_feature_names()
     weights = classifier.coef_[0]
-    pairs = {}
-
-    for feature in range(len(features)):
-            pairs[features[feature]] = weights[feature]
-
-    print("\nTop 5 Features for identifying a scam email: \n")
-    for x in range(5):
-        max_feature = max(pairs, key=pairs.get)
-        print(max_feature)
-        print(pairs[max_feature])
-        pairs.pop(max_feature)
-
-    print("\nTop 5 Features for identifying a non-scam email: \n")
-    for x in range(5):
-        min_feature = min(pairs, key=pairs.get)
-        print(min_feature)
-        print(pairs[min_feature])
-        pairs.pop(min_feature)
+    log_features(features, weights)
 
     ####################################
     # TEST CLASSIFIER AGAINST TEST DATA
     ####################################
 
-    print("\nTesting Classifier and Printing Failed Predictions: \n")
+    print("\nTesting Classifier and Logging Failed Predictions")
     num_correct = 0
+    num_predicted_scam = 0
+    num_labeled_scam = 0
+    fails_log = ''
     for test in test_data:
         vector_data = vectorizer.transform([test['email_body_processed']])
         result = classifier.predict(vector_data)[0]
         test['prediction'] = result
-        if result == test['label']:
+        if test['label'] == 1:
+            num_labeled_scam += 1
+        if test['prediction'] == 1:
+            num_predicted_scam +=1
+        if result == test['label'] == 1:
             num_correct += 1
-        elif log_fails:
-            print("EMail Not Labeled Correctly:")
-            print_sample(test)
+        elif result != test['label']:
+            fails_log += print_sample(test) + '\n'
 
-    print("After Training with " + str(len(train_data)) + " emails")
-    print("and Testing " + str(len(test_data)) + " emails")
-    print(str(num_correct/len(test_data)) + " of emails were correctly classified.")
-    print("\nPrinting samples from the test run: \n")
+    with open('fails.log', 'w') as f:
+        f.write(fails_log)
 
-    print_samples(test_data, num_samples)
+    precision = num_correct / num_predicted_scam
+    recall = num_correct / num_labeled_scam
+
+    print("\nWith a corpus of " + str(num_scam) + " Scam emails and " + str(num_non_scam) + " Non-Scam emails")
+    print("After Training with " + str(len(train_data)) + " emails and Testing with " + str(len(test_data)) + " emails")
+    print("Emails were correctly classified with: \n")
+    print("Precision: " + str(precision))
+    print("Recall: " + str(recall))
+    print("F-Score: " + str(2*precision*recall/(precision+recall)))
 
 
 if __name__ == "__main__":
