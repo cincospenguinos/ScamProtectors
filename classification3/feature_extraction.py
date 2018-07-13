@@ -47,6 +47,32 @@ def parse_emails(email_texts):
     return emails
 
 
+def parse_mbox(examples):
+    """
+        Takes in the raw email corpora and separates it into individual emails
+        """
+    email_texts = []
+    curr_email = str(examples[0])
+
+    header_re = re.compile(r"From [0-9][0-9][0-9]")
+
+    for i in range(1, len(examples)):
+        line = str(examples[i])
+        if header_re.match(line):
+            email_texts.append(curr_email)
+            curr_email = line + '\n'
+        else:
+            curr_email += line + '\n'
+        # if line.split():
+        #     if line.split()[0] == 'From':
+        #         email_texts.append(curr_email)
+        #         curr_email = line + '\n'
+        #     else:
+        #         curr_email += line + '\n'
+
+    return email_texts
+
+
 def strip_html(body_text):
     """
     Use beautiful soup to remove HTML tags from text
@@ -125,8 +151,8 @@ def log_samples(data, num_samples, num_scam):
         random_index = random.randint(num_scam, len(data))
         random_email = data[random_index]
         sample_log += print_sample(random_email, index=random_index)
-    with open('samples.log', 'w') as f:
-        f.write(sample_log)
+    with open('samples.log', 'wb') as f:
+        f.write(sample_log.encode())
 
 
 def log_features(features, weights):
@@ -152,8 +178,8 @@ def log_features(features, weights):
         feature_log += str(pairs[min_feature]) + '\n'
         pairs.pop(min_feature)
 
-    with open('features.log', 'w') as f:
-        f.write(feature_log)
+    with open('features.log', 'wb') as f:
+        f.write(feature_log.encode())
 
 
 def main():
@@ -162,7 +188,7 @@ def main():
     # Process Scam E-Mails
     #######################
 
-    with open("dataset/nigerian_prince_emails.txt") as f:
+    with open("dataset/nigerian_prince_emails.txt", encoding='latin-1') as f:
         examples = f.read().splitlines()[1:]
 
     print("\nParsing Scam EMails")
@@ -196,7 +222,7 @@ def main():
     dir = os.path.dirname(__file__)
     filename = os.path.join(dir, rel)
     for file in os.listdir(filename):
-        with open(rel + '/' + file) as text:
+        with open(rel + '/' + file, encoding='latin-1') as text:
             non_scam_emails.append({'email_body_text': text.read(), 'label': 0})
 
     print("Processing Enron EMails")
@@ -205,7 +231,7 @@ def main():
     dir = os.path.dirname(__file__)
     filename = os.path.join(dir, rel)
     for file in os.listdir(filename):
-        with open(rel + '/' + file) as text:
+        with open(rel + '/' + file, encoding='latin-1') as text:
             non_scam_emails.append({'email_body_text': text.read(), 'label': 0})
 
     print("Processing NewsGroups EMails")
@@ -214,7 +240,7 @@ def main():
     dir = os.path.dirname(__file__)
     filename = os.path.join(dir, rel)
     for file in os.listdir(filename):
-        with open(rel + '/' + file) as text:
+        with open(rel + '/' + file, encoding='latin-1') as text:
             non_scam_emails.append({'email_body_text': text.read(), 'label': 0})
 
     print("\nStripping HTML from EMails, Converting to Lower Case for Comparisons (This may take a few minutes)")
@@ -324,8 +350,8 @@ def main():
         elif result != test['label']:
             fails_log += '\n' + print_sample(test)
 
-    with open('fails.log', 'w') as f:
-        f.write(fails_log)
+    with open('fails.log', 'wb') as f:
+        f.write(fails_log.encode())
 
     precision = num_correct / num_predicted_scam
     recall = num_correct / num_labeled_scam
@@ -337,6 +363,45 @@ def main():
     print("Precision: {:.2%} ".format(precision))
     print("Recall:    {:.2%} ".format(recall))
     print("F-Score:   {:.2%} ".format(f_score))
+
+    ################################
+    # TEST AGAINST RANDOM EMAIL SET
+    ################################
+
+    print("\nRunning against unlabeled dataset")
+    with open("dataset/All_mail-001.mbox", encoding='latin-1') as f:
+        examples = f.read().splitlines()
+
+    raw_test_emails = parse_mbox(examples)
+    test_emails = []
+
+    for em in raw_test_emails:
+        test_emails.append({'email_body_text': em, 'label': 0})
+
+    print(len(test_emails))
+    print(test_emails[0])
+    print(test_emails[1])
+
+    print("\nStripping HTML from EMails, Converting to Lower Case for Comparisons (This may take a few minutes)")
+    for em in test_emails:
+        em['email_body_processed'] = strip_html(em['email_body_text']).lower()
+
+    print("Stripping Non-Words from the EMail Bodies")
+    strip_non_words(test_emails)
+
+    print("\nRunning Classifier and Logging Scam Predictions")
+    scam_log = ''
+    scam_log += "LOG: ALL MAIL PREDICTED AS SCAM\n"
+
+    for test in test_emails:
+        vector_data = vectorizer.transform([test['email_body_processed']])
+        result = classifier.predict(vector_data)[0]
+        test['prediction'] = result
+        if result == 1:
+            scam_log += '\n' + print_sample(test)
+
+    with open('scams.log', 'wb') as f:
+        f.write(scam_log.encode())
 
 
 if __name__ == "__main__":
