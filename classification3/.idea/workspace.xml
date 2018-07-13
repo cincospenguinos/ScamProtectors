@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b08b383-c17c-4856-a151-5746c91d539a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bow_classifier.joblib.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/bow_classifier.joblib.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fails.log" beforeDir="false" afterPath="$PROJECT_DIR$/fails.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feature_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_extraction.py" afterDir="false" />
@@ -24,8 +24,8 @@
       <file leaf-file-name="feature_extraction.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/feature_extraction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="306" column="55" selection-start-line="306" selection-start-column="55" selection-end-line="306" selection-end-column="55" />
+            <state relative-caret-position="163">
+              <caret line="231" column="28" selection-start-line="231" selection-start-column="28" selection-end-line="231" selection-end-column="28" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -36,20 +36,28 @@
       <file leaf-file-name="samples.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samples.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="72" column="74" selection-start-line="72" selection-start-column="74" selection-end-line="72" selection-end-column="74" />
+            <state relative-caret-position="-884">
+              <caret line="128" selection-start-line="128" selection-end-line="128" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="fails.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fails.log">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-13753">
+              <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="39" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="features.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features.log">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -166,14 +174,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.225" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.225" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32889965" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32889965" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33475026" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40170032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32889965" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -335,23 +342,31 @@
     <entry file="file://$PROJECT_DIR$/words.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fails.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="74" selection-start-line="72" selection-start-column="74" selection-end-line="72" selection-end-column="74" />
+        <state relative-caret-position="-884">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features.log">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fails.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13753">
+          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/feature_extraction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="306" column="55" selection-start-line="306" selection-start-column="55" selection-end-line="306" selection-end-column="55" />
+        <state relative-caret-position="163">
+          <caret line="231" column="28" selection-start-line="231" selection-start-column="28" selection-end-line="231" selection-end-column="28" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>

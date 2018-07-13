@@ -228,6 +228,9 @@ def main():
     print("Stripping Non-Words from the EMail Bodies")
     strip_non_words(all_emails)
 
+    print("Removing Empty Emails")
+    all_emails = [em for em in all_emails if em['email_body_processed'] != '']
+
     print("\nLogging Scam and Non-Scam Samples from the Processed Corpus")
 
     log_samples(all_emails, 3, num_scam)
@@ -323,13 +326,14 @@ def main():
 
     precision = num_correct / num_predicted_scam
     recall = num_correct / num_labeled_scam
+    f_score = 2*precision*recall/(precision+recall)
 
     print("\nWith a corpus of " + str(num_scam) + " Scam emails and " + str(num_non_scam) + " Non-Scam emails")
     print("After Training with " + str(len(train_data)) + " emails and Testing with " + str(len(test_data)) + " emails")
     print("Emails were correctly classified with: \n")
-    print("Precision: " + str(precision))
-    print("Recall: " + str(recall))
-    print("F-Score: " + str(2*precision*recall/(precision+recall)))
+    print("Precision: {:.2%} ".format(precision))
+    print("Recall:    {:.2%} ".format(recall))
+    print("F-Score:   {:.2%} ".format(f_score))
 
 
 if __name__ == "__main__":

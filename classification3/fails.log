@@ -2,111 +2,86 @@
 # LOG: ALL INCORRECTLY PREDICTED EMAILS
 ########################################
 Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
+Label: 0
+Prediction: 1
 Processed EMail Body: 
+aug 
+wind disclosure schedule information attached are electronic versions of draft schedules and these will be 
+consolidated with the rest of disclosure which were distributed to you last patricia f. reilly 
+vinson elkins crow center ross avenue texas confidentiality notice the information in this email may 
+be confidential and/or this email is intended to be reviewed by only the individual or 
+organization named if you are not the intended recipient or an authorized representative of the 
+intended you are hereby notified that any review or copying of this email and its 
+if or the information contained herein is if you have received this email in please 
 
 Original EMail Body: 
+Message-ID: <19737523.1072127339126.JavaMail.evans@thyme>
+Date: Wed, 2 Aug 2000 09:53:00 -0700 (PDT)
+From: preilly@velaw.com
+To: sbarber@velaw.com, lance.schuler-legal@enron.com, 
+	james.l.bouillion@enron.com, awalia@enron.com, 
+	patrick.conner@enron.com, blundst@ei.enron.com, fsayre@enron.com, 
+	drogers2@ei.enron.com, sandeep.katwala@ei.enron.com, 
+	robert.c.williams@enron.com, cullen.duke@enron.com, 
+	stephen.wallace@enron.com, charles.e.cheek@enron.com, 
+	david.nutt@enron.com, frank.smith@enron.com, mary.joyce@enron.com, 
+	aaron.brown@enron.com, eric.newell@enron.com, john.lamb@enron.com, 
+	rbutts@enron.com, robert.h.george@enron.com, jnovak@ei.enron.com, 
+	rshapiro@enron.com, skean@enron.com
+Subject: Wind Disclosure Schedule Information
+Cc: jdilg@velaw.com, william.e.@enron.com, wjoor@velaw.com, ashouse@velaw.com, 
+	bbloom@velaw.com, lnettles@velaw.com, eosterberg@velaw.com, 
+	jmunoz@velaw.com, gsasser@velaw.com, ageller@velaw.com, 
+	nclark@velaw.com, mmcgown@velaw.com, vbyrd@velaw.com, 
+	droark@velaw.com, pwarman@velaw.com
+Mime-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_92032_6505627.1072127339106"
+Bcc: jdilg@velaw.com, william.e.@enron.com, wjoor@velaw.com, ashouse@velaw.com, 
+	bbloom@velaw.com, lnettles@velaw.com, eosterberg@velaw.com, 
+	jmunoz@velaw.com, gsasser@velaw.com, ageller@velaw.com, 
+	nclark@velaw.com, mmcgown@velaw.com, vbyrd@velaw.com, 
+	droark@velaw.com, pwarman@velaw.com
+
+------=_Part_92032_6505627.1072127339106
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Attached are electronic versions of wind's draft Schedules 5.08(a), 5.11(b)
+and 7.02(d).  Note: these will be consolidated with the rest of wind's
+disclosure schedules, which were distributed to you last night.
 
 
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-by 
 
-Original EMail Body: 
- by 0.0.0.0 with SMTP; Thu, 23 Nov 2006 13:46:08 +0800
-	boundary="MTc5ODk3MDUxOTQwMDg1MTE2NDI2MDc2NQ===HTML=="
---MTc5ODk3MDUxOTQwMDg1MTE2NDI2MDc2NQ===HTML==
-	charset="GB2312"
-SGVsbG8gU2lyLA0KSSBnb3QgeW91ciBjb250YWN0IGVtYWlsIGFkZHJlc3MgdGhyb3VnaCBhIHBlcnNv
-bmFsIHNlYXJjaCBhbmQgZGVjaWRlZCB0byBsZXQgeW91IGtub3cgYWJvdXQgdGhpcyBwYWNrYWdlZCBm
-aW5hbmNpYWwgdHJhbnNhY3Rpb24uSSBhbSBNci5KZXJyeSBNZW5zYWgsb25lIG9mIHRoZSByZWdpb25h
-bCBicmFuY2ggbWFuYWdlciBvZiBJbnRlcm5hdGlvbmFsIENvbW1lcmNpYWwgQmFuayBvZiBHaGFuYSBM
-dGQgQWNjcmEtR2hhbmEuDQpPbiB0aGUgY291cnNlIG9mIGxhc3QgeWVhciAyMDA1LzIwMDYgYnVzaW5l
-c3MgcmVwb3J0LEkgZGlzY292ZXJlZCB0aGF0IG15IGJyYW5jaCBtYWRlIGV4Y2VzcyBwcm9maXQgb2Yg
-VHdlbHZlIE1pbGxpb24sIFNldmVuIEh1bmRyZWQsIFRob3VzYW5kIERvbGxhcnMgKCQxMiw3MDAsMDAw
-LjAwKSBvZiB3aGljaCBteSBoZWFkIE9mZmljZSBpcyBub3QgYXdhcmUgb2YgYW5kIHdpbGwgbmV2ZXIg
-YmUgYXdhcmUgb2YgYW5kIHRoZW4gSSBQbGFjZWQgdGhpcyBmdW5kIG9uIEVTQ1JPVyBDQUxMIEFDQ09V
-TlQgd2l0aG91dCBhIGJlbmVmaWNpYXJ5LkFzIGEgTWFuYWdlciBpbiB0aGUgYmFuaywgSSBjYW5ub3Qg
-YmUgZGlyZWN0bHkgY29ubmVjdGVkIHRvIHRoaXMgbW9uZXkgdGh1cyBJIGFtIGNvbXBlbGxlZCB0byBy
-ZXF1ZXN0IGZvciB5b3VyIGFzc2lzdGFuY2UgdG8gc3RhbmQgb24gbXkgYmVoYWxmIGFuZCByZWNlaXZl
-IHRoaXMgbW9uZXkgaW50byB5b3VyIGJhbmsgYWNjb3VudC5JIHdpbGwgY29tcGVuc2F0ZSB5b3Ugd2l0
-aCA0MCUgb2YgdGhlIHRvdGFsIGFtb3VudCBpbnZvbHZlZCBhcyBncmF0aWZpY2F0aW9uIGFuZCB0aGUg
-cmVzdCB3aWxsIGJlIG1pbmUuDQpQbGVhc2UgaWYgeW91IHdpc2ggdG8gYXNzaXN0IG1lIGluIHRoaXMg
-YnVzaW5lc3MscmVwbHkgYW5kIGNvbnRhY3QgbWUgaW1tZWRpYXRlbHkgc28gdGhhdCB3ZSBjYW4gZGlz
-Y3VzcyB0aGUgbW9kYWxpdGllcyB0byBhY3R1YWxpemUgdGhpcyB0cmFuc2FjdGlvbixZb3UgY2FuIHJl
-YWNoIG1lIG9uIG15IHByaXZhdGUgcGhvbmUgKzIzMzItNzUxMy0xMTE3LmZvciBtb3JlIGRldGFpbHMu
-DQpOT1RFOiBUaGVyZSBhcmUgcHJhY3RpY2FsbHkgbm8gcmlzayBpbnZvbHZlIGluIHRoaXMgdHJhbnNh
-Y3Rpb24uIEl0IHdpbGwgYmUgYSBiYW5rLXRvLWJhbmsgdHJhbnNmZXIgYW5kIHdpbGwgb25seSB0YWtl
-IHVzIHRocmVlIGJhbmtpbmcgZGF5cyB0byByZWZsZWN0IGluIHlvdXIgZGVzaWduYXRlZCBhY2NvdW50
-LGlmIHlvdSBhcmUgbm90IHdpbGxpbmcgdG8gYXNzaXN0IG1lIHBsZWFzZSBkbyBub3QgYnVyZ2hlciB5
-b3Vyc2VsZiB0byByZXBseS4NCldhaXRpbmcgdG8gaGVhciBmcm9tIHlvdS4NCldpdGggUmVnYXJkcywN
-Ck1yLkplcnJ5IE1lbnNhaC4NClByaXZhdGUgUGhvbmU6KzIzMzItNzUxMy0xMTE3LCBmb3IgbW9yZSBk
-ZXRhaWxzLiAKCgoKCgoKCi0tzeK5+rv10rKzrLHj0sshIAotLWh0dHA6Ly9mcmVlbWFpbDUuZXlvdS5j
-b20vc3lzX3NpZy5waHA/dXJsPWFIUjBjRG92TDJWNWIzVmhabkF1WVd4c2VXVnpMbU52YlM5dFlXbHVM
-MkZrWm1Oc2FXTnJQMlJpUFdWNWIzVmhabkFtWW1sa1BUazFMRGd4TERNbVkybGtQVGN6TERrc01TWnph
-V1E5TVRZNEptRmtkbWxrUFRRbVkyRnRhV1E5TkNaemFHOTNQV2xuYm05eVpTWjFjbXc5YUhSMGNEb3ZM
-MkZrWm1GeWJTNXRaV1JwWVhCc1pYZ3VZMjl0TDJGa0wyTnJMelF3T0RBdE1qSTVNRE10T1RRNU9TMHdQ
-MkZwWkQxbGVXOTFPM1JsZUhRN01UQXpKbTF3Y204OWFIUjBjRG92TDNCaFoyVnpMbVZpWVhrdVkyOXRM
-bU51TDNkdmNteGtZblY1TDNWellTNW9kRzFzCgotLWh0dHA6Ly9zbXMuZXlvdS5jb20KLS3O3tPHtv62
-/tfloaLX48fytPO4u87MLi4uvqHU2tLa08q2zNDF
---MTc5ODk3MDUxOTQwMDg1MTE2NDI2MDc2NQ===HTML==
-	charset="GB2312"
-SGVsbG8gU2lyLDxiciAvPkkgZ290IHlvdXIgY29udGFjdCBlbWFpbCBhZGRyZXNzIHRocm91Z2ggYSBw
-ZXJzb25hbCBzZWFyY2ggYW5kIGRlY2lkZWQgdG8gbGV0IHlvdSBrbm93IGFib3V0IHRoaXMgcGFja2Fn
-ZWQgZmluYW5jaWFsIHRyYW5zYWN0aW9uLkkgYW0gTXIuSmVycnkgTWVuc2FoLG9uZSBvZiB0aGUgcmVn
-aW9uYWwgYnJhbmNoIG1hbmFnZXIgb2YgSW50ZXJuYXRpb25hbCBDb21tZXJjaWFsIEJhbmsgb2YgR2hh
-bmEgTHRkIEFjY3JhLUdoYW5hLjxiciAvPk9uIHRoZSBjb3Vyc2Ugb2YgbGFzdCB5ZWFyIDIwMDUvMjAw
-NiBidXNpbmVzcyByZXBvcnQsSSBkaXNjb3ZlcmVkIHRoYXQgbXkgYnJhbmNoIG1hZGUgZXhjZXNzIHBy
-b2ZpdCBvZiBUd2VsdmUgTWlsbGlvbiwgU2V2ZW4gSHVuZHJlZCwgVGhvdXNhbmQgRG9sbGFycyAoJDEy
-LDcwMCwwMDAuMDApIG9mIHdoaWNoIG15IGhlYWQgT2ZmaWNlIGlzIG5vdCBhd2FyZSBvZiBhbmQgd2ls
-bCBuZXZlciBiZSBhd2FyZSBvZiBhbmQgdGhlbiBJIFBsYWNlZCB0aGlzIGZ1bmQgb24gRVNDUk9XIENB
-TEwgQUNDT1VOVCB3aXRob3V0IGEgYmVuZWZpY2lhcnkuQXMgYSBNYW5hZ2VyIGluIHRoZSBiYW5rLCBJ
-IGNhbm5vdCBiZSBkaXJlY3RseSBjb25uZWN0ZWQgdG8gdGhpcyBtb25leSB0aHVzIEkgYW0gY29tcGVs
-bGVkIHRvIHJlcXVlc3QgZm9yIHlvdXIgYXNzaXN0YW5jZSB0byBzdGFuZCBvbiBteSBiZWhhbGYgYW5k
-IHJlY2VpdmUgdGhpcyBtb25leSBpbnRvIHlvdXIgYmFuayBhY2NvdW50Lkkgd2lsbCBjb21wZW5zYXRl
-IHlvdSB3aXRoIDQwJSBvZiB0aGUgdG90YWwgYW1vdW50IGludm9sdmVkIGFzIGdyYXRpZmljYXRpb24g
-YW5kIHRoZSByZXN0IHdpbGwgYmUgbWluZS48YnIgLz5QbGVhc2UgaWYgeW91IHdpc2ggdG8gYXNzaXN0
-IG1lIGluIHRoaXMgYnVzaW5lc3MscmVwbHkgYW5kIGNvbnRhY3QgbWUgaW1tZWRpYXRlbHkgc28gdGhh
-dCB3ZSBjYW4gZGlzY3VzcyB0aGUgbW9kYWxpdGllcyB0byBhY3R1YWxpemUgdGhpcyB0cmFuc2FjdGlv
-bixZb3UgY2FuIHJlYWNoIG1lIG9uIG15IHByaXZhdGUgcGhvbmUgKzIzMzItNzUxMy0xMTE3LmZvciBt
-b3JlIGRldGFpbHMuPGJyIC8+Tk9URTogVGhlcmUgYXJlIHByYWN0aWNhbGx5IG5vIHJpc2sgaW52b2x2
-ZSBpbiB0aGlzIHRyYW5zYWN0aW9uLiBJdCB3aWxsIGJlIGEgYmFuay10by1iYW5rIHRyYW5zZmVyIGFu
-ZCB3aWxsIG9ubHkgdGFrZSB1cyB0aHJlZSBiYW5raW5nIGRheXMgdG8gcmVmbGVjdCBpbiB5b3VyIGRl
-c2lnbmF0ZWQgYWNjb3VudCxpZiB5b3UgYXJlIG5vdCB3aWxsaW5nIHRvIGFzc2lzdCBtZSBwbGVhc2Ug
-ZG8gbm90IGJ1cmdoZXIgeW91cnNlbGYgdG8gcmVwbHkuPGJyIC8+V2FpdGluZyB0byBoZWFyIGZyb20g
-eW91LjxiciAvPldpdGggUmVnYXJkcyw8YnIgLz5Nci5KZXJyeSBNZW5zYWguPGJyIC8+UHJpdmF0ZSBQ
-aG9uZTorMjMzMi03NTEzLTExMTcsIGZvciBtb3JlIGRldGFpbHMuIAoKCjwhLS0gZm9vdGVyIHN0YXJ0
-IC8vLS0+Cjxicj4KPGJyPgoKPGJyPi0tPGEgdGFyZ2V0PSdfYmxhbmsnIGhyZWY9J2h0dHA6Ly9mcmVl
-bWFpbDUuZXlvdS5jb20vc3lzX3NpZy5waHA/dXJsPWFIUjBjRG92TDJWNWIzVmhabkF1WVd4c2VXVnpM
-bU52YlM5dFlXbHVMMkZrWm1Oc2FXTnJQMlJpUFdWNWIzVmhabkFtWW1sa1BUazFMRGd4TERNbVkybGtQ
-VGN6TERrc01TWnphV1E5TVRZNEptRmtkbWxrUFRRbVkyRnRhV1E5TkNaemFHOTNQV2xuYm05eVpTWjFj
-bXc5YUhSMGNEb3ZMMkZrWm1GeWJTNXRaV1JwWVhCc1pYZ3VZMjl0TDJGa0wyTnJMelF3T0RBdE1qSTVN
-RE10T1RRNU9TMHdQMkZwWkQxbGVXOTFPM1JsZUhRN01UQXpKbTF3Y204OWFIUjBjRG92TDNCaFoyVnpM
-bVZpWVhrdVkyOXRMbU51TDNkdmNteGtZblY1TDNWellTNW9kRzFzJz48Zm9udCBjb2xvcj0icmVkIj7N
-4rn6u/XSsrOssePSyyEgPC9mb250PjwvYT4KPGJyPi0tPGEgaHJlZj0iaHR0cDovL3Ntcy5leW91LmNv
-bSI+aHR0cDovL3Ntcy5leW91LmNvbTwvYT4KPGJyPi0tzt7Tx7b+tv7X5aGi1+PH8rTzuLvOzC4uLr6h
-1NrS2tPKtszQxQo8YnI+CjwhLS0gZm9vdGVyIGVuZCAvLy0tPgoK
---MTc5ODk3MDUxOTQwMDg1MTE2NDI2MDc2NQ===HTML==--
-From r  Thu Nov 23 04:12:05 2006
+Patricia F. Reilly
+Vinson & Elkins L.L.P.
+3700 Trammell Crow Center
+2001 Ross Avenue
+Dallas, Texas 75201
+Telephone: (214) 220-7801
+Facsimile: (214) 999-7801
+preilly@velaw.com
 
 
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
+ +++++++++++++++++++++++
 
-Original EMail Body: 
+ CONFIDENTIALITY NOTICE
+
+ +++++++++++++++++++++++
+
+The information in this email may be confidential and/or privileged. This
+email is intended to be reviewed by only the individual or organization
+named above. If you are not the intended recipient or an authorized
+representative of the intended recipient, you are hereby notified that any
+review ,dissemination or copying of this email and its attachments, if any,
+or the information contained herein is prohibited. If you have received this
+email in error, please immediately notify the sender by return email and
+delete this email from your system. Thank You.
 
 
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
 
-Original EMail Body: 
+ - Dallas_394757_2.DOC
+------=_Part_92032_6505627.1072127339106--
 
 
 Incorrectly Labeled EMail
@@ -169,182 +144,483 @@ Incorrectly Labeled EMail
 Label: 1
 Prediction: 0
 Processed EMail Body: 
-for 
+by 
 
 Original EMail Body: 
-	for <acl-webmaster@cs.CU>; Fri, 1 Aug 2003 13:13:42 -0400 (EDT)
-U1RSSUNUTFkgUFJJVkFURSAmIENPTkZJREVOVElBTA0KDQpFTkdSLkFMSSBSQVpBSy4NClByZXRv
-cmlhLA0KU291dGggQWZyaWNhLiANCg0KRGVhciBTaXIvbWFkYW0sIA0KDQpJdCBpcyBteSBncmVh
-dCBwbGVhc3VyZSB0byB3cml0ZSB5b3UgdGhpcyBsZXR0ZXIgb24NCmJlaGFsZiBvZiBteSBjb2xs
-ZWFndWVzLiBZb3VyIGluZm9ybWF0aW9uIHdlcmUgZ2l2ZW4NCnRvIG1lIGJ5IGEgbWVtYmVyIG9m
-IHRoZSBTb3V0aCBBZnJpY2FuIEV4cG9ydA0KUHJvbW90aW9uIENvdW5jaWwgKFNBRVBDKSB3aG8g
-d2FzIHdpdGggdGhlIA0KQmxhY2sgRWNvbm9taWMgRW1wb3dlcm1lbnQgQ29tbWlzc2lvbiAoR292
-ZXJubWVudCkNCmRlbGVnYXRpb24gb24gYSB0cmlwIHRvIHRoZSBVbml0ZWQgU3RhdGVzIGR1cmlu
-ZyBhDQpiaWxhdGVyYWwgY29uZmVyZW5jZSB0YWxrIHRvIGVuY291cmFnZSBmb3JlaWduDQppbnZl
-c3RvcnMuIEkgaGF2ZSBkZWNpZGVkIHRvIHNlZWsgYSBjb25maWRlbnRpYWwgDQpjby1vcGVyYXRp
-b24gd2l0aCB5b3UgaW4gZXhlY3V0aW9uIG9mIGEgZGVhbCBoZXJldW5kZXINCmZvciB0aGUgYmVu
-ZWZpdCBvZiBhbGwgcGFydGllcywgYW5kIGhvcGUgeW91IHdpbGwga2VlcA0KaXQgY29uZmlkZW50
-aWFsIGJlY2F1c2Ugb2YgdGhlIG5hdHVyZSBvZiB0aGlzDQpidXNpbmVzcy4gDQoNCldpdGhpbiB0
-aGUgRGVwYXJ0bWVudCBvZiBNaW5pbmcgUmVzb3VyY2VzIHdoZXJlIEkgd29yaw0KYXMgdGhlIERp
-cmVjdG9yIG9mIFByb2plY3QgSW1wbGVtZW50YXRpb24sIHdpdGgNCmNvLW9wZXJhdGlvbiBvZiB0
-d28gb3RoZXIgdG9wIG9mZmljaWFscywgd2UgaGF2ZSBpbg0Kb3VyIHBvc3Nlc3Npb24sIGFuIG92
-ZXJkdWUgcGF5bWVudCBpbiBVUyBmdW5kcy4gDQoNClRoZSBzYWlkIGZ1bmRzIHJlcHJlc2VudCBj
-ZXJ0YWluIHBlcmNlbnRhZ2Ugb2YgdGhlDQpjb250cmFjdCB2YWx1ZSBleGVjdXRlZCBvbiBiZWhh
-bGYgb2YgbXkgTWluaXN0cnkgYnkgYQ0KZm9yZWlnbiBjb250cmFjdGluZyBmaXJtLCB3aGljaCB3
-ZSB0aGUgb2ZmaWNpYWxzDQpvdmVyLWludm9pY2VkIHRvIHRoZSBhbW91bnQgb2YgVVMkMjYsNDAw
-LDAwMC4wMCANCihUd2VudHkgU2l4IE1pbGxpb24gRm91ciBIdW5kcmVkIFRob3VzYW5kIFVuaXRl
-ZA0KU3RhdGVzIERvbGxhcnMpLiBUaG91Z2ggdGhlIGFjdHVhbCBjb250cmFjdCBjb3N0IGhhcw0K
-YmVlbiBwYWlkIHRvIHRoZSBvcmlnaW5hbCBjb250cmFjdG9yLCBsZWF2aW5nIHRoZQ0KZXhjZXNz
-IGJhbGFuY2UgdW5jbGFpbWVkLiANCg0KVGhlIEdvdmVybm1lbnQgb2YgdGhlIFJlcHVibGljIG9m
-IFNvdXRoIEFmcmljYSBiZWxpZXZlDQp0aGF0IHByaXZhdGUgaW52ZXN0bWVudCBpbiBnZW5lcmFs
-LCBhbmQgZm9yZWlnbiBkaXJlY3QNCmludmVzdG1lbnQgaW4gcGFydGljdWxhciwgYXJlIHRoZSBy
-ZWFsIGVuZ2luZXMgZm9yDQpzdXN0YWluYWJsZSBlY29ub21pYyBkZXZlbG9wbWVudCwgZm9yIHdo
-aWNoIHJlYXNvbiBpdA0KaGFzIGNvbnRpbnVlZCB0byBlbmNvdXJhZ2VkIGludmVzdG1lbnQgaW4g
-dGhlIGtleQ0KZ3Jvd3RoLW9yaWVudGVkIHNlY3RvciBvZiBNaW5pbmcgd2l0aCBzaW5jZXJlDQpk
-ZXRlcm1pbmF0aW9uIHRvIHBheSBmb3JlaWduIGNvbnRyYWN0b3JzIGFsbCBkZWJ0cw0Kb3dlZCB0
-byB0aGVtLCBzbyBhcyB0byBjb250aW51ZSB0byBlbmpveSBjbG9zZQ0KcmVsYXRpb25zaGlwLCBh
-bmQgbXV0dWFsbHkgYmVuZWZpY2lhbCBjby1vcGVyYXRpb24NCndpdGggZm9yZWlnbiBnb3Zlcm5t
-ZW50cyBhbmQgbm9uLWdvdmVybm1lbnRhbA0KZmluYW5jaWFsIGFnZW5jaWVzLiBBcyBhIHJlc3Vs
-dCB3ZSBpbmNsdWRlZCBvdXIgDQpiaWxscyBmb3IgYXBwcm92YWxzIHdpdGggdGhlIGNvLW9wZXJh
-dGlvbiBvZiBzb21lDQpvZmZpY2lhbHMgYXQgdGhlIERlcGFydG1lbnQgb2YgRmluYW5jZSBhbmQg
-dGhlIFJlc2VydmUNCkJhbmsgb2YgU291dGggQWZyaWNhIChSQlNBKS4gDQoNCldlIGFyZSBzZWVr
-aW5nIHlvdXIgYXNzaXN0YW5jZSB0byBiZSB0aGUgYmVuZWZpY2lhcnkNCm9mIHRoZSB1bmNsYWlt
-ZWQgZnVuZHMsIHNpbmNlIHdlIGFyZSBub3QgYWxsb3dlZCB0bw0Kb3BlcmF0ZSBmb3JlaWduIGFj
-Y291bnQuIFRoZSBjaGFuZ2luZyBvZiBiZW5lZmljaWFyeSdzDQppbmZvcm1hdGlvbi8gZGV0YWls
-cyBhbmQgb3RoZXIgZm9ybXMgb2YgZG9jdW1lbnRhdGlvbg0KdXBvbiBhcHBsaWNhdGlvbiBmb3Ig
-Y2xhaW0gdG8gcmVmbGVjdCB0aGUgY29udHJhY3QgDQptb25leSBhbmQgaXRzIGFwcHJvdmFscyB3
-aWxsIGJlIHNlY3VyZWQgb24gYmVoYWxmIG9mDQp5b3VyIGNvbXBhbnkgb3IgeW91ciBzZWxmLiAN
-Cg0KSSBoYXZlIHRoZSBhdXRob3JpdHkgb2YgbXkgY29sbGVhZ3VlcyBpbnZvbHZlZCB0bw0KcHJv
-cG9zZSB0aGF0LCBzaG91bGQgeW91IGJlIHdpbGxpbmcgdG8gYXNzaXN0IHVzIGluDQp0aGlzIHRy
-YW5zYWN0aW9uIHlvdXIgc2hhcmUgYXMgY29tcGVuc2F0aW9uIHdpbGwgYmUNCjIwJSB3aGlsZSBt
-eSBjb2xsZWFndWVzIGFuZCBJIHNoYWxsIHJlY2VpdmUgNzAlLCBhbmQNCnRoZSBiYWxhbmNlIG9m
-IDEwJSBzaGFsbCBiZSB1c2VkIHRvIHJlaW1idXJzZSBhbGwNCmV4cGVuZGl0dXJlcywgdGF4ZXMg
-YW5kIG1pc2NlbGxhbmVvdXMgZXhwZW5zZXMgc28NCmluY3VycmVkLiANCg0KSXQgZG9lcyBub3Qg
-bWF0dGVyIHdoZXRoZXIgb3Igbm90IHlvdXIgY29tcGFueSBkb2VzDQpjb250cmFjdCBwcm9qZWN0
-cyBvZiB0aGUgbmF0dXJlIGRlc2NyaWJlZCBoZXJlLiBUaGUNCmFzc3VtcHRpb24gaXMgdGhhdCB5
-b3VyIGNvbXBhbnkgd29uIHRoZSBtYWpvciBjb250cmFjdA0KYW5kIHN1YmNvbnRyYWN0ZWQgaXQg
-dG8gb3RoZXIgY29tcGFuaWVzLiBNb3JlIG9mdGVuDQp0aGFuIG5vdCwgYmlnIHRyYWRpbmcgY29t
-cGFuaWVzIGFuZCBmaXJtcyBvZiB1bnJlbGF0ZWQNCg0KZmllbGRzIHdpbiBtYWpvciBjb250cmFj
-dHMsIGFuZCBzdWJjb250cmFjdCB0byBtb3JlDQpzcGVjaWFsaXplZCBmaXJtcyBmb3IgZXhlY3V0
-aW9uLiANCg0KVGhpcyBidXNpbmVzcyBpdHNlbGYgaXMgMTAwJSBzYWZlLCBwcm92aWRlZCB5b3Ug
-dHJlYXQNCml0IHdpdGggdXRtb3N0IGNvbmZpZGVudGlhbGl0eS4gQWxzbyB5b3VyDQpzcGVjaWFs
-aXphdGlvbiBpcyBub3QgYSBoaW5kcmFuY2UgdG8gdGhlIHN1Y2Nlc3NmdWwNCmV4ZWN1dGlvbiBv
-ZiB0aGlzIG11dHVhbCBiZW5lZmljaWFyeSB0cmFuc2FjdGlvbi4gDQpJIGhhdmUgcmVwb3NlZCBt
-eSBjb25maWRlbmNlIGluIHlvdSBhbmQgaG9wZSB0aGF0IHlvdQ0Kd2lsbCBub3QgZGlzYXBwb2lu
-dCB1cy4gS2luZGx5IG5vdGlmeSBtZSBmb3IgZnVydGhlcg0KZGV0YWlscywgdXBvbiB5b3VyIGFj
-Y2VwdGFuY2Ugb2YgdGhpcyBwcm9wb3NhbC4gDQoNClJlZ2FyZHMsIA0KDQpFbmdyLiBBbGkgUmF6
-YWsNCg0KIA==
-From r  Sat Aug  2 06:40:11 2003
-
-
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-
-Original EMail Body: 
+	by magnumforce.mr.itd.UM (3.8u) with ESMTP id h8E04FS01747
+	for <R@M>; Sat, 13 Sep 2003 20:04:41 -0400 (EDT)
+DQoNCkZyb20gdGhlIG9mZmljZSBvZiBFbmdyOiBBYnViYWthciBTYWVlZA0KRmVkZXJhbCBNaW5p
+c3RyeSBvZiB3b3JrcyBhbmQgaG91c2luZywNCkZlZGVyYWwgc2VjcmV0YXJpYXQgb2ZmaWNlIGNv
+bXBsZXgsDQpMYWdvcywNCk5pZ2VyaWEuDQoNCkRlYXIgRnJpZW5kLA0KUmVxdWVzdCBmb3IgYXNz
+aXN0YW5jZTogU3RyaWN0bHkgQ29uZmlkZW50aWFsIA0KDQpJIGFtIEVuZ3I6IEFidWJha2FyIFNh
+ZWVkLCB0aGUgZGlyZWN0b3Igb2Ygd29ya3MgRk1XJkggTmlnZXJpYSBhbmQgY2hhaXJtYW4gb2Yg
+Y29udHJhY3QgYXdhcmQgYW5kIHJldmlldyBjb21taXR0ZWUgc2V0IHVwIGJ5IHRoZSBmZWRlcmFs
+IGdvdmVybm1lbnQgb2YgTmlnZXJpYSB1bmRlciB0aGUgcHJlc2VudCBjaXZpbGlhbiBkaXNwZW5z
+YXRpb24gdG8gYXdhcmQgbmV3IGNvbnRyYWN0cyBhbmQgcmV2aWV3IGV4aXN0aW5nIG9uZXMuDQpJ
+IGNhbWUgdG8ga25vdyBvZiB5b3UgaW4gbXkgc2VhcmNoIGZvciBhIHJlbGlhYmxlIGFuZCByZXB1
+dGFibGUgcGVyc29uIHRvIGhhbmRsZSBhIHZlcnkgY29uZmlkZW50aWFsIHRyYW5zYWN0aW9uLHdo
+aWNoIGludm9sdmVzIHRoZSB0cmFuc2ZlciBvZiBhIGh1Z2Ugc3VtIG9mIG1vbmV5IHRvIGEgZm9y
+ZWlnbiBhY2NvdW50Lg0KDQpUaGVyZSB3ZXJlIHNlcmllcyBvZiBjb250cmFjdHMgZXhlY3V0ZWQg
+YnkgYSBjb25zb3J0aXVtIG9mIHVsdGluYXRpb25hbHMgaW4gdGhlIFdvcmtzIGFuZCBIb3VzaW5n
+IHNlY3RvciBpbiBmYXZvdXIgb2YgdGhlIEZlZGVyYWwgTWluaXN0cnkgb2YgV29ya3MgYW5kIEhv
+dXNpbmcgKEZNVyZIKS4gVGhlIG9yaWdpbmFsIHZhbHVlIG9mIHRoZXNlIGNvbnRyYWN0cyB3ZXJl
+IGRlbGlicmF0ZWx5IG92ZXIgaW52b2ljZWQgdG8gdGhlIHN1bSBvZiBVU0QkMTcsMDAwLDAwMC4w
+MCAoc2V2ZW50ZWVuIG1pbGxpb24gdW5pdGVkIHN0YXRlIGRvbGxhcnMpLlRoaXMgYW1vdW50IGhh
+cyBub3cgYmVlbiBhcHByb3ZlZCBhbmQgaXMgbm93IHJlYWR5IHRvIGJlIHRyYW5zZmVycmVkIGJl
+aW5nIHRoYXQgdGhlIGNvbXBhbmllcyB0aGF0IGFjdHVhbGx5IGV4ZWN1dGVkIHRoZXNlIGNvbnRy
+YWN0cyBoYXZlIGJlZW4gZnVsbHkgcGFpZCBhbmQgdGhlIHByb2plY3RzIG9mZmljaWFsbHkgY29t
+bWlzc2lvbmVkLiANCkNvbnNlcXVlbnRseSwgbXkgY29sbGVhZ3VlcyBhbmQgSSBhcmUgd2lsbGlu
+ZyB0byB0cmFuc2ZlciB0aGUgdG90YWwgYW1vdW50IHRvIHlvdXIgYWNjb3VudCBmb3Igc3Vic2Vx
+dWVudCBkaXNidXJzZW1lbnQsIHNpbmNlIHdlIGFzIGNpdmlsIHNlcnZhbnRzIGFyZSBwcm9oaWJp
+dGVkIGJ5IHRoZSBjb2RlIG9mIGNvbmR1Y3QgYnVyZWF1IChjaXZpbCBzZXJ2aWNlIGxhdykgZnJv
+bSBvcGVyYXRpbmcgYW5kL29yIG9wZW5pbmcgZm9yZWlnbiBhY2NvdW50cyBpbiBvdXIgbmFtZXMu
+IA0KTmVlZGxlc3MgdG8gc2F5LCB0aGUgdHJ1c3QgcmVwb3NlZCBvbiB5b3UgYXQgdGhpcyBpcyBl
+bm9ybW91cywgaW4gcmV0dXJuLCB3ZSBoYXZlIGFncmVlZCB0byBvZmZlciB5b3UgMjAlIG9mIHRo
+ZSB0cmFuc2ZlcnJlZCBzdW0sIHdoaWxlIDEwJSBzaGFsbCBiZSBzZXQgYXNpZGUgZm9yIGluY2lk
+ZW50YWwgZXhwZW5zZXMgKGludGVybmFsIGFuZCBleHRlcm5hbCkgYmV0d2VlbiBib3RoIHBhcnRp
+ZXMgaW4gdGhlIGNvdXJzZSBvZiB0aGUgdHJhbnNhY3Rpb24geW91IHdpbGwgYmUgbWFuZGF0ZWQg
+dG8gcmVtaXQgdGhlIGJhbGFuY2UgdG8gb3RoZXIgYWNjb3VudHMgaW4gZHVlIGNvdXJzZS4NCg0K
+TW9kYWxpdGllcyBoYXZlIGJlZW4gd29ya2VkIG91dCBhdCB0aGUgaGlnaGVzdCBsZXZlbCBvZiB0
+aGUgbWluaXN0cnkgb2YgZmluYW5jZSBhbmQgdGhlIENlbnRyYWwgYmFuayBvZiBOaWdlcmlhIGZv
+ciB0aGUgaW1tZWRpYXRlIHRyYW5zZmVyIG9mIHRoZSBmdW5kcyB3aXRoaW4gMTQgd29ya2luZyBk
+YXlzIHN1YmplY3QgdG8geW91ciBzYXRpc2ZhY3Rpb24gb2YgdGhlIGFib3ZlIHN0YXRlZCB0ZXJt
+cy4gT3VyIGFzc3VyYW5jZSBpcyB0aGF0IHlvdXIgcm9sZSBpcyByaXNrIGZyZWUuIFRvIGFjY29y
+ZCB0aGlzIHRyYW5zYWN0aW9uICB0aGUgbGVnYWxpdHkgaXQgZGVzZXJ2ZXMgYW5kIGZvciBtdXR1
+YWwgc2VjdXJpdHkgb2YgdGhlIGZ1bmRzIHRoZSB3aG9sZSBhcHByb3ZhbCBwcm9jZWR1cmVzIHdp
+bGwgb2ZmaWNpYWxseSBhbmQgbGVnYWxseSBwcm9jZXNzZWQgd2l0aCB5b3VyIG5hbWUgb3IgdGhl
+IG5hbWUgb2YgYW55IGNvbXBhbnkgeW91IG1heSBub21pbmF0ZSBhcyB0aGUgYm9uYWZpZGUgYmVu
+ZWZpY2lhcnkuDQoNCk9uY2UgbW9yZSBJIHdhbnQgeW91IHRvIHVuZGVyc3RhbmQgdGhhdCBoYXZp
+bmcgcHV0IGluIG92ZXIgdHdlbnR5IGZpdmUgeWVhcnMgaW4gdGhlIGNpdmlsIHNlcnZpY2Ugb2Yg
+bXkgY291bnRyeSwgSSBhbSBhdmVyc2UgdG8gaGF2aW5nIG15IGltYWdlIGFuZCBjYXJlZXIgZGVu
+dGVkLiANClRoaXMgbWF0dGVyIHNob3VsZCB0aGVyZWZvcmUgYmUgdHJlYXRlZCB3aXRoIHV0bW9z
+dCBzZWNyZWN5IGFuZCB1cmdlbmN5IGl0IGRlc2VydmVzLiBQbGVhc2UgeW91IHNob3VsZCBzaWdu
+aWZ5IHlvdXIgaW50ZW50aW9uIHRvIGFzc2lzdCBieSAgeW91IHNlbmRpbmcgbWUgYSBtYWlsIHRo
+cm91Z2ggbXkgY29uZmlkZW50aWFsIGVtYWlsIGFkZHJlc3Mgc28gdGhhdCBJIGNhbiBicmllZiB5
+b3UgZnVydGhlciAoYWJ1X3NhZWVkNEB0aXNjYWxpLmNvLnVrKS4NCg0KSSB3YW50IHRvIGFzc3Vy
+ZSB5b3UgdGhhdCB0aGlzIGJ1c2luZXNzIHByb3Bvc2FsIGlzIDEwMCUgcmlzayBmcmVlIGFzIHdl
+IGhhdmUgZG9uZSBvdXIgaG9tZSB3b3JrIHByb3Blcmx5LiBJIHF1aXRlIGJlbGlldmUgdGhhdCB5
+b3Ugd2lsbCBwcm90ZWN0IG91ciBpbnRlcmVzdCBieSB0YWtpbmcgdGhpcyBkZWFsIHN0cmljdGx5
+IGNvbmZpZGVudGlhbCwgYXMgd2UgYXJlIHN0aWxsIGluIGdvdmVybm1lbnQgc2VydmljZSx3aGlj
+aCB3ZSBpbnRlbmQgdG8gcmV0aXJlIGZyb20uICANCmtpbmRseSBleHBlZGl0ZSBhY3Rpb24gYXMg
+d2UgYXJlIGJlaGluZCBzY2hlZHVsZSB0byBlbmFibGUgdXMgaW5jbHVkZSB0aGlzIHRyYW5zZmVy
+IGluIHRoZSBmaXJzdCBiYXRjaCB3aGljaCB3b3VsZCBjb25zdGl0dXRlIHRoZSBmaXJzdCBxdWFy
+dGVyIHBheW1lbnRzIGZvciB0aGUgMjAwMyBmaW5hbmNpYWwgeWVhci4NCg0KVGhhbmtzIGFuZCBH
+b2QgYmxlc3MuDQpFbmdyOiBBYnViYWthciBTYWVlZC4=
+From r  Mon Sep 15 19:53:36 2003
 
 
 Incorrectly Labeled EMail
 Label: 0
 Prediction: 1
 Processed EMail Body: 
-apr 
-verification we ordered etc. we just returned the susan pereira pm sent susan verification you 
-did not order susan pm verification we returned the printer we had ordered through we 
-did not reorder another printer through susan pereira pm sent susan verification dear the team 
-has received an invoice for the subsidized portion of your this email is to verify 
-that you have received your dell pc if you can disregard this message and enjoy 
-your if you have not received your or you returned it and have chosen to 
-not participate in the please reply to this email or email the team at to 
+jun 
+commodities ltd. here is spreadsheet from the confirmations group of all financial trades between ena 
 
 Original EMail Body: 
-Message-ID: <16064358.1072137993798.JavaMail.evans@thyme>
-Date: Mon, 9 Apr 2001 00:56:00 -0700 (PDT)
-From: susan.pereira@enron.com
-Subject: Re: ClickAtHome Verification
+Message-ID: <12601370.1072126303887.JavaMail.evans@thyme>
+Date: Wed, 6 Jun 2001 02:38:00 -0700 (PDT)
+From: brant.reves@enron.com
+To: frank.sayre@enron.com, susan.bailey@enron.com
+Subject: Glencore Commodities Ltd.
+Mime-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_78846_23862389.1072126303867"
+
+------=_Part_78846_23862389.1072126303867
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+Here is a spreadsheet from the confirmations group of all financial trades 
+between ENA and this entity that have ever been entered into.
+
+Let me know what you think.
+
+brant
+
+------=_Part_78846_23862389.1072126303867--
+
+
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+from 
+mon oct from by with for oct from jalapeno by with for oct from by 
+with for oct from by with oct from by with for oct from by da 
+nor with for oct rh no dma for drive alvie evolution found to be found 
+to be clean bulk rpm discussion list oct oct on at matthias once upon alvie 
+wrote seem to be having problems with rebuilding from src it gets confused from previous 
+errors and gives could you give the output of the this is only the last 
+part of used is used as but is not defined as parse error before syntax 
+error before token was not declared in this scope was not declared in this scope 
+was not declared in this scope was not declared in this scope was not declared 
+in this scope iso forbids declaration of with no type redefinition of previously defined here 
+initializer list being treated as compound expression is used as but is not defined as 
+syntax error before token was not declared in this scope was not declared in this 
+scope was not declared in this scope was not declared in this scope was not 
+declared in this scope iso forbids declaration of with no type redefinition of previously defined 
+here initializer list being treated as compound expression parse error before syntax error before token 
+iso forbids declaration of with no type conflicting types for previous declaration as int was 
+not declared in this scope iso forbids declaration of with no type conflicting types for 
+previous declaration as int was not declared in this scope iso forbids declaration of with 
+no type conflicting types for previous declaration as invalid conversion from to parse error before 
+syntax error before token iso forbids declaration of with no type redefinition of previous declaration 
+as int was not declared in this scope iso forbids declaration of with no type 
+conflicting types for previous declaration as invalid conversion from to parse error before syntax error 
+before token iso forbids declaration of with no type redefinition of previously defined here invalid 
+conversion from to was not declared in this scope was not declared in this scope 
+was not declared in this scope iso forbids declaration of with no type redefinition of 
+previously defined here initializer list being treated as compound expression parse error before syntax error 
+before token error leaving directory error leaving directory using rpm can't get command line to 
+it's been while since used it maybe forgot this was dumb mistake on my part. 
+have the command line work fine but not so for thanks for help alvie i'm 
+encoding to right now on my home and it works my current red hat build 
+of has support that may be your it's because gcc isn't currently able to recompile 
+matthias clean custom red hat rpm packages red hat release running kernel load mailing list 
+
+Original EMail Body: 
+From rpm-list-admin@freshrpms.net  Mon Oct  7 18:28:37 2002
+Return-Path: <rpm-zzzlist-admin@freshrpms.net>
+Delivered-To: yyyy@localhost.spamassassin.taint.org
+Received: from localhost (jalapeno [127.0.0.1])
+	by jmason.org (Postfix) with ESMTP id 0973F16F19
+	for <jm@localhost>; Mon,  7 Oct 2002 18:28:32 +0100 (IST)
+Received: from jalapeno [127.0.0.1]
+	by localhost with IMAP (fetchmail-5.9.0)
+	for jm@localhost (single-drop); Mon, 07 Oct 2002 18:28:32 +0100 (IST)
+Received: from egwn.net (ns2.egwn.net [193.172.5.4]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g97GmUK08066 for
+    <jm-rpm@jmason.org>; Mon, 7 Oct 2002 17:48:30 +0100
+Received: from auth02.nl.egwn.net (localhost [127.0.0.1]) by egwn.net
+    (8.11.6/8.11.6/EGWN) with ESMTP id g97Gb6f26808; Mon, 7 Oct 2002 18:37:06
+    +0200
+Received: from pimout4-ext.prodigy.net (pimout4-ext.prodigy.net
+    [207.115.63.103]) by egwn.net (8.11.6/8.11.6/EGWN) with ESMTP id
+    g97GZwf17403 for <rpm-list@freshrpms.net>; Mon, 7 Oct 2002 18:35:58 +0200
+Received: from AMD1800.okie-web.com
+    (dialup-65.57.28.171.Dial1.KansasCity1.Level3.net [65.57.28.171]) by
+    pimout4-ext.prodigy.net (8.12.3 da nor stuldap/8.12.3) with ESMTP id
+    g97GZn1H256218 for <rpm-list@freshrpms.net>; Mon, 7 Oct 2002 12:35:50
+    -0400
+Subject: Re: RH 8 no DMA for DVD drive
+From: Alvie <bishop12@prodigy.net>
+To: rpm-zzzlist@freshrpms.net
+In-Reply-To: <20021007155913.3b24ae76.matthias@rpmforge.net>
+References: <1033953429.13890.4.camel@AMD1800>
+    <1033954359.28832.4.camel@athlon.ckloiber.com>
+    <1033964717.1263.8.camel@AMD1800>
+    <20021007085643.5b9bb88c.matthias@rpmforge.net>
+    <1033997998.1665.6.camel@AMD1800>
+    <20021007155913.3b24ae76.matthias@rpmforge.net>
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+X-Mailer: Ximian Evolution 1.0.8 (1.0.8-10)
+Message-Id: <1034008552.1872.10.camel@AMD1800>
+MIME-Version: 1.0
+X-Mailscanner: Found to be clean, Found to be clean
+Sender: rpm-zzzlist-admin@freshrpms.net
+Errors-To: rpm-zzzlist-admin@freshrpms.net
+X-Beenthere: rpm-zzzlist@freshrpms.net
+X-Mailman-Version: 2.0.11
+Precedence: bulk
+Reply-To: rpm-zzzlist@freshrpms.net
+List-Help: <mailto:rpm-zzzlist-request@freshrpms.net?subject=help>
+List-Post: <mailto:rpm-zzzlist@freshrpms.net>
+List-Subscribe: <http://lists.freshrpms.net/mailman/listinfo/rpm-zzzlist>,
+    <mailto:rpm-list-request@freshrpms.net?subject=subscribe>
+List-Id: Freshrpms RPM discussion list <rpm-zzzlist.freshrpms.net>
+List-Unsubscribe: <http://lists.freshrpms.net/mailman/listinfo/rpm-zzzlist>,
+    <mailto:rpm-list-request@freshrpms.net?subject=unsubscribe>
+List-Archive: <http://lists.freshrpms.net/pipermail/rpm-zzzlist/>
+X-Original-Date: 07 Oct 2002 11:35:47 -0500
+Date: 07 Oct 2002 11:35:47 -0500
+
+On Mon, 2002-10-07 at 08:59, Matthias Saou wrote:
+> Once upon a time, Alvie wrote :
+> 
+> > Thanks, I seem to be having problems with rebuilding transcode from SRC
+> > it gets confused from previous errors and gives up.
+> 
+> Could you give the output of the error?
+>
+
+This is only the last part of it.I used 'rpmbuild --rebuild --without avifile transcode.0.6.1-fr2.src.rpm'.
+af6_decore.cpp:305: 'WAVEFORMATEX' is used as a type, but is not defined
+as a
+   type.
+af6_decore.cpp:306: parse error before `if'
+af6_decore.cpp:308: syntax error before `->' token
+af6_decore.cpp:313: `wvFmt' was not declared in this scope
+af6_decore.cpp:313: `avm_wave_format_name' was not declared in this
+scope
+af6_decore.cpp:314: `wvFmt' was not declared in this scope
+af6_decore.cpp:315: `wvFmt' was not declared in this scope
+af6_decore.cpp:316: `wvFmt' was not declared in this scope
+af6_decore.cpp:316: ISO C++ forbids declaration of `fprintf' with no
+type
+af6_decore.cpp:316: redefinition of `int fprintf'
+af6_decore.cpp:161: `int fprintf' previously defined here
+af6_decore.cpp:316: initializer list being treated as compound
+expression
+af6_decore.cpp:317: 'WAVEFORMATEX' is used as a type, but is not defined
+as a
+   type.
+af6_decore.cpp:318: syntax error before `->' token
+af6_decore.cpp:321: `fmt' was not declared in this scope
+af6_decore.cpp:321: `avm_wave_format_name' was not declared in this
+scope
+af6_decore.cpp:322: `fmt' was not declared in this scope
+af6_decore.cpp:323: `fmt' was not declared in this scope
+af6_decore.cpp:324: `fmt' was not declared in this scope
+af6_decore.cpp:324: ISO C++ forbids declaration of `fprintf' with no
+type
+af6_decore.cpp:324: redefinition of `int fprintf'
+af6_decore.cpp:316: `int fprintf' previously defined here
+af6_decore.cpp:324: initializer list being treated as compound
+expression
+af6_decore.cpp:327: parse error before `if'
+af6_decore.cpp:330: syntax error before `->' token
+af6_decore.cpp:349: ISO C++ forbids declaration of `samples' with no
+type
+af6_decore.cpp:349: conflicting types for `int samples'
+af6_decore.cpp:290: previous declaration as `unsigned int samples'
+af6_decore.cpp:349: `fmt' was not declared in this scope
+af6_decore.cpp:350: ISO C++ forbids declaration of `buffer_size' with no
+type
+af6_decore.cpp:350: conflicting types for `int buffer_size'
+af6_decore.cpp:288: previous declaration as `unsigned int buffer_size'
+af6_decore.cpp:350: `fmt' was not declared in this scope
+af6_decore.cpp:351: ISO C++ forbids declaration of `buffer' with no type
+af6_decore.cpp:351: conflicting types for `int buffer'
+af6_decore.cpp:291: previous declaration as `char*buffer'
+af6_decore.cpp:351: invalid conversion from `char*' to `int'
+af6_decore.cpp:352: parse error before `if'
+af6_decore.cpp:354: syntax error before `->' token
+af6_decore.cpp:359: ISO C++ forbids declaration of `fflush' with no type
+af6_decore.cpp:359: redefinition of `int fflush'
+
+af6_decore.cpp:288: previous declaration as `unsigned int buffer_size'
+af6_decore.cpp:350: `fmt' was not declared in this scope
+af6_decore.cpp:351: ISO C++ forbids declaration of `buffer' with no type
+af6_decore.cpp:351: conflicting types for `int buffer'
+af6_decore.cpp:291: previous declaration as `char*buffer'
+af6_decore.cpp:351: invalid conversion from `char*' to `int'
+af6_decore.cpp:352: parse error before `if'
+af6_decore.cpp:354: syntax error before `->' token
+af6_decore.cpp:359: ISO C++ forbids declaration of `fflush' with no type
+af6_decore.cpp:359: redefinition of `int fflush'
+af6_decore.cpp:208: `int fflush' previously defined here
+af6_decore.cpp:359: invalid conversion from `_IO_FILE*' to `int'
+af6_decore.cpp:360: `ipipe' was not declared in this scope
+af6_decore.cpp:360: `sync_str' was not declared in this scope
+af6_decore.cpp:360: `sync_str' was not declared in this scope
+af6_decore.cpp:360: ISO C++ forbids declaration of `p_write' with no
+type
+af6_decore.cpp:360: redefinition of `int p_write'
+af6_decore.cpp:209: `int p_write' previously defined here
+af6_decore.cpp:360: initializer list being treated as compound
+expression
+af6_decore.cpp:363: parse error before `while'
+af6_decore.cpp:368: syntax error before `->' token
+make[3]: *** [af6_decore.lo] Error 1
+make[3]: Leaving directory
+`/usr/src/redhat/BUILD/transcode-0.6.1/import'
+make[2]: *** [all-recursive] Error 1
+make[2]: Leaving directory
+`/usr/src/redhat/BUILD/transcode-0.6.1/import'
+
+
+> > Using trancode rpm I can't get transcode command line args to
+> > work.Although it's been a while since I used it - maybe I forgot how!
+>
+This was a dumb mistake on my part. I did'nt have libdvdcss-devel, the
+transcode command line args work fine now, but not so for DVD::RIP.
+Thanks for help
+Alvie
+ 
+> I'm encoding a DVD to DivX4 right now on my home computer, and it works
+> fine. My current Red Hat 8.0 build of transcode has avifile support
+> disabled, that may be your problem? It's because gcc 3.2 isn't currently
+> able to recompile avifile... :-/
+> 
+> Matthias
+> 
+> -- 
+> Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+> Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi
+> Load : 0.09 0.12 0.21
+> 
+> _______________________________________________
+> RPM-List mailing list <RPM-List@freshrpms.net>
+> http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+
+
+
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+feb 
+willamette spoke with doug at willamette and he wants us to sell extra mw till 
+they are going to be producing total of instead of the usual this should happen 
+
+Original EMail Body: 
+Message-ID: <31554827.1072120292862.JavaMail.evans@thyme>
+Date: Sun, 18 Feb 2001 03:28:00 -0800 (PST)
+From: bert.meyers@enron.com
+To: portland.shift@enron.com
+Subject: Willamette
 Mime-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
 Content-Transfer-Encoding: 7bit
 
-We ordered a computer, printer, scanner, etc.  We just returned the printer.
+I spoke with Doug at Willamette today, and he wants us to sell 1 extra MW 
+till further.  They are going to be producing a total of 15MW instead of the 
+usual 14.
+This should happen at least until Tuesday.  Doug will let us know how long 
+this will last.
 
-Susan Pereira
+Regards,
 
+Bert
 
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+xview 
+slider apr gmt the internet hi this is repost one responded to my desperate yell 
+can't believe there is no xview wizards any more i'm using sliders in my xview 
+usually with editable numeric but seem to have no control over the length of this 
+in some apps it appears long enough to keep several in some it cannot keep 
+even the maximum value set by as which controls number of characters to be displayed 
+in text doesn't work in the case of despite the fact that contains the following 
+and attributes which gives hint that this attribute can be used for but setting this 
+attribute gives and this attribute gives bad and returns value strange thing is that port 
+of xview gives plenty of space in text but not sun's can someone share his 
+experience in managing sliders in xview with and clear this any help is very much 
 
+Original EMail Body: 
+Path: cantaloupe.srv.cs.cmu.edu!rochester!rutgers!gatech!howland.reston.ans.net!usc!enterpoop.mit.edu!INTERNET!news-mail-gateway
+From: yuri@physics.heriot-watt.ac.UK (Yuri Rzhanov)
+Newsgroups: comp.windows.x
+Subject: REPOST: XView slider
+Message-ID: <7594.9304260800@teallach.phy.hw.ac.uk>
+Date: 26 Apr 93 10:45:05 GMT
+Sender: news@athena.mit.edu
+Organization: The Internet
+Lines: 37
+NNTP-Posting-Host: enterpoop.mit.edu
+To: xpert <xpert@expo.lcs.mit.edu>
 
+Hi Xperts,
 
+this is a repost (no one responded to my desperate yell 8-(
+I can't believe there is no XView wizards any more 8-)...
 
-ClickAtHome@ENRON
-04/06/2001 04:10 PM
-Sent by: Clickathome@ENRON
-To: Susan W Pereira/HOU/ECT@ECT
-cc:  
-Subject: Re: ClickAtHome Verification  
+I'm using sliders in my XView apps, usually with editable numeric
+field. But I seem to have no control over the length of this field.
+In some apps it appears long enough to keep several characters,
+in some - it cannot keep even the maximum value set by 
+PANEL_MAX_VALUE! 
 
-You did not order a computer?
+As I understand, PANEL_VALUE_DISPLAY_LENGTH, which controls
+number of characters to be displayed in text items, doesn't
+work in the case of slider, despite the fact that <panel.h>
+contains the following bit:
 
+	/* Panel_multiline_text_item, Panel_numeric_text_item,
+	 * Panel_slider_item and Panel_text_item attributes
+	 */
+	PANEL_NOTIFY_LEVEL	= PANEL_ATTR(ATTR_ENUM,			 152),
+	PANEL_VALUE_DISPLAY_LENGTH	= PANEL_ATTR(ATTR_INT,		 182),
 
+which gives a hint that this attribute can be used for sliders.
+But 1) setting this attribute gives nothing, and 2) xv_get'ting
+this attribute gives warning: Bad attribute, and returns value 0.
 
-Susan W Pereira@ECT
-04/06/2001 02:02 PM
-To: ClickAtHome@ENRON
-cc:  
+Strange thing is that DEC's port of XView gives plenty of space
+in a text fields, but not Sun's Xview...
 
-Subject: Re: ClickAtHome Verification  
+Can someone share his experience in managing sliders in XView with me,
+and clear this problem? 
 
-We returned the printer we had ordered through Click-at-Home.  We did not 
-reorder another printer through ClickatHome.
+Any help is very much appreciated.
 
-Susan Pereira
+Yuri
 
-
-
-
-ClickAtHome@ENRON
-03/28/2001 06:34 PM
-Sent by: Clickathome@ENRON
-To: Clickathome/NA/Enron@Enron
-cc:  (bcc: Susan W Pereira/HOU/ECT)
-Subject: ClickAtHome Verification
-
-Dear ClickAtHome Participant, 
-
-The ClickAtHome Team has received an invoice for the Enron subsidized portion 
-of your ClickAtHome Computer.  This email is to verify that you have received 
-your Dell PC successfully.  If so, you can disregard this message and enjoy 
-your computer.
-
-If you have not received your PC, or you returned it and have chosen to not 
-participate in the ClickAtHome program, PLEASE reply to this email or email 
-the ClickAtHome Team at clickathome@enron.com to notify us of this billing 
-error.
-
-Thank you,
-ClickAtHome Team!
-
-
-
-
-
+yuri@uk.ac.hw.phy
 
 
 Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
+Label: 0
+Prediction: 1
 Processed EMail Body: 
+jan 
+my office email experience hasn't gone without some told armin that something really strange must 
+be going on because was getting from some of you and not from all of 
+told him it seemed like some of my in must be he blew me off 
+like didn't know what was doing is mostly but that's beside the then last night 
+after dinner he confessed that his office computer was probably taking my before got chance 
+to download the so if seemed to be ignoring some of your that's because wasn't 
+getting armin had his on automatic made him turn that is my now will received 
 
 Original EMail Body: 
+Message-ID: <31390702.1072133232053.JavaMail.evans@thyme>
+Date: Fri, 26 Jan 2001 05:39:00 -0800 (PST)
+From: scharnberger-armin@t-online.de
+To: cnmfree@hrb.de, melissa.barroso@compaq.com, bdarter@coral-energy.com, 
+	heather.kendall@enron.com, julie.a.gomez@enron.com, 
+	kimberly.s.olinger@enron.com, scott.hendrickson@enron.com
+Subject: Oooops.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
 
+My office email experience hasn't gone without some gliches.  I told Armin
+that something really strange must be going on because I was getting emails
+from some of you and not from all of you.  I told him it seemed like some of
+my emails were, in fact, MUST be missing.  He blew me off like I didn't know
+what I was doing (which is mostly correct).  BUT that's beside the point,
+then last night after dinner he confessed that his office computer was
+probably taking my emails before I got a chance to download them!  The
+thief!  So if I seemed to be ignoring some of your emails that's because I
+wasn't getting them.  Armin had his on automatic download, I made him turn
+that off...THIS IS MY TURF!  Now I will received all emails first.  Write
+me!
 
 Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
+Label: 0
+Prediction: 1
 Processed EMail Body: 
+jan 
+promotion congratulations to you as am looking forward to working with you and the denver 
 
 Original EMail Body: 
+Message-ID: <9711256.1072135162768.JavaMail.evans@thyme>
+Date: Mon, 22 Jan 2001 05:11:00 -0800 (PST)
+From: mike.grigsby@enron.com
+To: mark.whitt@enron.com
+Subject: Re: Promotion
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
 
+Congratulations to you as well!  I am looking forward to working with you and 
+the Denver office.  We are excited about the term opportunities in the west 
+this year.  
+
+Sincerely,
+Mike Grigsby   
 
 Incorrectly Labeled EMail
 Label: 0
@@ -378,44 +654,763 @@ Incorrectly Labeled EMail
 Label: 1
 Prediction: 0
 Processed EMail Body: 
-for 
+apr 
+as list your authorization is requested for the following mailing list read and get back 
 
 Original EMail Body: 
-	for <R@K>; Thu, 23 Sep 2004 07:07:52 -0400
-------=_NextPart_000_004C_7A83A5F1.50D36B2B
-DQpBdHRuOiBTaXIsDQogDQpNeSBuYW1lIGlzIE1yLiBBa2ltIEkgd29yayBpbiB0aGUgSW50
-ZXJuYXRpb25hbCBvcGVyYXRpb24gZGVwYXJ0bWVudCBpbiBhIA0KQmFuayBoZXJlIGluIEFm
-cmljYS4gT24gYSByb3V0aW5lIGluc3BlY3Rpb24gSSBkaXNjb3ZlcmVkIGEgZG9ybWFudA0K
-DQpEb21pY2lsaWFyeSBhY2NvdW50IHdpdGggYSBCYWxhbmNlIG9mICQyNiwwMDAsMDAwIFVT
-RCAoVHdlbnR5IFNpeCBNaWxsaW9uIFVTRCkgb24gDQpmdXJ0aGVyIGNpcmN1bXNwZWN0aW9u
-LCBJIGFsc28gZGlzY292ZXJlZCB0aGF0IHRoZSBhY2NvdW50DQoNCmhvbGRlciBoYXMgbG9u
-ZyBwYXNzZWQgYXdheSAoZGVhZCkgbGVhdmluZyBubyBiZW5lZmljaWFyeSB0byB0aGUgYWNj
-b3VudC4gDQoNCiANClRoZSBiYW5rIHdpbGwgYXBwcm92ZSB0aGlzIG1vbmV5IHRvIGFueSBm
-b3JlaWduZXIgd2l0aCB0aGUgY29ycmVjdCBhY2NvdW50IGluZm9ybWF0aW9uDQp3aGljaCBp
-IHdpbGwgcHJlc2VudCBvbiB5b3VyIGJlaGFsZiAgYmVjYXVzZSB0aGUgZm9ybWVyIG9wZXJh
-dG9yIG9mIHRoZSBhY2NvdW50IGlzIGEgZm9yZWlnbmUuDQoNCkhlIGRpZWQgaW4gYSBjYXIg
-YWNjaWRlbnQgZWlnaHQgeWVhcnMgYWdvLCBub2JvZHkgZWxzZSBrbm93cyANCmFib3V0IHRo
-ZXNlIGZ1bmRzLCBhbmQgb25seSBhIGZvcmVpZ25lciB3aXRoIHRoZSBsZWdhbCBkb2N1bWVu
-dHMgb2YgdGhlIGFjY291bnQgY2FuIGNsYWltIA0KdGhpcyBtb25leSwgc28gdGhhdJJzIHdo
-eSBJIG5lZWQgeW91ciBjb29wZXJhdGlvbiBmb3IgaSBjYW5ub3QgZG8gdGhpcyBteXNlbGYg
-b3Igd2l0aCANCmFueWJvZHkgaGVyZSBpbiBteSBjb3VudHJ5Lg0KDQoNCkkgd2lsbCBwcm92
-aWRlIHRoZSBuZWNlc3NhcnkgaW5mb3JtYXRpb24gbmVlZGVkIGluIG9yZGVyIHRvIGNsYWlt
-IHRoaXMgbW9uZXksIEJ1dCB5b3UgDQp3aWxsIG5lZWQgdG8gcHJvdmlkZSBhbiBhY2NvdW50
-IHdoZXJlIHRoaXMgbW9uZXkgY2FuIGJlIHRyYW5zZmVycmVkLiANCg0KIA0KSSB3aXNoIGZv
-ciB1dG1vc3QgY29uZmlkZW50aWFsaXR5IGluIGhhbmRsaW5nIHRoaXMgdHJhbnNhY3Rpb24g
-YXMgbXkgam9iIGFuZCB0aGUgZnV0dXJlDQoNCm9mIG15IGZhbWlseSB3b3VsZCBiZSBqZW9w
-YXJkaXplZCBpZiBpdCB3ZXJlIGJyZWFjaGVkLg0KDQogDQpJIHdhbnQgdG8gYXNzdXJlIHlv
-dSB0aGF0IHRoZSB0cmFuc2FjdGlvbiBpcyB3aXRob3V0IHJpc2sgaWYgZHVlIHByb2Nlc3Mg
-aXMgZm9sbG93ZWQgDQphY2NvcmRpbmdseS4gRmluYWxseSwgSSB3aWxsIGdpdmUgeW91IDI5
-JSBvZiB0aGUgdG90YWwgc3VtIGZvciB5b3VyIGNvbnRyaWJ1dGlvbiBhbmQgZWZmb3J0cy4N
-Cg0KIA0KSWYgaW50ZXJlc3RlZCBhbmQgY2FwYWJsZSB0byBhc3Npc3QgbWUgaW4gdGhpcyB0
-cmFuc2FjdGlvbiwgcGxlYXNlIGdldCBiYWNrIHRvIG1lIA0KaW1tZWRpYXRlbHkuIA0KDQog
-DQpJIGxvb2sgZm9yd2FyZCB0byBhIGZhdm9yYWJsZSByZXNwb25zZSBmcm9tIHlvdSB0aHJv
-dWdoIHRoZSBjb250YWN0cyBiZWxvdy4NCg0KIA0KWW91cnMNCg0KIA0KDQpNci4gQWtpbQ0K
-DQpFbWFpbDo+IGFraW1haG1lZEB0ZWNoZW1haWwuY29tIA0KUGhvbmU6PiArMjM0LTgwLTQy
-MTQxNDExICAgICAgICAgICAgICANCiAgICAgICAgICAgICAg
-------=_NextPart_000_004C_7A83A5F1.50D36B2B--
-From r  Thu Sep 23 07:29:04 2004
+	Thu, 21 Apr 2005 15:08:34 -0400 (EDT)
+--===============1226393294==
+As list administrator, your authorization is requested for the
+following mailing list posting:
+    List:    Researchers@lists.si.UM
+    From:    wang@web-mail.com.ar
+    Subject: READ AND GET BACK
+    Reason:  Post by non-member to a members-only list
+At your convenience, visit:
+    http://lists.si.UM/mailman/admindb/researchers
+to approve or deny the request.
+--===============1226393294==
+
+
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+from 
+wed sep from by with for sep from jalapeno by with for sep from by 
+with for sep laura letter sep not supplied new addition to the parodical genre of 
+money laundry letters from members of the shrub following up on am the widow of 
+the late president george w. bush of the united states of am writing you this 
+letter in confidence regarding my current escaped the united states ahead of death squads with 
+my husband and two children jenna and moving first to england and when my husband's 
+political enemies took power to all of our obtained legitimately through oil drilling and insider 
+was seized by the new government of the usa under the despotic regime of noam 
+except for the contents of few swiss bank these bank which contain social security funds 
+and the bulk of the budget could not be accessed by me or my due 
+to agreements made between the socialist government of the usa and swiss bank they seized 
+
+Original EMail Body: 
+From rssfeeds@jmason.org  Wed Sep 25 10:23:53 2002
+Return-Path: <rssfeeds@spamassassin.taint.org>
+Delivered-To: yyyy@localhost.spamassassin.taint.org
+Received: from localhost (jalapeno [127.0.0.1])
+	by jmason.org (Postfix) with ESMTP id 57BAB16F03
+	for <jm@localhost>; Wed, 25 Sep 2002 10:23:53 +0100 (IST)
+Received: from jalapeno [127.0.0.1]
+	by localhost with IMAP (fetchmail-5.9.0)
+	for jm@localhost (single-drop); Wed, 25 Sep 2002 10:23:53 +0100 (IST)
+Received: from dogma.slashnull.org (localhost [127.0.0.1]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g8P83gC18336 for
+    <jm@jmason.org>; Wed, 25 Sep 2002 09:03:42 +0100
+Message-Id: <200209250803.g8P83gC18336@dogma.slashnull.org>
+To: yyyy@spamassassin.taint.org
+From: boingboing <rssfeeds@spamassassin.taint.org>
+Subject: Laura Bush's 419 letter
+Date: Wed, 25 Sep 2002 08:03:42 -0000
+Content-Type: text/plain; encoding=utf-8
+
+URL: http://boingboing.net/#85486499
+Date: Not supplied
+
+A new addition to the parodical genre of 419 ("Nigerian Money Laundry Scam") 
+letters from members of the Shrub establishment, following up on Cheney's 
+letter[1]. 
+
+    I am the widow of the late President George W. Bush of the United States of 
+    America. I am writing you this letter in confidence regarding my current 
+    circumstances. 
+
+    I escaped the United States ahead of death squads with my husband and two 
+    children Jenna and Frank, moving first to England and then, when my 
+    husband's political enemies took power there, to Austria. All of our 
+    wealth, obtained legitimately through baseball, oil drilling and insider 
+    trading, was seized by the new government of the USA under the despotic 
+    regime of (Dr.) Noam Chomsky, except for the contents of a few Swiss bank 
+    accounts. These bank accounts, which contain social security lock-box funds 
+    and the bulk of the 2001 budget surplus, could not be accessed by me or my 
+    children, due to agreements made between the socialist government of the 
+    USA and Swiss bank regulators. They seized our ranch in Crawford, Texas and 
+    now use it to teach homosexualist propaganda to schoolchildren.  
+
+Link[2] Discuss[3] (_Thanks, Stefan!_)
+
+[1] http://atrios.blogspot.com/2002_08_18_atrios_archive.html#80547516
+[2] http://brainslug.org/archives/000224.html#000224
+[3] http://www.quicktopic.com/boing/H/7zkxnLj3i6Da
+
+
+
+
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+from 
+mon dec from by with for dec from jalapeno by with for dec from by 
+with smtp for dec gmt from by with dec dec invoked from dec from unknown 
+by with dec from unknown by with dec from by with dec bazaar nt en 
+w. list contact mailing list bulk dec fwd quotation wanted skeptic's the material appended below 
+comes from martin book and fallacies in the name of revised and expanded edition published 
+in by dover inc. york bill have number of characteristics in and most important of 
+these traits is that cranks work in almost total isolation in the sense of having 
+no fruitful contacts with fellow the modern crank insists that his isolation is not desired 
+on his part. it is he to the prejudice of established scientific groups against new 
+modern stands entirely outside the closely integrated channels through which new ideas are introduced and 
+he works in he does not send his findings to the recognized or if he 
+they are rejected for reasons which in the vast majority of cases are in most 
+the crank is not well enough informed to write paper with even surface resemblance to 
+significant as he finds himself excluded the journals and and almost universally ignored by the 
+competent workers in his in the reputable scientist does not even know of the existence 
+unless his work is given widespread publicity through or unless the scientist makes hobby of 
+collecting crank the eccentric is to tread lonely he speaks before organizations he himself has 
+contributes to journals he himself may and until recently publishes books only when he or 
+his followers can raise sufficient funds to have them printed second characteristic of the pseudo 
+which greatly strengthens his is tendency toward are five ways in which the sincere pseudo- 
+scientist's paranoid tendencies are likely to be he considers himself he regards his without as 
+ignorant everyone is out of step except frequently he insults his opponents by accusing them 
+of or other base if they ignore he takes this to mean his arguments are 
+if they retaliate in this strengthens his delusion that he is battling he believes himself 
+unjustly persecuted and discriminated he has strong compulsion to focus his attacks on the greatest 
+scientists and the best established when newton was the outstanding name in eccentric works in 
+that science were violently anti with einstein the father symbol of crank theory of physics 
+is likely to attack einstein in the name of he often has tendency to write 
+in complex in many cases making use of terms and phrases he himself has terry 
+w. sierra arizona home times mystic's haven u.s. message text formatting program brotherhood mailing list 
+web and contractors are to from this send an email your use of groups is 
+
+Original EMail Body: 
+From sentto-2242572-60163-1038787094-jm=jmason.org@returns.groups.yahoo.com  Mon Dec  2 11:25:30 2002
+Return-Path: <sentto-2242572-60163-1038787094-yyyy=spamassassin.taint.org@returns.groups.yahoo.com>
+Delivered-To: yyyy@localhost.spamassassin.taint.org
+Received: from localhost (jalapeno [127.0.0.1])
+	by jmason.org (Postfix) with ESMTP id 87B9316F1B
+	for <jm@localhost>; Mon,  2 Dec 2002 11:23:21 +0000 (GMT)
+Received: from jalapeno [127.0.0.1]
+	by localhost with IMAP (fetchmail-5.9.0)
+	for jm@localhost (single-drop); Mon, 02 Dec 2002 11:23:21 +0000 (GMT)
+Received: from n39.grp.scd.yahoo.com (n39.grp.scd.yahoo.com
+    [66.218.66.107]) by dogma.slashnull.org (8.11.6/8.11.6) with SMTP id
+    gB1Num826429 for <jm@jmason.org>; Sun, 1 Dec 2002 23:56:48 GMT
+X-Egroups-Return: sentto-2242572-60163-1038787094-yyyy=spamassassin.taint.org@returns.groups.yahoo.com
+Received: from [66.218.67.193] by n39.grp.scd.yahoo.com with NNFMP;
+    01 Dec 2002 23:58:15 -0000
+X-Sender: fortean1@mindspring.com
+X-Apparently-To: zzzzteana@yahoogroups.com
+Received: (EGP: mail-8_2_3_0); 1 Dec 2002 23:58:14 -0000
+Received: (qmail 35713 invoked from network); 1 Dec 2002 23:58:14 -0000
+Received: from unknown (66.218.66.216) by m11.grp.scd.yahoo.com with QMQP;
+    1 Dec 2002 23:58:14 -0000
+Received: from unknown (HELO blount.mail.mindspring.net) (207.69.200.226)
+    by mta1.grp.scd.yahoo.com with SMTP; 1 Dec 2002 23:58:14 -0000
+Received: from 1cust36.tnt1.sierra-vista.az.da.uu.net ([68.129.20.36]
+    helo=mindspring.com) by blount.mail.mindspring.net with esmtp (Exim 3.33
+    #1) id 18IdyW-0003T5-00; Sun, 01 Dec 2002 18:58:13 -0500
+Message-Id: <3DEAA212.DB1DB03@mindspring.com>
+Organization: Terry's Bazaar
+X-Mailer: Mozilla 4.79 [en] (Windows NT 5.0; U)
+X-Accept-Language: en
+To: "Fort [Research]" <fort@yahoogroups.com>,
+	Forteana /Alternate Orphan/ <forteana@yahoogroups.com>,
+	"uasr@topica.com" <uasr@topica.com>
+From: "Terry W. Colvin" <fortean1@mindspring.com>
+X-Yahoo-Profile: terry_colvin2001
+MIME-Version: 1.0
+Mailing-List: list zzzzteana@yahoogroups.com; contact
+    forteana-owner@yahoogroups.com
+Delivered-To: mailing list zzzzteana@yahoogroups.com
+Precedence: bulk
+List-Unsubscribe: <mailto:zzzzteana-unsubscribe@yahoogroups.com>
+Date: Sun, 01 Dec 2002 16:58:10 -0700
+Subject: [zzzzteana] FWD (SK) Re: Quotation wanted [pseudoscience - a skeptic's view]
+Reply-To: zzzzteana@yahoogroups.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+
+The material appended below comes from Martin Gardner's
+book _Fads and Fallacies in the Name of Science_ -- revised
+and expanded edition published in 1957 by Dover Publications,
+Inc. (New York City).
+
+Bill Bennetta
+_________________________________________________
+
+"[M]ost pseudo-scientists have a number of characteristics in
+common.
+
+        "First and most important of these traits is that cranks work
+in almost total isolation . . . in the sense of having no fruitful
+contacts with fellow researchers. . . . The modern crank insists
+that his isolation is not desired on his part.  It is due, he claims,
+to the prejudice of established scientific groups against new
+ideas. . . .
+
+        "The modern pseudo-scientist . . . stands entirely outside
+the closely integrated channels through which new ideas are
+introduced and evaluated.  He works in isolation.  He does not
+send his findings to the recognized journals, or if he does, they
+are rejected for reasons which in the vast majority of cases
+are excellent.  In most cases, the crank is not well enough
+informed to write a paper with even a surface resemblance
+to a significant study.  As a consequence, he finds himself
+excluded the journals and societies, and almost universally
+ignored by the competent workers in his field.  In fact, the
+reputable scientist does not even know of the crank's
+existence unless his work is given widespread publicity through
+non-academic channels, or unless the scientist makes a hobby
+of collecting crank literature.  The eccentric is forced, therefore,
+to tread a lonely way.  He speaks before organizations he
+himself has founded, contributes to journals he himself may
+edit, and -- until recently -- publishes books only when he
+or his followers can raise sufficient funds to have them printed
+privately.
+
+        "A second characteristic of the pseudo scientist, which
+greatly strengthens his isolation, is a tendency toward
+paranoia. . . .
+
+        "There are five ways in which the sincere pseudo-
+scientist's paranoid tendencies are likely to be exhibited.
+
+        "(1) He considers himself a genius.
+
+        "(2) He regards his colleagues, without exception, as
+ignorant blockheads.  Everyone is out of step except himself.
+Frequently he insults his opponents by accusing them of
+stupidity, dishonesty, or other base motives.  If they ignore
+him, he takes this to mean his arguments are unanswerable.
+If they retaliate in kind, this strengthens his delusion that he
+is battling scoundrels. . . .
+
+        "(3) He believes himself unjustly persecuted and discriminated
+against. . . .
+
+        "(4) He has a strong compulsion to focus his attacks on the
+greatest scientists and the best established theories.  When
+Newton was the outstanding name in physics, eccentric works
+in that science were violently anti Newton.  Today, with
+Einstein the father symbol of authority, a crank theory of
+physics is likely to attack Einstein in the name of Newton. . . .
+
+        "(5) He often has a tendency to write in a complex
+jargon, in many cases making use of terms and phrases he
+himself has coined. . . ."
+
+
+-- 
+Terry W. Colvin, Sierra Vista, Arizona (USA) < fortean1@mindspring.com >
+     Alternate: < fortean1@msn.com >
+Home Page: < http://www.geocities.com/Area51/Stargate/8958/index.html >
+Sites: * Fortean Times * Mystic's Haven * TLCB *
+      U.S. Message Text Formatting (USMTF) Program
+------------
+Member: Thailand-Laos-Cambodia Brotherhood (TLCB) Mailing List
+   TLCB Web Site: < http://www.tlc-brotherhood.org >[Vietnam veterans,
+Allies, CIA/NSA, and "steenkeen" contractors are welcome.]
+
+To unsubscribe from this group, send an email to:
+forteana-unsubscribe@egroups.com
+
+ 
+
+Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/ 
+
+
+
+
+
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+may 
+rescinds media statement the attached media statement was sent out to media this john ambler 
+
+Original EMail Body: 
+Message-ID: <5895441.1072129496121.JavaMail.evans@thyme>
+Date: Thu, 24 May 2001 14:11:00 -0700 (PDT)
+From: jimmy.mogal@enron.com
+To: steven.kean@enron.com, john.hardy@enron.com
+Subject: MSEB Rescinds media statement
+Cc: john.ambler@enron.com, johan.zaayman@enron.com
+Mime-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_111939_29408144.1072129496100"
+Bcc: john.ambler@enron.com, johan.zaayman@enron.com
+
+------=_Part_111939_29408144.1072129496100
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+The attached media statement was sent out to media this evening. John Ambler 
+has asked me to forward the same to you fyi
+regards
+Jimmy
+
+
+
+
+
+
+
+
+
+
+
+
+------=_Part_111939_29408144.1072129496100--
+
+
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+nov 
+change in plans forwarded by robin on am on am change in plans thought would 
+like change in plans couldn't resist sending sandy hopefully no food list will be unhappy 
+with this change in plans martha stewart will not be dining with us this i'm 
+telling you in so don't act since ms. stewart won't be i've made few small 
+our sidewalk will not be lined with paper bag after trial it was decided that 
+no matter how cleverly rows of flaming lunch sacks do not have the desired welcoming 
+the dining table will not be covered with expensive fancy china or crystal if we 
+will use dishes that match and everyone will get since this is we will refrain 
+from using the plastic peter rabbit plate and the santa napkins from last our centerpiece 
+will not be the tower of fresh fruit and flowers that instead we will be 
+displaying decoration from the finest construction the artist assures me it is we will be 
+dining fashionably the children will entertain you while you i'm sure they will be happy 
+to share every choice comment have made regarding pilgrims and the turkey please remember that 
+most of these comments were made at am upon discovering that the turkey was still 
+hard enough to cut as accompaniment to the children's will play recording of tribal if 
+the children should mention that don't own recording of tribal or that tribal drumming sounds 
+suspiciously like frozen turkey in clothes ignore they are we toyed with the idea of 
+ringing dainty silver bell to announce the start of our in the we chose to 
+keep our traditional we've also decided against formal seating when the smoke alarm please gather 
+around the table and sit where you in the spirit of we will ask the 
+children to sit at separate in separate next now know you have all seen pictures 
+of one person carving turkey in front of crowd of appreciative this will not be 
+happening at our for safety the turkey will be carved in private stress do under 
+any enter the kitchen to laugh at me. do not send unsuspecting children to check 
+on my have an electric the turkey is it stands to reason that will eventually 
+when we will before there is one last instead of offering choice between different scrumptious 
+we will be serving the traditional pumpkin garnished with whipped cream and small you will 
+still have take it or leave martha stewart will not be dining with us this 
+she probably won't come next year am barbara portions of this message have been sponsor 
+it's it's best of it's to change your list please send blank message to these 
+switch to switch to single visit the please do not send to the computer virus 
+internet chain letters any story that says this no political or religious no solicitation to 
+sell any products includes your signature sending any of this will get you dropped off 
+the please do not write and tell me you were unaware of the list this 
+is list for recipes and friendly talk thanks to all the list members who have 
+
+Original EMail Body: 
+Message-ID: <17621900.1072137891051.JavaMail.evans@thyme>
+Date: Fri, 10 Nov 2000 02:00:00 -0800 (PST)
+From: robin.rodrigue@enron.com
+To: rerodrigue@hotmail.com
+Subject: Fw: [1_Bakery_Madness] A CHANGE IN PLANS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+---------------------- Forwarded by Robin Rodrigue/HOU/ECT on 11/10/2000 
+10:00 AM ---------------------------
+
+
+"Becky Barge" <usbsb@ltadm.latech.edu> on 11/10/2000 09:16:15 AM
+To: "Mom" <Mmf91330@cs.com>, "Joanne Smith" <josie_010978@hotmail.com>, 
+"Annese" <BaumSpence@aol.com>, "Robin Rodrigue" <rrodri2@ect.enron.com>, 
+"dianne" <usgdj@latech.edu>
+cc:  
+Subject: Fw: [1_Bakery_Madness] A CHANGE IN PLANS
+
+
+Thought ya'll would like this....
+
+Subject: [1_Bakery_Madness] A CHANGE IN PLANS
+
+
+Couldn't resist sending this!!!!!!!!!!! Sandy
+Hopefully no food list will be unhappy with this
+
+A CHANGE IN PLANS
+
+Martha Stewart will not be dining with us this Thanksgiving. I'm telling you
+in advance, so don't act surprised. Since Ms. Stewart won't be coming, I've
+made a few small changes:
+
+Our sidewalk will not be lined with homemade, paper bag luminaries. After a
+trial run, it was decided that no matter how cleverly done, rows of flaming
+lunch sacks do not have the desired welcoming effect.
+
+The dining table will not be covered with expensive linens, fancy china or
+crystal goblets. If possible, we will use dishes that match and everyone
+will
+get a fork. Since this IS Thanksgiving, we will refrain from using the
+plastic Peter Rabbit plate and the Santa napkins from last Christmas.
+
+Our centerpiece will not be the tower of fresh fruit and flowers that I
+promised. Instead we will be displaying a hedgehog-like decoration
+hand-crafted from the finest construction paper. The artist assures me it is
+a turkey.
+
+We will be dining fashionably late. The children will entertain you while
+you
+wait. I'm sure they will be happy to share every choice comment I have made
+regarding Thanksgiving, pilgrims and the turkey hotline. Please remember
+that
+most of these comments were made at 5:00 AM upon discovering that the turkey
+was still hard enough to cut diamonds. As accompaniment to the children's
+recital, I will play a recording of tribal drumming. If the children should
+mention that I don't own a recording of tribal drumming, or that tribal
+drumming sounds suspiciously like a frozen turkey in a clothes dryer, ignore
+them. They are lying.
+
+We toyed with the idea of ringing a dainty silver bell to announce the start
+of our feast. In the end, we chose to keep our traditional method. We've
+also
+decided against a formal seating arrangement. When the smoke alarm sounds,
+please gather around the table and sit where you like. In the spirit of
+harmony, we will ask the children to sit at a separate table. In a separate
+room. Next door.
+
+Now I know you have all seen pictures of one person carving a turkey in
+front
+of a crowd of appreciative onlookers. This will not be happening at our
+dinner. For safety reasons, the turkey will be carved in a private ceremony.
+I stress "private" meaning: Do not, under any circumstances, enter the
+kitchen to laugh at me. Do not send small, unsuspecting children to check on
+my progress. I have an electric knife. The turkey is unarmed. It stands to
+reason that I will eventually win. When I do, we will eat.
+
+Before I forget, there is one last change. Instead of offering a choice
+between 12 different scrumptious desserts, we will be serving the
+traditional
+pumpkin pie, garnished with whipped cream and small fingerprints. You will
+still have a choice: take it or leave it.
+
+Martha Stewart will not be dining with us this Thanksgiving. She probably
+won't come next year either.
+
+I am thankful.
+
+Source: "Today's Woman" magazine, Barbara A Tyler.
+
+
+
+
+
+
+
+[Non-text portions of this message have been removed]
+
+
+
+-------------------------- eGroups Sponsor -------------------------~-~>
+eGroups eLerts
+It's Easy. It's Fun. Best of All, it's Free!
+http://click.egroups.com/1/9698/2/_/536383/_/973827671/
+---------------------------------------------------------------------_->
+
+To change your list status, please send a blank message to these addresses,
+UNSUBSCRIBE: 1_Bakery_Madness-unsubscribe@egroups.com
+SWITCH TO DIGEST: 1_Bakery_Madness-digest@egroups.com
+SWITCH TO SINGLE MESSAGES: 1_Bakery_Madness-normal@egroups.com
+VISIT THE LIST'S ARCHIVES:  http://www.egroups.com/archive/1_Bakery_Madness
+
+PLEASE DO NOT send to the list: Computer Virus information, Internet Hoaxes,
+Fundraisers, Charities, Chain Letters (i.e., any story that says "pass this
+along...."), NO "Work-at-Home" spam, Political or Religious material. NO
+solicitation to sell any products {this includes your e-mail signature
+line).  Sending any of this will get you dropped off the list.  Please do
+not write and tell me you were unaware of the list rules.  This is a list
+for recipes and friendly talk only. Thanks to all the list members who have
+helped me put together this set of list rules!
+
+
+
+
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+dec 
+angel forwarded by andrea on pm michele am andrea angel this is not long ago 
+and far santa was getting ready for his annual there were problems four of his 
+elves got and the trainee elves did not produce the toys as fast as the 
+regular ones so santa was beginning to feel the pressure of being behind then mrs. 
+claus told santa that her mom was coming to this stressed santa even when he 
+went to harness the he found that three of them were about to give birth 
+and two had jumped the fence and were heaven knows more then when he began 
+to load the one of the boards cracked and the toy bag fell to the 
+ground and scattered the totally santa went into the house for cup of coffee and 
+shot of when he went to the he found the elves had hit the liquor 
+and there was nothing to in his he dropped the coffee pot and it broke 
+into hundreds of little pieces all over the kitchen he went to get the broom 
+and found that mice had eaten the straw it was made just then the door 
+bell rang and santa cussed on his way to the he opened the door and 
+there was little angel with great big christmas the angel would you like to put 
+this tree fat and that my is how the little angel came to be on 
+
+Original EMail Body: 
+Message-ID: <6891285.1072136651177.JavaMail.evans@thyme>
+Date: Wed, 13 Dec 2000 04:01:00 -0800 (PST)
+From: andrea.ring@enron.com
+To: karen.mcilvoy@enron.com
+Subject: angel
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+---------------------- Forwarded by Andrea Ring/HOU/ECT on 12/13/2000 12:04 
+PM ---------------------------
+   Michele Winckowski @ ENRON                12/12/2000 09:53 AM
+
+To: 
+cc:  (bcc: Andrea Ring/HOU/ECT)
+Subject: angel
+
+this is cute.  
+
+
+  Not long ago and far away, Santa was getting ready for his annual
+  trip...but there were problems everywhere. Four of his elves got sick, and
+  the trainee elves did not produce the toys as fast as the regular ones so
+  Santa was beginning to feel the pressure of being behind schedule.
+
+  Then Mrs. Claus told Santa that her mom was coming to visit. This stressed
+  Santa even more.
+
+  When he went to harness the reindeer, he found that three of them were
+  about to give birth and two had jumped the fence and were out, heaven
+  knows where. More Stress.
+
+  Then when he began to load the sleigh, one of the boards cracked and the
+  toy bag fell to the ground and scattered the toys.
+
+  Totally frustrated, Santa went into the house for a cup of coffee and a
+  shot of whiskey. When he went to the cupboard, he found the elves had hit
+  the liquor and there was nothing to drink. In his frustration, he dropped
+  the coffee pot and it broke into hundreds of little pieces all over the
+  kitchen floor. He went to get the broom and found that mice had eaten the
+  straw it was made from.
+
+  Just then the door bell rang and Santa cussed on his way to the door.
+
+  He opened the door and there was a little angel with a great big Christmas
+  tree.
+
+  The angel said: "Where would you like to put this tree fat man?"
+
+  And that my friend, is how the little angel came to be on top of the
+  Christmas tree.
+
+
+
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+new 
+name is work with al new in new name was given to me by work 
+with chamber of commerce who assured me that you are an est new susan wife 
+of late dr my best new and member of my and also member of my 
+church new action faith ministries eria before his death he left new us dollars in 
+the above bank and the family wanted new manager who will help them the fund 
+for new xavier from lyon was because of our position as we new member of 
+the ruling party in we to use the new in transferring the fund out of 
+the but we decided to use new company here in nigeria the help of diplomat 
+because of new opposition party and we in the funds out of the new consignment 
+in new day before the arrival of the in heard that new had fatal and 
+died but now the good news is that new arrived safely and is ll in 
+new the dead of span susan to have patience as will new for another reliable 
+and investor who will go to europe new take delivery of the manage and invest 
+the money very new for new am soliciting as banker on her behalf for you 
+to help her to take delivery of new money in europe and the properly in 
+your new or any country of your diplomat will help you on new his contact 
+will be given to you nd you can contact me new e- mail so that 
+we can agree on how can furnish you with the following new and information for 
+your mediate new power of attorney to enable you take new the receipt from security 
+company that handles the new new have agreed to give ou for your new wait 
+for your mediate and good new pace prefix ns new you for your new new 
+
+Original EMail Body: 
+=3Ctable border=3D0 width=3D=22100=25=22 cellpadding=3D=228=22  cellpaddi=
+ng=3D=228=22=3E=3Ctr=3E=3Ctd bgcolor=3D=22=23ffffff=22=3E=3CSPAN style=3D=
+=22FONT-SIZE=3A 11px=3B COLOR=3A =23000000=3B FONT-FAMILY=3A monospace=22=
+=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3EMy Name is FUNSHO PETERS=3CSPAN style=
+=3D=22mso-spacerun=3A yes=22=3E=26nbsp=3B =3C/SPAN=3El work with CONTENTI=
+AL BANK=3CSPAN style=3D=22mso-spacerun=3A yes=22=3E=26nbsp=3B =3C/SPAN=3E=
+Lagos=3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3EHERE IN Nigeria=3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT size=
+=3D3=3E=3CFONT face=3D=22Times New Roman=22=3E=3CSPAN style=3D=22mso-spac=
+erun=3A yes=22=3E=26nbsp=3B=3C/SPAN=3EYour name was given to me by a frie=
+nd=3CSPAN style=3D=22mso-spacerun=3A yes=22=3E=26nbsp=3B=26nbsp=3B =3C/SP=
+AN=3Ewho work with chamber of commerce who assured me that you are an Hon=
+est person=2E=3C/FONT=3E=3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3EMrs=2E SUSAN IGE a wife of a late Pol=
+itician Dr IGE my best =3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3EFriend and a member of my POLICTAL Pa=
+rty and also a member of my Church =3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3ECHRISTIAN ACTION FAITH MINISTRIES Nig=
+eria before his death he left 15 =3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3EMILLION US DOLLARS in the above menti=
+oned bank and the Family wanted a =3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3EFUND MANAGER who will help them Manag=
+e the Fund for 10Years=2E =3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT size=
+=3D3=3E=3CFONT face=3D=22Times New Roman=22=3E=3CSPAN style=3D=22mso-spac=
+erun=3A yes=22=3E=26nbsp=3B=3C/SPAN=3EMR XAVIER BACHELARD from Lyon FRANC=
+E was contacted=2C because of our POSITION as we =3C/FONT=3E=3C/FONT=3E=3C=
+/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3Eare a member of the RULING PARTY in N=
+igeria =2C we decided=3CSPAN style=3D=22mso-spacerun=3A yes=22=3E=26nbsp=3B=
+ =3C/SPAN=3Enot to use the =3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3EBank in transferring the Fund out of =
+the Country=2C but we decided to use a =3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3ESECURITY COMPANY here in Nigeria with=
+ the help of a DIPLOMAT because of =3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3Ethe OPPOSITION PARTY and We succeeded=
+ in SHIPING THE FUNDS out of the =3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3ECOUNTRY=3CSPAN style=3D=22mso-spaceru=
+n=3A yes=22=3E=26nbsp=3B =3C/SPAN=3Eas a CONSIGNMENT in 2 BOXES=2E=3C/FON=
+T=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT size=
+=3D3=3E=3CFONT face=3D=22Times New Roman=22=3E=3CSPAN style=3D=22mso-spac=
+erun=3A yes=22=3E=26nbsp=3B=3C/SPAN=3EA day before the arrival of the Con=
+signment in Europe=2Cwe heard that Mr=2E =3C/FONT=3E=3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3EXavier Bachelard had a fatal accident=
+ and died but now the good news is that the=3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3Econsignment arrived safely and is sti=
+ll in Europe=3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3EAfter the dead of Mr=2E Xavier=2Cl=3C=
+SPAN style=3D=22mso-spacerun=3A yes=22=3E=26nbsp=3B =3C/SPAN=3Eadvised Mr=
+s=2E SUSAN IGE to have patience as l will =3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3Esource for another reliable and trust=
+-worthy INVESTOR who will go to Europe =3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3Eto take delivery of the consignment=2C=
+manage and invest the money very =3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3Ewell for her=2E=3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT size=
+=3D3=3E=3CFONT face=3D=22Times New Roman=22=3E=3CSPAN style=3D=22mso-spac=
+erun=3A yes=22=3E=26nbsp=3B=3C/SPAN=3ENow i am soliciting as a banker on =
+her behalf for you to help her to take delivery of =3C/FONT=3E=3C/FONT=3E=
+=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3Ethe money in Europe and also=3CSPAN s=
+tyle=3D=22mso-spacerun=3A yes=22=3E=26nbsp=3B =3C/SPAN=3Emanage the money=
+ properly in your =3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3Ecountry or any country of your choice=
+=2EThe Diplomat will help you on arrival=3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3Eas his contact will be given to you a=
+nd You can contact me through=3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT size=
+=3D3=3E=3CFONT face=3D=22Times New Roman=22=3E=3CSPAN style=3D=22mso-spac=
+erun=3A yes=22=3E=26nbsp=3B=3C/SPAN=3Emy E- mail funsho=5Fpeter=40caramai=
+l=2Ecom=3CSPAN style=3D=22mso-spacerun=3A yes=22=3E=26nbsp=3B =3C/SPAN=3E=
+so that we can agree on how I can furnish you with the following =3C/FONT=
+=3E=3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3EDocuments and information for your im=
+mediate perusal=2E=3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3E1) POWER OF ATTORNEY to enable you to=
+ take delivery=2E=3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3E2) The DEPOSITOR=27S RECEIPT from the=
+ SECURITY COMPANY that handles the =3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT size=
+=3D3=3E=3CFONT face=3D=22Times New Roman=22=3E=3CSPAN style=3D=22mso-spac=
+erun=3A yes=22=3E=26nbsp=3B=26nbsp=3B =3C/SPAN=3EShipment=2E=3C/FONT=3E=3C=
+/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT size=
+=3D3=3E=3CFONT face=3D=22Times New Roman=22=3E=3CSPAN style=3D=22mso-spac=
+erun=3A yes=22=3E=26nbsp=3B=26nbsp=3B =3C/SPAN=3EWe have agreed to give y=
+ou 30=25 for your assistance=3C/FONT=3E=3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT size=
+=3D3=3E=3CFONT face=3D=22Times New Roman=22=3E=3CSPAN style=3D=22mso-spac=
+erun=3A yes=22=3E=26nbsp=3B=26nbsp=3B =3C/SPAN=3EWhile i wait for your im=
+mediate and good response=2E=3C/FONT=3E=3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT size=
+=3D3=3E=3CFONT face=3D=22Times New Roman=22=3E=26nbsp=3B=3C=3Fxml=3Anames=
+pace prefix =3D o ns =3D =22urn=3Aschemas-microsoft-com=3Aoffice=3Aoffice=
+=22 /=3E=3Co=3Ap=3E=3C/o=3Ap=3E=3C/FONT=3E=3C/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3EThanking you for your understanding=3C=
+/FONT=3E=3C/P=3E
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3EYours faithfully=2C=3C/FONT=3E=3C/P=3E=
+=3CP class=3DMsoNormal style=3D=22MARGIN=3A 0in 0in 0pt=22=3E=3CFONT face=
+=3D=22Times New Roman=22 size=3D3=3EFUNSHO PETERS=3C/FONT=3E=3C/P=3E=3C/S=
+PAN=3E=3C/td=3E=3C/tr=3E=3C/table=3E=3Cbr=3E=3Cbr=3E=3Cspan style=3D=22fo=
+nt-family=3Amonospace=22=3E----------------------------------------------=
+-------------------------=3C/span=3E=3Cbr=3E=3Cspan style=3D=22font-famil=
+y=3Averdana=3Bfont-size=3A11px=3B=22=3EYa puedes ganar con la bolsa sin a=
+rriesgar ni un c=E9ntimo=2E Nuevo deposito NARANJA bolsa garantizado de I=
+NG Direct=3Cbr=3E=3Ca href=3D=22http=3A//banner=2Eeresmas=2Ecom/adclick/C=
+ID=3D00006385c858344d00000000/site=3DERESMAS/area=3DERESMAS=2ECORREO/aams=
+z=3DPIE=5FWEBMAIL=22 target=3D=22=5Fblank=22=3Ehttp=3A//ad=2Edoubleclick=2E=
+net/clk=3B14721373=3B7829128=3Bm=3Fhttp=3A//www=2Eingdirect=2Ees/track/tr=
+acker=2Easp=3Fmedio=3DWANP=26cod=3DDG044=3C/a=3E=3C/span=3E=3Cbr=3E
+From r  Fri Mar 11 04:26:04 2005
+
+
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+nov 
+reviewers for year end in response to your note of november regarding the above referenced 
+would like to be sure that the following are included among my janet dietrich ed 
+
+Original EMail Body: 
+Message-ID: <21060213.1072139178654.JavaMail.evans@thyme>
+Date: Wed, 8 Nov 2000 08:54:00 -0800 (PST)
+From: jeffrey.hodge@enron.com
+To: sheila.walton@enron.com
+Subject: Reviewers for Year End
+Cc: mark.haedicke@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Bcc: mark.haedicke@enron.com
+
+Sheila:
+
+In response to your note of November 1 regarding the above referenced topic,  
+I would like to be sure that the following are included among my reviewers:
+
+ Janet Dietrich
+ Ed McMichael
+ Scott Neal 
+ Phillip Allen
+
+Thanks, Jeff
+
+
+
 
 
 Incorrectly Labeled EMail
@@ -425,648 +1420,14 @@ Processed EMail Body:
 jan 
 
 Original EMail Body: 
-Message-ID: <20926025.1072131363691.JavaMail.evans@thyme>
-Date: Thu, 25 Jan 2001 05:55:00 -0800 (PST)
-From: beth.cherry@enform.com
-To: jason.wolfe@enron.com
-Subject: you think you have problems......
+Message-ID: <3416851.1072133232140.JavaMail.evans@thyme>
+Date: Tue, 30 Jan 2001 07:09:00 -0800 (PST)
+From: scharnberger-armin@t-online.de
+To: scott.hendrickson@enron.com
+Subject: AOL messenger..
 Mime-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
 Content-Transfer-Encoding: 7bit
 
-http://www.cnn.com/2001/US/01/25/sawed.off.hand.ap/index.html
-
-Incorrectly Labeled EMail
-Label: 0
-Prediction: 1
-Processed EMail Body: 
-dec 
-send me stuff on performance this year and where you would rank need this for 
-
-Original EMail Body: 
-Message-ID: <18873592.1072125186663.JavaMail.evans@thyme>
-Date: Sun, 10 Dec 2000 03:00:00 -0800 (PST)
-From: john.lavorato@enron.com
-To: tim.belden@enron.com
-Subject: 
-Mime-Version: 1.0
-Content-Type: text/plain; charset=us-ascii
-Content-Transfer-Encoding: 7bit
-
-Send me stuff on Wolfe's performance this year and where you would rank him.  
-I need this for tomorrow.
-
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-
-Original EMail Body: 
-
-
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-
-Original EMail Body: 
-
-
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-
-Original EMail Body: 
-
-
-Incorrectly Labeled EMail
-Label: 0
-Prediction: 1
-Processed EMail Body: 
-mar 
-new pictures of will new pictures of will here are six month deanna and will 
-
-Original EMail Body: 
-Message-ID: <2625769.1072131643911.JavaMail.evans@thyme>
-Date: Mon, 5 Mar 2001 09:53:00 -0800 (PST)
-From: jeff_deanna_harris@hotmail.com
-To: kkampe@denus.jnj.com, mandy.hurt@ey.com, mvogt@architecturalimpact.com, 
-	oscar.durham@ps.net, ryanw@gensis.net, stacey.w.white@enron.com, 
-	momdonovan@hotmail.com, woodfin@itexas.net, 
-	heather_mcginty@roundrockisd.org
-Subject: New Pictures of Will
-Mime-Version: 1.0
-Content-Type: text/plain; charset=us-ascii
-Content-Transfer-Encoding: 7bit
-
-New Pictures of Will
-
-
-Here are Will's six month pictures!
-
-Enjoy,
-
-Deanna and Will
-
-
-
-
-
-
-
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-
-Original EMail Body: 
-
-
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-
-Original EMail Body: 
-
-
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-
-Original EMail Body: 
-
-
-Incorrectly Labeled EMail
-Label: 0
-Prediction: 1
-Processed EMail Body: 
-apr 
-system notice soliciting electronic bids post april short-term firm capacity offers soliciting electronic bids notice 
-all shippers dated april all shippers candace c. wk cellular williams gas northwest pipeline transportation 
-soliciting electronic bids for available firm mainline transportation capacity on transmission system northwest has posted 
-the following package of available firm large customer transportation capacity to its electronic bulletin board 
-for competitive bid pursuant to the posting of pipeline provision of which requires availability of 
-capacity to be posted to the ebb subject to all prearranged terms are indicated if 
-the prearranged shipper has the right to match the highest economic value at the end 
-of the bid if the prearranged shipper does not match the highest economic award of 
-such capacity will be made according to bids for posted capacity will be conducted electronically 
-as closed bids on northwest please contact candace or your marketing services representative if you 
-encounter any problems with your ebb don't wait until the last minute to post your 
-time deadlines are electronically monitored and package from the april posting ebb offer initial prearranged 
-contract offer yes min. acceptable per dth of daily reservation contract demand for flexible point 
-rights min. acceptable bid max. acceptable bid bid open pm central bid close pm central 
-award pm central none special terms see and special terms and conditions the discount rate 
-shall apply to points utilized by the original shipper entering into the transportation agreement with 
-shipper will be allowed to release and/or segment and release the capacity and shipper and 
-replacement shipper may utilize any available points on transmission system without impacting the discount for 
-the original this prearranged offer is for reservation contract demand in addition to the reservation 
-charge shipper will pay the volumetric the applicable surcharges and procedure for bidding for available 
-transportation capacity the following guidelines will be adhered to for all posted packages of transportation 
-capacity for electronic bid or shipper must submit separate electronic bid for each package of 
-available transportation multiple electronic can be submitted for the total available transportation capacity under the 
-specified package or multiple rates can be submitted each for partial amount of available transportation 
-capacity under the specified if the same shipper submits multiple the highest present value for 
-such package of available transportation capacity shall be considered the valid all other bids from 
-the same shipper for the same package of transportation capacity will be northwest awards bids 
-based on net present value if bid rate is less than minimum tariff the following 
-formula is bid rate interest rate the maximum bid quantity or if the maximum rate 
-is the following formula is bid rate interest rate maximum bid quantity days in case 
-of each tied shipper will have the right to improve its bid by submitting an 
-improved bid within hours of the bid close such improved bid shall be faxed to 
-to candace or patrick if tie still such capacity shall be awarded on prorata northwest 
-will not accept bids with primary contract term longer than indicated for the capacity unless 
-maximum rate is instructions for creating bid for firm capacity release offers select application in 
-northwest select bid for all current offers will highlight the offer you are interested in 
-by clicking the left mouse button on the select the button at the top of 
-the which is now the screen will allow you to review the conditions of the 
-close this screen when you have finished at this point you can review current bids 
-posted for this offer by selecting the close this screen when you have finished if 
-you would like to create bid for this select if you want to bid the 
-maximum rate for the select the max highlight the if you want to modify the 
-end date of the term of your if you want to modify the point maximum 
-and minimum highlight the point section with the left mouse button and modify select if 
-an error appears at the button of the the error will need to be corrected 
-and the data will need to be saved if message will appear indicating the bid 
-information has saved and the bid rate must be select select the enter the bid 
-select you have just your bid for the you now need to your bid as 
-close out of all screens and return to the menu to submit or review your 
-select the cap all of your bids will highlight the in draft that you would 
-like to select the button at the top of the screen to post the to 
-withdraw your select the all of your bids will if the bid has not yet 
-been highlight the in draft that you would like to select the button at the 
-top of the screen to withdraw the after bid has been you can select the 
-button at the top of the screen to delete it from the after each always 
-
-Original EMail Body: 
-Message-ID: <3091691.1072124637894.JavaMail.evans@thyme>
-Date: Thu, 26 Apr 2001 09:25:00 -0700 (PDT)
-From: miki.bode@williams.com
-To: abenton@utilicorp.com, abenton@utilicorp.com, anita.reubens@swgas.com, 
-	bblanar@coral-energy.com, bob.mattice@engageenergy.com, 
-	bob.mattice@engageenergy.com, browning@wasatchenergy.com, 
-	bruce_langmade@gapac.com, bymank@wdni.com, cards@wdni.com, 
-	caver_ealy@pgn.com, ccoyle@americansoda.com, cmcgra@puget.com, 
-	cpavlica@enerad.com, craig.provenzano@powersrc.com, cridin@puget.com, 
-	cslaman@usg.com, cwduke@duke-energy.com, darena@national-energy.com, 
-	dave.dungan@weyerhaeuser.com, deborahs@kimballenergy.com, 
-	derek.danyliw@husky-oil.com, dlh@nwnatural.com, fermis@enron.com, 
-	geek@bp.com, gilesmh@bp.com, janderson@clarkpud.com, 
-	jane@itcoworld.com, jennifer_owen@pgn.com, 
-	jmmcarthur@duke-energy.com, jsanders@clarkpud.com, 
-	kims@kimballenergy.com, klambe@puget.com, 
-	llightfoot@coral-energy.com, lmansi@sdge.com, lprior@enron.com, 
-	mbeckner@utilicorp.com, mcano@enerad.com, michelle_hunter@pgn.com, 
-	niels_a_vervloet@reliantenergy.com, pschmidt@kimballresources.com, 
-	ramperms@bp.com, rcooper@usg.com, rfm@nwnatural.com, 
-	robert.harp@engageenergy.com, robert.harp@engageenergy.com, 
-	ron.smith@ashgrove.com, rony@panalberta.com, ryan.watt@enron.com, 
-	sakom@attglobal.net, sbrewer@enron.com, scott.linkletter@neg.pge.com, 
-	scotts@kimballenergy.com, sghill@bcgas.com, spjutd2@wdni.com, 
-	ssouth@enron.com, stephane.brodeur@enron.com, tbrother@utilicorp.com, 
-	tdizona@coral-energy.com, tjmi@dynegy.com, 
-	tom.mckay@engageenergy.com, tom.mckay@engageenergy.com, 
-	val_yildirok@pgn.com, wharlan@kimballresources.com, 
-	zcourns@national-fuel.com, jshadie@idahopower.com
-Subject: NWP System Notice - 01-237 Soliciting Electronic Bids
-Mime-Version: 1.0
-Content-Type: text/plain; charset=ANSI_X3.4-1968
-Content-Transfer-Encoding: 7bit
-
-Post Date: April 26, 2001 
-Category: SHORT-TERM FIRM CAPACITY 
-Subcategory: NWP OFFERS 
-Subject: 01-237 Soliciting Electronic Bids 
-
-Notice Text: 
-
-All Shippers Notification: 01-237?????? Dated April 26, 2001 
-
-
-
-TO:???? ??????? ALL SHIPPERS 
-
-FROM:?? Candace C. Karpakis- (801) 584-6996 wk 
-?????????????????????????????????????????????????????????????? (801) 971-5983 
-cellular 
-
-Williams Gas Pipeline-West 
-Northwest Pipeline Transportation 
-
-SUBJECT:??????? SOLICITING ELECTRONIC BIDS FOR 
-AVAILABLE FIRM MAINLINE TRANSPORTATION 
-CAPACITY ON NORTHWEST'S TRANSMISSION 
-SYSTEM 
-
-Northwest has posted the following package of available firm TF-1 
-Large Customer transportation capacity to its Electronic Bulletin 
-Board ("EBB") for competitive bid pursuant to the "Right-of-First- 
-Refusal; Posting of Pipeline Capacity" provision of Northwest's 
-Tariff, which requires availability of capacity to be posted to the 
-EBB subject to bid.? All prearranged terms are indicated below, if 
-applicable.? The prearranged shipper has the right to match the 
-highest economic value at the end of the bid period.? If the 
-prearranged shipper does not match the highest economic value, award 
-of such capacity will be made according to Northwest's tariff. 
-
-NOTE:? BIDS FOR POSTED CAPACITY WILL BE CONDUCTED ELECTRONICALLY AS 
-CLOSED BIDS ON NORTHWEST PIPELINE'S EBB.? Please contact Candace 
-Karpakis or your Marketing Services Representative if you encounter 
-any problems with your EBB bid(s).? DON'T WAIT UNTIL THE LAST MINUTE 
-TO POST YOUR BID.? Time deadlines are electronically monitored and 
-implemented. 
-
-PACKAGE "SS-1" 
-From the 
-April 19, 2001 Posting 
-EBB OFFER # 510 
-
-RECEIPT????????????? DELIVERY????????? TOTAL?????? INITIAL PRIMARY????? 
-PREARRANGED 
-POINT????????????????????? POINT???????????? DTH/D??????? CONTRACT 
-TERM?????????? OFFER 
-
-Sumas?? ??????????? Reno???????????? 3,399????????? 
-05/01/01-05/31/01???????????? YES 
-????????? 
-Min. Acceptable Bid:??? $0.03 per Dth of daily Reservation Contract Demand 
-for 
-?????????????????????????????????????????????? Flexible Receipt/Delivery 
-Point Rights 
-Min. Acceptable Bid Vol:??????? 1 Dth/d 
-Max. Acceptable Bid Vol:??????? 3,399 Dth/d 
-Bid Open Date:? 04/26/01 - (4:00 pm Central Time) 
-Bid Close Date: 04/27/01 - (4:00 pm Central Time) 
-Award Deadline: 04/27/01 - (5:00 pm Central Time) 
-Evergreen:????? ??????? NONE 
-Special Terms & Cond:?? See 1, 2 and 3 Below. 
-
-
-
-SPECIAL TERMS AND CONDITIONS 
-
-1. The discount rate shall apply to points utilized by the original shipper 
-entering into the transportation agreement with Northwest. 
-
-2. A shipper will be allowed to release and/or segment and release the 
-capacity 
-and shipper and replacement shipper may utilize any available points on 
-Northwest's transmission system without impacting the discount for the 
-original shipper. 
-
-3. This prearranged offer is for a reservation contract demand rate.? In 
-addition 
-to the Reservation Charge Bid, shipper will pay the volumetric charge, the 
-applicable surcharges and fuel. 
-
-
-
-PROCEDURE FOR BIDDING FOR 
-AVAILABLE TRANSPORTATION CAPACITY 
-
-The following guidelines will be adhered to for all posted packages of 
-transportation 
-capacity for electronic bid ("package or packages"): 
-
-1. Shipper must submit a separate electronic bid for each package of 
-available 
-transportation capacity.? Multiple electronic bid(s) can be submitted for the 
-total available transportation capacity under the specified package OR 
-multiple 
-rates can be submitted each for a partial amount of available transportation 
-capacity under the specified package.? If the same Shipper submits multiple 
-bids, 
-the highest present value for such package of available transportation 
-capacity 
-shall be considered the valid bid. All other bids from the same Shipper for 
-the 
-same package of transportation capacity will be discarded. 
-
-2. Northwest awards bids based on a net present value calculation.? If bid 
-rate is 
-??????? less than minimum tariff rate, the following formula is utilized:? 
-Bid Rate x 
-??????? FERC Interest Rate x The Maximum Bid Quantity x 365 days/100/12; or 
-if the 
-??????? maximum rate is bid, the following formula is utilized:? Bid Rate x 
-FERC Interest 
-??????? Rate x Maximum Bid Quantity x days bid/100. In case of a tie, each 
-tied shipper 
-??????? will have the right to improve its bid by submitting an improved bid 
-within 24 
-??????? hours of the bid close time.? Such improved bid shall be faxed to 
-(801) 584-7076 
-??????? to Candace Karpakis or Patrick Aman.? If a tie still exists, such 
-capacity shall 
-??????? be awarded on a prorata basis. 
-
-3. Northwest will not accept bids with a primary contract term (Term) longer 
-than 
-??????? indicated for the capacity unless maximum rate is bid. 
-
-
-
-INSTRUCTIONS FOR CREATING A BID FOR 
-NORTHWEST'S FIRM CAPACITY RELEASE 
-OFFERS 
-
-1. Select "CAPACITY RELEASE" application in Northwest Passage. 
-2. Select "CREATE/SUB BID FOR NWP CAP" application.? All current offers will 
-appear. 
-3. Highlight the offer you are interested in by clicking the left mouse 
-button 
-on the offer. 
-4. Select the "TERMS & COND" button at the top of the screen, which is now 
-active.? The screen will allow you to review the conditions of the offer. 
-Close this screen when you have finished reviewing. 
-5. At this point you can review current bids posted for this offer by 
-selecting 
-the "VIEW BID" button.? Close this screen when you have finished viewing. 
-6. If you would like to create a bid for this offer, select "CREATE BID" 
-button. 
-7. If you want to bid the maximum rate for the capacity, select the "BID MAX 
-RATE" button. 
-8. Highlight the "END DATE" if you want to modify the end date of the term of 
-your offer. 
-9. If you want to modify the receipt/delivery point maximum and minimum 
-volume, 
-highlight the receipt/delivery point section with the left mouse button and 
-modify accordingly. Select "SAVE".? If an error appears at the button of the 
-screen, the error will need to be corrected and the data will need to be 
-saved again.? If successful, a message will appear indicating the bid 
-information has saved and the bid rate must be entered.? Select "OK". 
-10. Select the "RATE" button.? Enter the bid rate.? Select "SAVE". 
-
-You have just "CREATED" your bid for the offer.? You now need to 
-"SUBMIT" your bid as follows: 
-
-11. Close out of all screens and return to the "CAPACITY RELEASE" menu 
-screens. 
-
-12. To Submit or Review your bid(s), select the "REV/SUB/WDRW NWP CAP BID" 
-button. 
-All of your bids will appear.? Highlight the "BID IN DRAFT STATUS" that you 
-would like to submit.? Select the "SUBMIT" button at the top of the screen 
-to post the bid. 
-
-To Withdraw your bid(s), select the "REV/SUB/WDRW NWP CAP" button. 
-All of your bids will appear.? If the bid has not yet been submitted, 
-highlight the "BID IN DRAFT STATUS" that you would like to withdraw. 
-Select the "WITHDRAW" button at the top of the screen to withdraw the 
-bid.? After a bid has been withdrawn, you can select the "DELETE" 
-button at the top of the screen to delete it from the screen. 
-NOTE:? After each selection, always "REFRESH" the screen to get the latest 
-status. 
-
-
-
-Word: F\Short Term/Capacity for Bid-All 2001 April 26, 2001 01-237 Res.doc 
-
-Incorrectly Labeled EMail
-Label: 0
-Prediction: 1
-Processed EMail Body: 
-apr 
-registration cancellation notification according to our records you are the student ordering this due to 
-this fact you are receiving copy of this order modification registration cancellation notification on training 
-services april registrations department registration cancellation notification registration vendor course wellhead to class apr apr 
-houston tx student joseph dear we have received your cancellation this serves as your confirmation 
-of the please click here for information regarding supplier fees that may be associated with 
-this if you have received this message in error or you have please contact me 
-directly at extension for your information we have included the cancellation policy of this class 
-as cancellation of class must be received at least business days prior to class time 
-in order to prevent charges to your cost all will be charged the full cost 
-of the substitutes may be sent provided they have satisfied all course order taxes and 
-shipping charges will be billed when order is processed thank patricia lopez registration department project 
-
-Original EMail Body: 
-Message-ID: <26795338.1072131439245.JavaMail.evans@thyme>
-Date: Tue, 17 Apr 2001 05:39:00 -0700 (PDT)
-From: trainingorders@vertical.net
-To: joe.stepenovitch@enron.com
-Subject: Registration Cancellation Notification
-Mime-Version: 1.0
-Content-Type: text/plain; charset=us-ascii
-Content-Transfer-Encoding: 7bit
-
- According to our records you are the student ordering this course.  Due to 
-this fact you are receiving a copy of this order modification email.  
-
-
- Registration Cancellation Notification on 04/17/2001
-
-From: VerticalNet Training Services (auto-generated)
-Sent: Tuesday, April 17, 2001
-To:    joe.stepenovitch@enron.com
-Cc:   Registrations Department 
-Subject: Registration Cancellation Notification 
-
-
-Registration ID: 14601
-Vendor Name: Enron 
-
-Course name:  Wellhead to BurnerTip
-Class Date: Apr 24 2001 - Apr 25 2001
-Location:  Houston TX
-Student Enrolled: JOSEPH STEPENOVITCH
-
-
-
-
-
-Dear Registrant, We have received your cancellation request.   This e-mail 
-serves as your confirmation of the cancellation.   Please CLICK HERE for 
-information regarding  supplier fees that may be associated with this 
-cancellation.  If you have received this message in error or  you have 
-questions, please contact me directly  at 800-642-3187 extension 1514.   
-
-For your information we have included the cancellation policy of this class 
-as follows: 
-Cancellation of class must be received at least 3 business days prior to 
-class time in order to prevent charges to your Cost Center. All "No Shows" 
-will be charged the full cost of the course. Substitutes may be sent provided 
-they have satisfied all course prerequisites.     
-
-Order Comments:
-
-
-Taxes and Shipping Charges will be billed seperately when order is processed 
-
-Thank you,
-
-Patricia Lopez
-Registration Department
-Project Manager, Registration
-VerticalNet, Inc.
-(713) 331 - 1514
-
- CLICK HERE to view this registration record. 
-
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-authenticated 
-user by with sep dear and how are i'm dr raymond dennis the ceo budget 
-trip could you please check through these group requests and get back to me on 
-how best you assist with dr departure date return date economy class mr. mr mr 
-mr mrs or departure date return date economy class airline preference ethiopian airline or kenya 
-airways will be looking forward to have the fare which include all taxes and your 
-agency on the payment for these trip will be with credit card details of each 
-passengers authorising the charge on his or her payment thanks and dr raymond dennis budget 
-
-Original EMail Body: 
-        (SquirrelMail authenticated user 
-     prettypertimejob@erbankresource.com)
-        by www.cedishost.com with HTTP;
-        Tue, 26 Sep 2006 03:36:54 -0500 (CDT)
-Dear Sir/Mdm.
-Good'day and how are you?
-I'm Dr Raymond Dennis the Ceo BUDGET TRIP INTERNATIONAL.
-Could you please check through these group requests and get back to me on
-how best you assist with them;
-1. RAYMOND/DENNIS DR
-JFK-ADD-ACC-ADD-JFK
-DEPARTURE DATE : 29/10/06
-RETURN DATE : 20/11/06
-ECONOMY CLASS
-2. IDDRIS/LAMINA MR.
-3. MORTON/MORISSON MR
-4.KENT/MORTON MR
-5. ABRAHAM/PATRICK MR
-6. ADAMS/SHERIFAT MRS
-ACC-ADD-HKG-ADD-ACC OR ACC-NBO-HKG-NBO-ACC
-DEPARTURE DATE : 30/10/06
-RETURN DATE : 10/11/2006
-ECONOMY CLASS
-AIRLINE PREFERENCE : ETHIOPIAN AIRLINE OR KENYA AIRWAYS
-I will be looking forward to have the fare which include all taxes and
-your agency commison on the group.
-Payment for these trip will be adviced with credit card details of each
-passengers authorising the charge on his or her payment details.
-Thanks and regards.
-DR RAYMOND DENNIS
-BUDGET TRIP INTERNATIONAL
-113 EMERALD STREET
-GARDNER
-MA
-01440
-USA
-From r  Tue Sep 26 07:22:54 2006
-
-
-Incorrectly Labeled EMail
-Label: 1
-Prediction: 0
-Processed EMail Body: 
-this 
-is message in mime for less struggle going they are securing the bound man to 
-the complete corruption of public for less com struggle going they are securing the bound 
-
-Original EMail Body: 
-	boundary="----=_NextPart_000_0001_01C6F4F1.0A976EF0"
-This is a multi-part message in MIME format.
-------=_NextPart_000_0001_01C6F4F1.0A976EF0
-	charset="us-ascii"
-Hi,
-VdIAGRA for LESS http://www.oertionpidsadjinde.com
-=20
-struggle going on-apparently they are securing the bound man to the
-indeed! A complete corruption of history.
-------=_NextPart_000_0001_01C6F4F1.0A976EF0
-	charset="us-ascii"
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML><HEAD>
-<META http-equiv=3DContent-Type content=3D"text/html; =
-charset=3Dus-ascii">
-<META content=3D"MSHTML 6.00.2800.1106" name=3DGENERATOR>
-<STYLE></STYLE>
-</HEAD>
-<BODY bgColor=3D#ffffff>
-<DIV>Hi,</DIV>
-<H2>VdIAGRA for LESS <A =
-href=3D"http://www.oertionpidsadjinde.com">http://www.oertionpidsadjinde.=
-com</A></H2>
-<DIV>&nbsp;</DIV>
-<DIV>struggle  going on-apparently they are securing the bound man  to  =
-the<BR>
-indeed! A complete corruption of history.<BR></DIV></BODY></HTML>
-------=_NextPart_000_0001_01C6F4F1.0A976EF0--
-From r  Mon Oct 23 09:48:04 2006
-
-
-Incorrectly Labeled EMail
-Label: 0
-Prediction: 1
-Processed EMail Body: 
-slavery 
-why is sex only allowed in cadence design inc. apr gmt in article this all 
-sounds so everyone helping each other and always smiling fluffy bunnies wake people are just 
-not like it evident from history that no society has succeeded when it had to 
-rely the goodwill and unselfishness of the isn't it obvious from like iran that even 
-if there are only few greedy people in society they are going to be attracted 
-to positions of sounds like for i'll give you an example of my father recently 
-bought the business price was pounds and my father approached the people in the community 
-for he raised pounds in interest free loans from friends and relatives and muslims he 
-had cash and the rest he got business after paying off the muslim lenders many 
-of them helped him with further loans to help him clear the bank debt and 
-save him from further this is an example of muslim community helping one why did 
-they help because of their common identity as in turn my father has helped with 
-people buying houses to minimise the amount of they pay and in some cases buy 
-houses free with the help of those more fortunate in the the fact is leonard 
-it does work without fluffy bunny in is the beauty of mas inc. ahmed khan 
-
-Original EMail Body: 
-Newsgroups: alt.atheism
-Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!spool.mu.edu!uunet!Cadence.COM!mas
-From: mas@Cadence.COM (Masud Khan)
-Subject: Re: Slavery (was Re: Why is sex only allowed in marriage: ...)
-Message-ID: <1993Apr15.081303.16532@Cadence.COM>
-Organization: Cadence Design Systems, Inc.
-References: <1993Apr10.180803.14677@ultb.isc.rit.edu> <1993Apr12.124221.22592@bradford.ac.uk>
-Date: Thu, 15 Apr 1993 08:13:03 GMT
-Lines: 39
-
-In article <1993Apr12.124221.22592@bradford.ac.uk> L.Newnham@bradford.ac.uk (Leonard Newnham) writes:
->
->Oh, this all sounds so nice!  Everyone helping each other and always smiling
->and fluffy bunnies everywhere.  Wake up!  People are just not like that.  It
->seems evident from history that no society has succeeded when it had to rely
->upon the goodwill and unselfishness of the people.  Isn't it obvious from
->places like Iran that even if there are only a few greedy people in society
->then they are going to be attracted to positions of power?  Sounds like a
->recipe for disaster.
->
->-- 
->
->Leonard               e-mail:  L.Newnham@bradford.ac.uk
-
-Leonard, I'll give you an example of this....
-
-My father recently bought a business, the business price was 150,000 pounds
-and my father approached the people in the community for help, he raised
-60,000 pounds in interest free loans from friends and relatives and 
-Muslims he knew, 50,000 had cash and the rest he got a business loan, after
-paying off the Muslim lenders many of them helped him with further loans
-to help him clear the bank debt and save him from further intrest, this
-is an example of a Muslim community helping one another, why did they help
-because of their common identity as Muslims. In turn my father has helped
-with people buying houses to minimise the amount of intrest they pay 
-and in some cases buy houses intrest free with the help of those more
-fortunate in the community. 
-
-The fact is Leonard it DOES work without a fluffy bunny in sight!
-iThat is the beauty of Islam.
-
-Mas
-
-
--- 
-C I T I Z E N  +-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
-_____   _____  | C A D E N C E  D E S I G N  S Y S T E M S  Inc. |
-     \_/       | Masud Ahmed Khan mas@cadence.com All My Opinions|
-_____/ \_____  +-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
-
+OK, now what?  I signed up, downloaded and now what???
 
