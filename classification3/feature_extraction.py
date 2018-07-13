@@ -1,6 +1,7 @@
 from sklearn import linear_model
 from sklearn.externals import joblib
 from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 from bs4 import BeautifulSoup
 import random
 import re
@@ -81,7 +82,7 @@ def strip_non_words(emails):
 
 
 def not_classifier_flag(string):
-    classifier_flags = {'id', 'imap'}
+    classifier_flags = {'id', 'imap', 'gmt'}
     if string in classifier_flags:
         return False
     if len(string) < 2:
@@ -113,19 +114,13 @@ def print_sample(sample, index=-1):
 
 def log_samples(data, num_samples, num_scam):
     sample_log = ''
-    sample_log += "#####################################\n" \
-                  "# LOG: SAMPLES FROM PROCESSED EMAILS\n" \
-                  "#####################################\n"
-    sample_log += "##############\n" \
-                  "# SCAM EMAILS\n" \
-                  "##############\n"
+    sample_log += "LOG: SAMPLES FROM PROCESSED EMAILS\n"
+    sample_log += "\nSCAM EMAILS\n"
     for x in range(num_samples):
         random_index = random.randint(0, num_scam)
         random_email = data[random_index]
         sample_log += print_sample(random_email, index=random_index)
-    sample_log += "##################\n" \
-                  "# NON-SCAM EMAILS\n" \
-                  "##################\n"
+    sample_log += "\nNON-SCAM EMAILS\n"
     for x in range(num_samples):
         random_index = random.randint(num_scam, len(data))
         random_email = data[random_index]
@@ -141,9 +136,8 @@ def log_features(features, weights):
         pairs[features[feature]] = weights[feature]
 
     feature_log = ''
-    feature_log += "#######################################\n" \
-                  "# LOG: BEST FEATURES IN THE CLASSIFIER\n" \
-                  "#######################################\n"
+    feature_log += "LOG: BEST FEATURES IN THE CLASSIFIER\n"
+
     feature_log += "\nTop 10 Features for identifying a scam email: \n"
     for x in range(10):
         max_feature = max(pairs, key=pairs.get)
@@ -176,6 +170,16 @@ def main():
 
     print("Parsing Headers and Bodies")
     scam_emails = parse_emails(email_texts)
+
+    print("\nStripping HTML from EMails, Converting to Lower Case for Comparisons (This may take a few minutes)")
+    for em in scam_emails:
+        em['email_body_processed'] = strip_html(em['email_body_text']).lower()
+
+    print("Stripping Non-Words from the EMail Bodies")
+    strip_non_words(scam_emails)
+
+    print("Removing Empty Emails")
+    scam_emails = [em for em in scam_emails if len(em['email_body_processed'].split()) > 1]
 
     num_scam = len(scam_emails)
 
@@ -213,26 +217,25 @@ def main():
         with open(rel + '/' + file) as text:
             non_scam_emails.append({'email_body_text': text.read(), 'label': 0})
 
-    num_non_scam = len(non_scam_emails)
-
-    ####################
-    # COMBINE DATA SETS
-    ####################
-
-    all_emails = scam_emails + non_scam_emails
-
     print("\nStripping HTML from EMails, Converting to Lower Case for Comparisons (This may take a few minutes)")
-    for em in all_emails:
+    for em in non_scam_emails:
         em['email_body_processed'] = strip_html(em['email_body_text']).lower()
 
     print("Stripping Non-Words from the EMail Bodies")
-    strip_non_words(all_emails)
+    strip_non_words(non_scam_emails)
 
     print("Removing Empty Emails")
-    all_emails = [em for em in all_emails if em['email_body_processed'] != '']
+    non_scam_emails = [em for em in non_scam_emails if em['email_body_processed'] != '']
+
+    num_non_scam = len(non_scam_emails)
+
+    ####################################
+    # COMBINE DATA SETS AND LOG SAMPLES
+    ####################################
+
+    all_emails = scam_emails + non_scam_emails
 
     print("\nLogging Scam and Non-Scam Samples from the Processed Corpus")
-
     log_samples(all_emails, 3, num_scam)
 
     ##################################
@@ -266,7 +269,8 @@ def main():
 
     classifier = linear_model.SGDClassifier(max_iter=1000, tol=0.0001)
 
-    vectorizer = CountVectorizer(analyzer=str.split)
+    #vectorizer = CountVectorizer()
+    vectorizer = TfidfVectorizer(ngram_range=(1, 3))
 
     vector_data = vectorizer.fit_transform(vector_data_text)
 
@@ -276,7 +280,7 @@ def main():
     # STORE CLASSIFIER
     ###################
 
-    filename = 'bow_classifier.joblib.pkl'
+    filename = 'classifier.joblib.pkl'
     print("Storing classifier as " + filename)
 
     _ = joblib.dump(classifier, filename, compress=3)
@@ -305,9 +309,8 @@ def main():
     num_predicted_scam = 0
     num_labeled_scam = 0
     fails_log = ''
-    fails_log += "#########################################\n" \
-                  "# LOG: ALL INCORRECTLY PREDICTED EMAILS\n" \
-                  "########################################\n"
+    fails_log += "LOG: ALL INCORRECTLY PREDICTED EMAILS\n"
+
     for test in test_data:
         vector_data = vectorizer.transform([test['email_body_processed']])
         result = classifier.predict(vector_data)[0]
@@ -319,7 +322,7 @@ def main():
         if result == test['label'] == 1:
             num_correct += 1
         elif result != test['label']:
-            fails_log += print_sample(test) + '\n'
+            fails_log += '\n' + print_sample(test)
 
     with open('fails.log', 'w') as f:
         f.write(fails_log)
