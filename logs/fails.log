@@ -1,0 +1,924 @@
+LOG: ALL INCORRECTLY PREDICTED EMAILS
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+dear 
+thank you for your online application for business account with wells we appreciate your interest 
+in banking with in order to open business we must receive specific credit information that 
+is because wells fargo has no locations in your we are unable to confirm the 
+credit information in your we regret to say that we cannot open an account for 
+your business at this attached are your wells fargo application and your social security chin 
+
+Original EMail Body: 
+------=_NextPart_L17H9L_CHLDJL_L3I_KECL53E
+Dear Sir,
+Thank you for your online application for a Business Account with Wells Fargo. We appreciate your interest in banking with us. 
+In order to open a Business Account, we must receive specific credit information that is verifiable. Because Wells Fargo has no locations in your state, we are unable to confirm the credit information in your application. Consequently, we regret to say that we cannot open an account for your business at this time.
+Attached are your Wells Fargo Application and your Social Security File.
+Sincerely, 
+Sherli Chin 
+Business Resource Center Services 
+Wells Fargo Bank 
+------=_NextPart_L17H9L_CHLDJL_L3I_KECL53E
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4g
+RE9TIG1vZGUuDQ0KJAAAAAAAAABQRQAATAEEADVrf2IAAAAAAAAAAOAADgELAQI3AAwAAAAG
+AAAAFAAAyxEAAAAQAAAAIAAAAABAAAAQAAAAAgAAAQAAAAAAAAAEAAAAAAAAAABgAAAABAAA
+AAAAAAIAAAAAABAAABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAABQAACkAwAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC50
+ZXh0AAAAfAsAAAAQAAB8CwAAAAQAAAAAAAAAAAAAAAAAACAAAGAuYnNzAAAAAAAUAAAAIAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAACAAADALmRhdGEAAABIAQAAAEAAAEgBAAAAEAAAAAAAAAAA
+AAAAAAAAQAAAwC5pZGF0YQAApAMAAABQAACkAwAAABIAAAAAAAAAAAAAAAAAAGAAAMAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+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
+AAAAAAAAAAAAAAAAAAAAAAAApFAAAAAAAAAAAAAAEFMAAChRAADIUAAAAAAAAAAAAAA4UwAA
+TFEAAPxQAAAAAAAAAAAAAHRTAACAUQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAACoUQAAuFEAAMRRAADUUQAA3FEAAORRAADsUQAAAAAAAAAA
+AAD4UQAADFIAACBSAAAwUgAASFIAAFhSAABkUgAAeFIAAIRSAACQUgAAoFIAAAAAAAAAAAAA
+sFIAAMBSAADMUgAA1FIAANxSAADkUgAA7FIAAPhSAAAEUwAAAAAAAAAAAACoUQAAuFEAAMRR
+AADUUQAA3FEAAORRAADsUQAAAAAAAAAAAAD4UQAADFIAACBSAAAwUgAASFIAAFhSAABkUgAA
+eFIAAIRSAACQUgAAoFIAAAAAAAAAAAAAsFIAAMBSAADMUgAA1FIAANxSAADkUgAA7FIAAPhS
+AAAEUwAAAAAAADAAV1NBU3RhcnR1cAAAAAA4AGNvbm5lY3QAAAA7AGdldGhvc3RieW5hbWUA
+RgBodG9ucwBPAHJlY3YAAFUAc2VuZAAAWgBzb2NrZXQAAAAAygBHZXRDb21tYW5kTGluZUEA
+AAAMAUdldE1vZHVsZUhhbmRsZUEAABsAQ2xvc2VIYW5kbGUAAAA/AUdldFN5c3RlbURpcmVj
+dG9yeUEAAAAxAENyZWF0ZUZpbGVBAAAADgJSdGxVbndpbmQAOgJTZXRGaWxlUG9pbnRlcgAA
+AACYAldpbkV4ZWMAAACiAldyaXRlRmlsZQBHAENyZWF0ZVRocmVhZAAAVABEZWxldGVGaWxl
+QQAAABgAX19HZXRNYWluQXJncwCBAV9zbGVlcAAAAAD9AWF0b2kAAAkCZXhpdAAAXwJyYWlz
+ZQBgAnJhbmQAAGkCc2lnbmFsAAAAAGwCc3ByaW50ZgAAAHECc3RyY2hyAAAAAHdzb2NrMzIu
+ZGxsAABQQAAAUEAAAFBAAABQQAAAUEAAAFBAAABQQABLRVJORUwzMi5ETEwAAAAAFFBAABRQ
+QAAUUEAAFFBAABRQQAAUUEAAFFBAABRQQAAUUEAAFFBAABRQQABDUlRETEwuRExMAAAoUEAA
+KFBAAChQQAAoUEAAKFBAAChQQAAoUEAAKFBAAChQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAEAAAABwAAAAgAAAAJgAA
+------=_NextPart_L17H9L_CHLDJL_L3I_KECL53E--
+From r  Mon Jul 21 21:04:09 2003
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+the 
+cream of the crop for get in is set to rock your dsi direct inc. 
+there is massive promotion underway this this is read the news and get on first 
+thing look for humidities to fall to the teens and single digits sunday and monday 
+with very poor recoveries sunday night and monday issued issuing weather forecast office flood statement 
+randolph flood statement national weather service little rock ar am cdt sun may the combination 
+of boat and aircraft owners should check moorings and as water levels are high in 
+the immediate vicinity of the bridge but no significant flooding is then begin falling late 
+from early sunday morning through monday and areas of north to northeast winds to mph 
+with local gusts over mph are expected this breezy with southeast wind to national weather 
+service meteorologists detected scattered showers and thunderstorms across pawnee and osage counties in northeast wind 
+advisory means that winds of mph or greater are wind advisory remain in effect until 
+pm noon adt additional isolated to widely scattered showers and thunderstorms will be possible elsewhere 
+across northeast and east central the fire weather watch remains in effect due to expected 
+long durations of relative humidity below percent with dispersion indices above locally breezy with east 
+wind to strongest winds in exposed areas near cross sound and along outside coastal national 
+weather service meteorologists detected scattered showers and thunderstorms across pawnee and osage counties in northeast 
+from early sunday morning through monday pelican am adt sun may fire weather watch in 
+effect from monday afternoon through monday expect west to northwest wind to strongest winds in 
+exposed areas near cross sound and along outside coastal these regions include the mountains and 
+interior portions of san luis obispo issued issuing weather forecast office flood statement randolph flood 
+statement national weather service little rock ar am cdt sun may for the following forecast 
+winds will diminish somewhat sunday northwest winds to mph increasing to to mph by late 
+fire weather watch now in effect from monday afternoon through monday additional isolated to widely 
+scattered showers and thunderstorms will be possible elsewhere across northeast and east central mostly cloudy 
+skies across the area will continue through the strong northerly wind advisory remains in effect 
+until noon pdt and locally the coastal areas of ventura and los angeles wind advisory 
+remains in effect until pm adt high water levels for copper river then begin falling 
+late port alexander am adt sun may wind advisory remains in effect until noon pdt 
+strong offshore winds and very dry conditions are expected to develop tonight and tomorrow issued 
+issuing weather forecast office flood statement lawrence flood statement national weather service little rock ar 
+am cdt sun may northwest winds to mph increasing to to mph by late light 
+west winds to mph through am. mostly cloudy skies with isolated snow showers and areas 
+of the national weather service in tallahassee has issued the fire weather watch due to 
+combination of relative humidity below feet by wednesday gusts to mph in exposed ventura and 
+los angeles counties and the coastal valleys of ventura and los angeles counties from early 
+sunday morning until monday mostly cloudy skies across the area will continue through the mostly 
+cloudy skies across the area will continue through the southeast wind to areas of north 
+to northeast winds to mph with local gusts over mph are expected this strong and 
+gusty north to northeast winds will affect the mountains of ventura and los angeles counties 
+as well as the santa clarita valley and the santa monica mountains this from sun 
+
+Original EMail Body: 
+	format=flowed;
+	charset="windows-1252";
+	reply-type=original
+The cream of the crop for 2007 - GET IN EARLY! DSDI IS SET TO ROCK YOUR
+PORTFOLIO!
+DSI Direct Sales, Inc.
+There is a MASSIVE PROMOTION underway this weekend! This is hot, read
+the news and get on DSDI first thing Monday!
+LOOK FOR HUMIDITIES TO FALL TO THE TEENS AND SINGLE DIGITS SUNDAY AND
+MONDAY WITH VERY POOR RECOVERIES SUNDAY NIGHT AND MONDAY MORNING.
+ISSUED BY: 222 Issuing Weather Forecast Office Homepage Flood Statement
+Randolph (Arkansas) FLOOD STATEMENT NATIONAL WEATHER SERVICE LITTLE ROCK
+AR 920 AM CDT SUN MAY 06 2007 .
+THE COMBINATION OF HEAT.
+BOAT AND AIRCRAFT OWNERS SHOULD CHECK MOORINGS AND TIEDOWNS AS
+NECESSARY. WATER LEVELS ARE HIGH IN THE IMMEDIATE VICINITY OF THE BRIDGE
+BUT NO SIGNIFICANT FLOODING IS OCCURRING. THEN BEGIN FALLING LATE
+TUESDAY.
+FROM EARLY SUNDAY MORNING THROUGH MONDAY EVENING.
+KLAWOCK AND HYDABURG.
+AREAS OF NORTH TO NORTHEAST WINDS 25 TO 35 MPH WITH LOCAL GUSTS OVER 50
+MPH ARE EXPECTED THIS MORNING.
+BREEZY WITH SOUTHEAST WIND 15 TO 25 MPH.
+NATIONAL WEATHER SERVICE METEOROLOGISTS DETECTED SCATTERED SHOWERS AND
+THUNDERSTORMS ACROSS PAWNEE AND OSAGE COUNTIES IN NORTHEAST OKLAHOMA.
+A WIND ADVISORY MEANS THAT WINDS OF 35 MPH OR GREATER ARE EXPECTED. WIND
+ADVISORY REMAIN IN EFFECT UNTIL 12 PM NOON ADT TODAY.
+ADDITIONAL ISOLATED TO WIDELY SCATTERED SHOWERS AND THUNDERSTORMS WILL
+BE POSSIBLE ELSEWHERE ACROSS NORTHEAST AND EAST CENTRAL OKLAHOMA. THE
+FIRE WEATHER WATCH REMAINS IN EFFECT DUE TO EXPECTED LONG DURATIONS OF
+RELATIVE HUMIDITY BELOW 35 PERCENT WITH DISPERSION INDICES ABOVE 75.
+LOCALLY BREEZY WITH EAST WIND 15 TO 25 MPH.
+STRONGEST WINDS IN EXPOSED AREAS NEAR CROSS SOUND AND ALONG OUTSIDE
+COASTAL AREAS. NATIONAL WEATHER SERVICE METEOROLOGISTS DETECTED
+SCATTERED SHOWERS AND THUNDERSTORMS ACROSS PAWNEE AND OSAGE COUNTIES IN
+NORTHEAST OKLAHOMA. FROM EARLY SUNDAY MORNING THROUGH MONDAY EVENING.
+PELICAN 530 AM ADT SUN MAY 6 2007 .
+FIRE WEATHER WATCH IN EFFECT FROM MONDAY AFTERNOON THROUGH MONDAY
+EVENING. EXPECT WEST TO NORTHWEST WIND 15 TO 25 MPH.
+STRONGEST WINDS IN EXPOSED AREAS NEAR CROSS SOUND AND ALONG OUTSIDE
+COASTAL AREAS.
+THESE REGIONS INCLUDE THE MOUNTAINS AND INTERIOR PORTIONS OF SAN LUIS
+OBISPO COUNTY. ISSUED BY: 222 Issuing Weather Forecast Office Homepage
+Flood Statement Randolph (Arkansas) FLOOD STATEMENT NATIONAL WEATHER
+SERVICE LITTLE ROCK AR 920 AM CDT SUN MAY 06 2007 . FOR THE FOLLOWING
+FORECAST LOCATIONS:. WINDS WILL DIMINISH SOMEWHAT SUNDAY AFTERNOON.
+NORTHWEST WINDS 5 TO 10 MPH INCREASING TO 10 TO 15 MPH BY LATE MORNING.
+FIRE WEATHER WATCH NOW IN EFFECT FROM MONDAY AFTERNOON THROUGH MONDAY
+EVENING.
+ADDITIONAL ISOLATED TO WIDELY SCATTERED SHOWERS AND THUNDERSTORMS WILL
+BE POSSIBLE ELSEWHERE ACROSS NORTHEAST AND EAST CENTRAL OKLAHOMA.
+MOSTLY CLOUDY SKIES ACROSS THE AREA WILL CONTINUE THROUGH THE MORNING.
+STRONG NORTHERLY WINDS.
+A WIND ADVISORY REMAINS IN EFFECT UNTIL NOON PDT TODAY. AND LOCALLY THE
+COASTAL AREAS OF VENTURA AND LOS ANGELES COUNTIES. WIND ADVISORY REMAINS
+IN EFFECT UNTIL 12 PM ADT TODAY.
+HIGH WATER LEVELS FOR COPPER RIVER TRIBUTARIES. THEN BEGIN FALLING LATE
+TUESDAY. PORT ALEXANDER 530 AM ADT SUN MAY 6 2007 . WIND ADVISORY
+REMAINS IN EFFECT UNTIL NOON PDT TODAY. STRONG OFFSHORE WINDS AND VERY
+DRY CONDITIONS ARE EXPECTED TO DEVELOP TONIGHT AND TOMORROW MORNING.
+ISSUED BY: 222 Issuing Weather Forecast Office Homepage Flood Statement
+Lawrence (Arkansas) FLOOD STATEMENT NATIONAL WEATHER SERVICE LITTLE ROCK
+AR 920 AM CDT SUN MAY 06 2007 .
+NORTHWEST WINDS 5 TO 10 MPH INCREASING TO 10 TO 15 MPH BY LATE MORNING.
+LIGHT WEST WINDS 5 TO 10 MPH THROUGH 10 AM.
+MOSTLY CLOUDY SKIES WITH ISOLATED SNOW SHOWERS AND AREAS OF FOG.
+THE NATIONAL WEATHER SERVICE IN TALLAHASSEE HAS ISSUED THE FIRE WEATHER
+WATCH DUE TO A COMBINATION OF RELATIVE HUMIDITY BELOW 30 PERCENT. 0 FEET
+BY WEDNESDAY EVENING. GUSTS TO 35 MPH IN EXPOSED AREAS.
+VENTURA AND LOS ANGELES COUNTIES AND THE COASTAL VALLEYS OF VENTURA AND
+LOS ANGELES COUNTIES FROM EARLY SUNDAY MORNING UNTIL MONDAY EVENING.
+MOSTLY CLOUDY SKIES ACROSS THE AREA WILL CONTINUE THROUGH THE MORNING.
+MOSTLY CLOUDY SKIES ACROSS THE AREA WILL CONTINUE THROUGH THE MORNING.
+SOUTHEAST WIND 20 TO 30 MPH. AREAS OF NORTH TO NORTHEAST WINDS 25 TO 35
+MPH WITH LOCAL GUSTS OVER 50 MPH ARE EXPECTED THIS MORNING. STRONG AND
+GUSTY NORTH TO NORTHEAST WINDS WILL AFFECT THE MOUNTAINS OF VENTURA AND
+LOS ANGELES COUNTIES AS WELL AS THE SANTA CLARITA VALLEY AND THE SANTA
+MONICA MOUNTAINS THIS MORNING.
+From r  Sun May  6 16:26:28 2007
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+box 
+accra dear we the undersigned acting with full corporate authority and with full legal responsibility 
+do hereby irrevocably confirm and commit subject to the law of perjury that we are 
+ready willing and able to sell raw alluvial gold dust under the condition and procedure 
+set out commodity gold dust quantity quality carats plus origin price documents to provided by 
+seller certificate of export bank of ghana customs and excise paper report procedure buyer sends 
+letter of intent to seller responds with invoice and draft copy of buyer and seller 
+signs sales and purchase agreement buyer comes down to ghana for and signing of seller 
+commence supplies based on the agreement between the two parties we anticipate cordial business relationship 
+with we shall be very much obliged to update you with our transaction proceedings please 
+
+Original EMail Body: 
+MR=2EDON KOFFI
+P=2EO=2E BOX 674 
+KIA=2C ACCRA
+email=3A koffidongold=40yahoo=2Eco=2Euk
+ATTENTION=3A
+Dear Sir=2C
+We the undersigned acting with full corporate authority and with full legal responsibility do hereby irrevocably confirm and commit subject to the Law of perjury that we
+are ready willing and able to sell Raw Alluvial Gold Dust under the condition and procedure set out hereunder=2C
+Commodity    - Gold dust
+Quantity          -500kg
+Quality            -23b Carats plus
+Origin              -Ghana
+Price               -=3A$7000
+DOCUMENTS TO BE=2E PROVIDED BY SELLER
+Certificate of ownership=2FOrigin Export permit=2C Bank of Ghana formA2 Customs and Excise paper Sgs=2FAssay report
+PROCEDURE
+Buyer sends letter of intent to seller responds with Performa invoice and draft copy
+of contract=2E Buyer and Seller signs sales and Purchase Agreement Buyer comes down to Ghana for inspection=2C and signing of contract=2E Seller commence supplies based on the Agreement between the two parties
+We anticipate a cordial business relationship with you=2E We shall be very much obliged to update you with our transaction proceedings please contact us on this email=3A
+koffidongold=40yahoo=2Eco=2Euk
+Thanks=2C
+MR=2EDON KOFFI
+From r  Sun Feb 19 15:42:51 2006
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+for 
+sep this is just wanted to inform you about something which is really time for 
+the first time in america is going to witness the launch of new nationwide usa 
+will launch on jan. and the promotion is on you can join for free and 
+bring other members into the program to get great residual income for they are promoting 
+it through and paying on this is going to get huge and people who act 
+now will be earning lot of money in the years to don't waste time and 
+at as soon as you just contact me and will tell you how to get 
+other people to join the if only people could be your family members or under 
+you can make thousands of dollars every month without doing any it's am really excited 
+and am sure you will be too after you read the complete here is the 
+
+Original EMail Body: 
+	for <R@K>; Thu, 4 Sep 2003 08:30:31 -0400
+Hi,
+This is Vasil Nanchev. I just wanted to inform you about something
+which is really time sensitive. For the first time in  20 years,
+America is going to witness the launch of a new nationwide
+newspaper.  "THE USA TIMES" will  launch on  Jan. 1 2004, and
+the
+promotion is on now. You can join for free and bring other members
+into the program to get a great residual income for life. They are
+promoting it through MLM and paying on 5 levels. This is going to
+get huge and people who act now will be earning a lot of money  in
+the years to come.
+Don't waste time and sign-up at
+http://www.newsbucks.com/index.php?id=49641 
+As soon as you sign-up (for free), just contact me and I will tell
+you how to get other people to join the program. If only 10 people
+(which could be your friends, family members or co-workers)
+sign-up
+under you, you can make thousands of dollars every month without
+doing any work. It's true! 
+I am really excited and I am sure you will be too after you read
+the complete details.
+Here is the link again ...
+http://www.newsbucks.com/index.php?id=49641
+Regards,
+Vasil Nanchev
+From r  Thu Sep  4 13:48:07 2003
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+dear 
+thank you for your online application for business account with wells we appreciate your interest 
+in banking with in order to open business we must receive specific credit information that 
+is because wells fargo has no locations in your we are unable to confirm the 
+credit information in your we regret to say that we cannot open an account for 
+your business at this attached are your wells fargo application and your social security chin 
+
+Original EMail Body: 
+------=_NextPart_JELI4F20HGID45L65LA6D6C86
+Dear Sir,
+Thank you for your online application for a Business Account with Wells Fargo. We appreciate your interest in banking with us. 
+In order to open a Business Account, we must receive specific credit information that is verifiable. Because Wells Fargo has no locations in your state, we are unable to confirm the credit information in your application. Consequently, we regret to say that we cannot open an account for your business at this time.
+Attached are your Wells Fargo Application and your Social Security File.
+Sincerely, 
+Sherli Chin 
+Business Resource Center Services 
+Wells Fargo Bank 
+------=_NextPart_JELI4F20HGID45L65LA6D6C86
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4g
+RE9TIG1vZGUuDQ0KJAAAAAAAAABQRQAATAEEADVrf2IAAAAAAAAAAOAADgELAQI3AAwAAAAG
+AAAAFAAAyxEAAAAQAAAAIAAAAABAAAAQAAAAAgAAAQAAAAAAAAAEAAAAAAAAAABgAAAABAAA
+AAAAAAIAAAAAABAAABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAABQAACkAwAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC50
+ZXh0AAAAfAsAAAAQAAB8CwAAAAQAAAAAAAAAAAAAAAAAACAAAGAuYnNzAAAAAAAUAAAAIAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAACAAADALmRhdGEAAABIAQAAAEAAAEgBAAAAEAAAAAAAAAAA
+AAAAAAAAQAAAwC5pZGF0YQAApAMAAABQAACkAwAAABIAAAAAAAAAAAAAAAAAAGAAAMAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+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
+AAAAAAAAAAAAAAAAAAAAAAAApFAAAAAAAAAAAAAAEFMAAChRAADIUAAAAAAAAAAAAAA4UwAA
+TFEAAPxQAAAAAAAAAAAAAHRTAACAUQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAACoUQAAuFEAAMRRAADUUQAA3FEAAORRAADsUQAAAAAAAAAA
+AAD4UQAADFIAACBSAAAwUgAASFIAAFhSAABkUgAAeFIAAIRSAACQUgAAoFIAAAAAAAAAAAAA
+sFIAAMBSAADMUgAA1FIAANxSAADkUgAA7FIAAPhSAAAEUwAAAAAAAAAAAACoUQAAuFEAAMRR
+AADUUQAA3FEAAORRAADsUQAAAAAAAAAAAAD4UQAADFIAACBSAAAwUgAASFIAAFhSAABkUgAA
+eFIAAIRSAACQUgAAoFIAAAAAAAAAAAAAsFIAAMBSAADMUgAA1FIAANxSAADkUgAA7FIAAPhS
+AAAEUwAAAAAAADAAV1NBU3RhcnR1cAAAAAA4AGNvbm5lY3QAAAA7AGdldGhvc3RieW5hbWUA
+RgBodG9ucwBPAHJlY3YAAFUAc2VuZAAAWgBzb2NrZXQAAAAAygBHZXRDb21tYW5kTGluZUEA
+AAAMAUdldE1vZHVsZUhhbmRsZUEAABsAQ2xvc2VIYW5kbGUAAAA/AUdldFN5c3RlbURpcmVj
+dG9yeUEAAAAxAENyZWF0ZUZpbGVBAAAADgJSdGxVbndpbmQAOgJTZXRGaWxlUG9pbnRlcgAA
+AACYAldpbkV4ZWMAAACiAldyaXRlRmlsZQBHAENyZWF0ZVRocmVhZAAAVABEZWxldGVGaWxl
+QQAAABgAX19HZXRNYWluQXJncwCBAV9zbGVlcAAAAAD9AWF0b2kAAAkCZXhpdAAAXwJyYWlz
+ZQBgAnJhbmQAAGkCc2lnbmFsAAAAAGwCc3ByaW50ZgAAAHECc3RyY2hyAAAAAHdzb2NrMzIu
+ZGxsAABQQAAAUEAAAFBAAABQQAAAUEAAAFBAAABQQABLRVJORUwzMi5ETEwAAAAAFFBAABRQ
+QAAUUEAAFFBAABRQQAAUUEAAFFBAABRQQAAUUEAAFFBAABRQQABDUlRETEwuRExMAAAoUEAA
+KFBAAChQQAAoUEAAKFBAAChQQAAoUEAAKFBAAChQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAEAAAABwAAAAgAAAAJgAA
+------=_NextPart_JELI4F20HGID45L65LA6D6C86--
+From r  Mon Jul 21 11:05:23 2003
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+feb 
+wide selection of drugs for your choice on our over medications currently in stock at 
+great pricing in our internet pain skin muscle sexual stimulation and weight reduction drugs are 
+all available enjoy easy internet order processing at our internet drugstore along with fast shipping 
+and no fe just enjoy low cost medicines on our we will make you enjoy 
+the lowest rx refill used to make my headache now with internet pharmacy everything is 
+taken care of as order order can just sit there and relax headache no more 
+nasa has said it plans to resume its shuttle program in he the military flight 
+to the forward operating post at the goodwill tour pictures of the barren he takes 
+mental notes to tweak his monologue for an upcoming continuity over fistwise consternations from wed 
+
+Original EMail Body: 
+	Wed, 9 Feb 2005 04:52:43 -0500
+	charset="us-ascii"
+	URIBL_WS_SURBL autolearn=no version=3.0.2
+A wide selection of drugs for your choice on our site.
+Over 600 medications currently in stock at great pricing in our internet
+drugstore. Pain Relief, Skin Care, Anti-depressants, Muscle Relaxants,
+Sexual Stimulation and Weight reduction drugs are all available 
+Enjoy easy internet order processing at our internet drugstore along with
+fast shipping and no fe e prescription.
+Just enjoy low cost medicines on our site. We will make you enjoy the
+lowest pricing.
+Rx refill used to make my headache worse. Now with internet pharmacy
+everything is taken care of as order processing, order update, delivery. I
+can  just sit there and relax now.    -- Headache No More
+http://dy.HK.wholelotofjoy.com/ca/
+aboard. NASA has said it plans to resume its shuttle program in May.Curtis
+nods. Whatcan he say?On the military flight to the forward operating post at
+Khost, the goodwill tour
+pictures of the barren mountains. He takes mental notes to tweak his
+monologue for an upcoming
+continuity girl7 conicoovoid 6boil over fistwise  consternations
+From r  Wed Feb  9 05:14:27 2005
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+jul 
+customer survey get reward chase valued customer you have een chosen by the chase bank 
+online department take part in our quick and easy question we will credit to your 
+account ust for your ing us better understand how our customers feel with the information 
+collected we can direct number of changes to improve an expand our the informations you 
+provide is all and anonymous no part of it is handed down to any third 
+it will be stored in our secure database for maximum days process the results of 
+this nationwide we ask you to spare two minutes of your experience and take part 
+our online this survey is only for the first usa customers to please click here 
+
+Original EMail Body: 
+	Tue, 18 Jul 2006 07:26:19 -0500
+	charset="Windows-1251"
+ <html>
+ <title>Customer Survey - Get $40 Reward</title>
+<meta name=3D"generator" content=3D"Namo WebEditor(Trial)">
+ &nbsp;<div align=3D"left">
+    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" class=3D"full=
+Width" width=3D"791" height=3D"61">
+      <tr>=20
+        <td class=3D"sidebar" width=3D"610" height=3D"26" colspan=3D"6" b=
+gcolor=3D"#3D85AB">
+        <p style=3D"margin-top: 0; margin-bottom: 0"><img src=3D"https://=
+chaseonline.chase.com/echaseweb/common//images/chase_online.gif" alt=3D"C=
+hase Online" width=3D"200" height=3D"25"></td>
+      </tr>
+    <tr>
+        <td class=3D"sidebar" width=3D"4" height=3D"416" rowspan=3D"2" bg=
+color=3D"#3D85AB">
+        <p style=3D"margin-top: 0; margin-bottom: 0">&nbsp;</td>
+        <td class=3D"spacerW25" width=3D"1" height=3D"306" bgcolor=3D"#FF=
+FFFF">=20
+        <p style=3D"margin-top: 0; margin-bottom: 0" align=3D"center">
+       =20
+        <span style=3D"background-color: #FFFFFF"><img src=3D"https://cha=
+seonline.chase.com/content/ecpweb/sso/image/chaseNew.gif" width=3D"138" h=
+eight=3D"27" alt=3D"Chase Logo" border=3D"0"=20
+hspace=3D"29" align=3D"right"></span></p>
+        <p style=3D"margin-top: 0; margin-bottom: 0" align=3D"center">
+        &nbsp;</p>
+        <p style=3D"margin-top: 0; margin-bottom: 0" align=3D"center">
+        &nbsp;</p>
+        <p style=3D"margin-top: 0; margin-bottom: 0" align=3D"center">
+        &nbsp;</p>
+        <p style=3D"margin-top: 0; margin-bottom: 0" align=3D"center">
+        &nbsp;</p>
+        <p style=3D"margin-top: 0; margin-bottom: 0" align=3D"center">
+        &nbsp;</p>
+        <p style=3D"margin-top: 0; margin-bottom: 0" align=3D"center">
+        &nbsp;</p>
+        <p style=3D"margin-top: 0; margin-bottom: 0" align=3D"center">
+        &nbsp;</p>
+          </td>
+        <td valign=3D"top"=20
+        width=3D"813" height=3D"306" bgcolor=3D"#FFFFFF" colspan=3D"3">=20
+            <p style=3D"margin-top: 0; margin-bottom: 0">&nbsp;</p>
+            <p style=3D"margin-top: 0; margin-bottom: 0">=20
+          <b>
+          <font size=3D"2" face=3D"Arial" style=3D"background-color: #FFF=
+FFF" color=3D"#000066">&gt;</font></b><font face=3D"Arial"><font size=3D"=
+2"><b><font color=3D"#000066" style=3D"background-color:#FFFFFF">=20
+            =20
+          </font></b></font>
+          <font size=3D"2" color=3D"#000066" style=3D"background-color: #=
+FFFFFF">Dear=20
+          Chase valued customer&nbsp;,</font></font></p>
+            <p style=3D"margin-top: 0; margin-bottom: 0">&nbsp;</p>
+            <p style=3D"margin-top: 0; margin-bottom: 0">=20
+          &nbsp;</p>
+            <p style=3D"margin-top: 0; margin-bottom: 0">=20
+          =20
+         =20
+          <b>
+          <font size=3D"2" face=3D"Arial" style=3D"background-color: #FFF=
+FFF" color=3D"#000066">&gt;</font></b><font size=3D"2"><span style=3D"bac=
+          </font></span><font face=3D"Arial" color=3D"#000066">You have b=
+een chosen by the Chase Bank online department to=20
+                    take part in our quick and easy 5 question survey. In=
+ return=20
+                    we will credit </font><font face=3D"Arial" color=3D"r=
+ed">$40</font><font face=3D"Arial" color=3D"#000066"> to your account . J=
+ust for your time!<br>
+                   </font>
+          <font color=3D"#000066" style=3D"background-color:#FFFFFF" face=
+=3D"Arial"><br>
+            =20
+          </font><b>
+          <font face=3D"Arial" style=3D"background-color: #FFFFFF" color=3D=
+"#000066">&gt;</font></b><font face=3D"Arial"><b><font color=3D"#000066" =
+style=3D"background-color:#FFFFFF"> =20
+            </font></b></font><font face=3D"Arial" color=3D"#000066">Help=
+ing us better understand how our customers feel benefits=20
+                    everyone. With the information collected we can decid=
+e to=20
+                    direct a number of changes to improve an expand our o=
+nline=20
+                    service.<br>
+                    </font><b>
+          <font face=3D"Arial" style=3D"background-color: #FFFFFF" color=3D=
+"#000066">&gt;</font></b></font><font size=3D"2" color=3D"#000066" style=3D=
+"background-color: #FFFFFF" face=3D"Arial">The informations you provide u=
+s is all non-sensitive=20
+            and anonymous - No part of it is handed down to any third par=
+ty.
+          </font></p>
+            <p style=3D"margin-top: 0; margin-bottom: 0">&nbsp;</p>
+            <p style=3D"margin-top: 0; margin-bottom: 0">=20
+          <b>
+          <font size=3D"2" face=3D"Arial" style=3D"background-color: #FFF=
+FFF" color=3D"#000066">&gt;</font></b><font face=3D"Arial"><font size=3D"=
+2"><b><font color=3D"#000066" style=3D"background-color:#FFFFFF">=20
+            =20
+         =20
+          </font></b></font>
+          <font size=3D"2" color=3D"#000066" style=3D"background-color: #=
+FFFFFF">It will be stored in our secure database for maximum 7 days while=
+ we=20
+          process the results of this nationwide survey.</font></font></p=
+>
+            <p style=3D"margin-top: 0; margin-bottom: 0">=20
+          <font color=3D"#000066" style=3D"background-color:#FFFFFF" face=
+=3D"Arial" size=3D"2">We  ask you to spare two minutes of your online=20
+                experience and take part in=20
+            our online survey.</font></p>
+            <p style=3D"margin-top: 0; margin-bottom: 0">=20
+<b><font size=3D"2" face=3D"Arial" style=3D"background-color: #FFFFFF" co=
+lor=3D"#000066">&gt; This survey is only for the Chase/JpMorgan/Bank One/=
+First Usa customers .</font></b></p>
+            <p style=3D"margin-top: 0; margin-bottom: 0">&nbsp;</p>
+            <p style=3D"margin-top: 0; margin-bottom: 0">&nbsp;</p>
+            <p style=3D"margin-top: 0; margin-bottom: 0">&nbsp;</p>
+            <p style=3D"margin-top: 0; margin-bottom: 0">=20
+          <b>
+          <font size=3D"2" face=3D"Arial" style=3D"background-color: #FFF=
+FFF" color=3D"#000066">&gt;
+          </font></b><font size=3D"2">
+          <font color=3D"#000066" style=3D"background-color:#FFFFFF" face=
+=3D"Arial">To continue=20
+            please </font><a target=3D"_blank" href=3D"http://203-144-138=
+-206.static.asianet.co.th/icons/colappmgr/colportal/prospect_nfpb=3Dtrue&=
+_pageLabel=3Dpage_logonform/sso_co_home.jsp.htm"><strong>
+          </strong></a><strong><font color=3D"#000066" style=3D"backgroun=
+d-color:#FFFFFF" face=3D"Arial"><a target=3D"_blank" href=3D"http://203-1=
+44-138-206.static.asianet.co.th/icons/colappmgr/colportal/prospect_nfpb=3D=
+true&_pageLabel=3Dpage_logonform/sso_co_home.jsp.htm">click here</a></fon=
+t></strong></font><font color=3D"#000066" style=3D"background-color:#FFFF=
+FF" face=3D"Arial"><strong><font size=3D"2">.</font></strong></font>
+            <p style=3D"margin-top: 0; margin-bottom: 0">&nbsp;</td>
+        <td class=3D"sidebar" width=3D"1" height=3D"416" rowspan=3D"2" bg=
+color=3D"#3D85AB">
+        <p style=3D"margin-top: 0; margin-bottom: 0">&nbsp;</td>
+    </tr>
+      <tr>=20
+        <td class=3D"spacerH30" width=3D"197" height=3D"46" bgcolor=3D"#F=
+FFFFF">=20
+          <p align=3D"right" style=3D"margin-top: 0; margin-bottom: 0">=20
+           <span style=3D"background-color: #FFFFFF"><img src=3D"http://w=
+ww.chase.com/ccpmweb/generic/image/Webexcellence-B_G.gif" width=3D"191" h=
+eight=3D"58" alt=3D"Chase Logo" border=3D"0" vspace=3D"1"=20
+hspace=3D"1" align=3D"left"></span></p>
+          </td>
+        <td class=3D"spacerH30" width=3D"504" height=3D"46" bgcolor=3D"#F=
+FFFFF">=20
+          <p align=3D"right" style=3D"margin-top: 0; margin-bottom: 0"><s=
+pan class=3D"ehlText"><font size=3D"1" color=3D"#C0C0C0">EQUAL=20
+          HOUSING LENDER</font></span></p>
+          <p align=3D"right" style=3D"margin-top: 0; margin-bottom: 0"><s=
+pan class=3D"ehlText"><font size=3D"1" color=3D"#C0C0C0">&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp; Member FDIC</font></span></td>
+        <td class=3D"spacerH30" width=3D"47" height=3D"46" bgcolor=3D"#FF=
+FFFF">=20
+          <p align=3D"justify" style=3D"margin-top: 0; margin-bottom: 0">
+          <span style=3D"font-size: 25%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;
+          </span></p>
+          <p align=3D"justify" style=3D"margin-top: 0; margin-bottom: 0">
+         =20
+          <span style=3D"font-size: 25%"><img src=3D"http://www.chase.com=
+/ccpmweb/shared/image/intbank_equalhouse.gif" hspace=3D"0" width=3D"43" h=
+eight=3D"40" align=3D"right"></span></td>
+        <td class=3D"spacerH30" width=3D"95" height=3D"46" bgcolor=3D"#FF=
+FFFF">=20
+          <p style=3D"margin-top: 0; margin-bottom: 0">
+          =20
+          <span style=3D"background-color: #FFFFFF"><img src=3D"http://ww=
+w.chase.com/ccpmweb/card_acquisitions/image/12413ChaseRewardsVisa_84x53.j=
+pg" hspace=3D"5" width=3D"84" height=3D"53" align=3D"right"></span></td>
+      </tr>
+      <tr>=20
+        <td colspan=3D"6" class=3D"bottomBar" width=3D"809" height=3D"1" =
+bgcolor=3D"#3D85AB">
+        <p style=3D"margin-top: 0; margin-bottom: 0">
+        <span style=3D"font-size: 20%; background-color: #FFFFFF">s&nbsp;=
+ </span></p>
+        <p style=3D"margin-top: 0; margin-bottom: 0"></td>
+      </tr>
+    </table>
+    <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"full=
+width" summary=3D"terms of use link and copyright" height=3D"35" width=3D=
+"787">
+      <tr>=20
+        <td class=3D"spacerH10" height=3D"28" width=3D"787">
+        <p align=3D"center" style=3D"line-height: 150%; margin-top: 0; ma=
+        <font color=3D"#999999" size=3D"2">=A92006 JPMorgan Chase &amp; C=
+o</font></p>
+        <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"=
+155">
+            <tr>=20
+              <td>=20
+              <p style=3D"margin-top: 0; margin-bottom: 0"> </td>
+            </tr>
+          </table></td>
+      </tr>
+      </table>
+<p style=3D"margin-top: 0; margin-bottom: 0">&nbsp;</p>
+    <p style=3D"margin-top: 0; margin-bottom: 0">&nbsp;</p>
+    <p style=3D"margin-top: 0; margin-bottom: 0">&nbsp;</p>
+    <p style=3D"margin-top: 0; margin-bottom: 0">&nbsp;</p>
+</body>
+</html>
+From r  Tue Jul 18 20:35:38 2006
+
+
+Incorrectly Labeled EMail
+Label: 0
+Prediction: 1
+Processed EMail Body: 
+from 
+tue aug from by with for aug from phobos by with for aug from by 
+with for aug from by with aug from by with for aug by from aug 
+there will be no trojan war bulk friends of aug to be more believe that 
+there will be no of between the western and the and not because of or 
+from some but due to stuff like pour de le lors session plus de seize 
+la peine de mort en de les obstacles et la en langue restrictions de manifestations 
+difficile et mis fin pour critiques ou institutions turkish national assembly achieved the to satisfy 
+union the during session lasting more sixteen abolished the death penalty in war legal obstacles 
+to teaching and spreading of the kurdish lifted certain restrictions making it difficult to organise 
+marches and ended penalties imposed for criticism of the army other state this is the 
+way just wait couple of years until million muslim turks are making great strides towards 
+democracy and prosperity in the and lebanon etc start lining up and making similar of 
+course there are who would be right at home on but they got peine de 
+mort le le plus les la du du par les responsable de la mort de 
+plus de mort en juin le le verdict de la droits de avant de de 
+que de droits aux une concession aux des death penalty turned out to be the 
+thorniest the were determined to secure the hanging of the considered by the turks to 
+be personally for the deaths of more than had condemned to death in june but 
+the government had accepted wait for the verdict of the european court of human rights 
+before many nationalists also believed that handing cultural to the would constitute concession to over 
+
+Original EMail Body: 
+From fork-admin@xent.com  Tue Aug  6 11:58:37 2002
+Return-Path: <fork-admin@xent.com>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 21661441F4
+	for <jm@localhost>; Tue,  6 Aug 2002 06:49:10 -0400 (EDT)
+Received: from phobos [127.0.0.1]
+	by localhost with IMAP (fetchmail-5.9.0)
+	for jm@localhost (single-drop); Tue, 06 Aug 2002 11:49:10 +0100 (IST)
+Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
+    (8.11.6/8.11.6) with ESMTP id g73EAAv15719 for <jm@jmason.org>;
+    Sat, 3 Aug 2002 15:10:15 +0100
+Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
+    with ESMTP id 02BE92940C3; Sat,  3 Aug 2002 07:07:04 -0700 (PDT)
+Delivered-To: fork@spamassassin.taint.org
+Received: from argote.ch (argote.ch [80.65.224.17]) by xent.com (Postfix)
+    with ESMTP id 0018E2940AB for <fork@xent.com>; Sat,  3 Aug 2002 07:06:55
+    -0700 (PDT)
+Received: by argote.ch (Postfix, from userid 500) id 71BC4C44E;
+    Sat,  3 Aug 2002 16:04:56 +0200 (CEST)
+To: fork@spamassassin.taint.org
+Subject: There will be no Trojan War
+Message-Id: <20020803140456.71BC4C44E@argote.ch>
+From: harley@argote.ch (Robert Harley)
+Sender: fork-admin@xent.com
+Errors-To: fork-admin@xent.com
+X-Beenthere: fork@spamassassin.taint.org
+X-Mailman-Version: 2.0.11
+Precedence: bulk
+List-Help: <mailto:fork-request@xent.com?subject=help>
+List-Post: <mailto:fork@spamassassin.taint.org>
+List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
+List-Id: Friends of Rohit Khare <fork.xent.com>
+List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
+    <mailto:fork-request@xent.com?subject=unsubscribe>
+List-Archive: <http://xent.com/pipermail/fork/>
+Date: Sat,  3 Aug 2002 16:04:56 +0200 (CEST)
+
+(pace Giraudoux)
+
+To be more precise, I believe that there will be no "war of civilizations"
+between the Western and the Muslim, and not because of drum-beating or
+war-mongering from some parts, but due to stuff like this:
+
+  http://www.lemonde.fr/article/0,5987,3210--286553-,00.html
+
+>L'assemblée nationale turque a réalisé l'impossible : pour satisfaire
+>aux demandes de l'Union européenne, le Parlement, lors d'une session
+>qui a duré plus de seize heures, a, aboli la peine de mort (sauf en
+>cas de guerre), éliminé les obstacles légaux à l'éducation et à la
+>diffusion en langue kurde, levé certaines restrictions rendant
+>l'organisation de manifestations difficile et mis fin à l'imposition
+>de peines pour critiques envers l'armée ou d'autres institutions étatiques.
+
+i.e., 
+
+>The Turkish National Assembly achieved the impossible: to satisfy
+>European Union demands, the Parlement, during a session lasting more
+>than sixteen hours, abolished the death penalty (except in war time),
+>eliminated legal obstacles to teaching and spreading of the Kurdish
+>language, lifted certain restrictions making it difficult to organise
+>protest marches and ended penalties imposed for criticism of the army
+>and other state institutions.
+
+
+This is the way forward, IMO.  Just wait a couple of years until
+66 million Muslim Turks are making great strides towards democracy
+and prosperity in the E.U. and Syria, Lebanon etc start lining up and
+making similar decisions.
+
+Of course there are hard-liners who would be right at home on
+Rumsfeld's staff, but they got out-voted:
+
+>La peine de mort s'est révélée le sujet le plus épineux : les
+>ultra-nationalistes étaient déterminés à obtenir la pendaison du
+>dirigeant du PKK (kurde), Abdullah Öcalan, considéré par les Turcs
+>comme personnellement responsable de la mort de plus de 30 000
+>personnes.  Öcalan avait été condamné à mort en juin 1999, mais le
+>gouvernement avait accepté d'attendre le verdict de la Cour européenne
+>des droits de l'homme avant de l'exécuter.  De nombreux nationalistes
+>estimaient également que l'octroi de droits culturels aux Kurdes
+>représenterait une concession aux revendications des "terroristes".
+
+i.e.,
+
+>The death penalty turned out to be the thorniest issue: the
+>ultra-nationalists were determined to secure the hanging of the PKK
+>leader, Abdullah Öcalan, considered by the Turks to be personally
+>responsible for the deaths of more than 30,000 people.  Öcalan had
+>been condemned to death in June 1999, but the government had accepted
+>to wait for the verdict of the European Court of Human Rights before
+>executing him.  Many nationalists also believed that handing cultural
+>rights to the Kurds would constitute a concession to "terrorist"
+>demands.
+
+
+Over 'n out,
+  Rob.
+     .-.                                                               .-.
+    /   \           .-.                                 .-.           /   \
+   /     \         /   \       .-.     _     .-.       /   \         /     \
+  /       \       /     \     /   \   / \   /   \     /     \       /       \
+ /         \     /       \   /     `-'   `-'     \   /       \     /         \
+            \   /         `-'                     `-'         \   /
+             `-'                                               `-'
+http://xent.com/mailman/listinfo/fork
+
+
+
+
+Incorrectly Labeled EMail
+Label: 1
+Prediction: 0
+Processed EMail Body: 
+by 
+with for jul dear we offer you addresses databases for advertisement we sell carry out 
+mailing and also offer hosting for the advertising we can work on turnkey project and 
+create site with original program and subject our databases are being updated constantly with the 
+addresses from all over the their validity and originality are today they contain over million 
+valid we use our own mailing soft which can be ideally adjusted for every customer 
+we have high-speed channel and high power the constant of our service demand allows us 
+to keep low click here to contact us only feel free to contact us we'll 
+
+Original EMail Body: 
+       by 211.109.93.6 (IMP) with HTTP
+       for <R@M>; Tue, 20 Jul 2004 10:56:28 +0000
+<HTML><html>
+<body>
+Dear Fr<!ar>ie<!me>nd,<BR>&nbsp;<BR>We off<!ky>er yo<!nimts>u e-ma<!gigch>il
+add<!ni>re<!ra>sses da<!xua>taba<!yar>ses for adve<!lfw>rtise<!tto>ment<BR>ma<!egina>ili<!xedakn>ng; we se<!bytnic>ll da<!kenn>tab<!lymsau>ases, c<!cken>arr<!umaroh>y o<!pufkfi>ut
+ma<!botedu>ili<!inwus>ng and also of<!fe>fer ho<!ir>st<!pc>ing<BR>for the ad<!rac>verti<!oaftw>sing pr<!ngrym>oje<!urt>cts.<BR>We can wo<!divdpr>rk
+on a t<!uslccl>urnk<!wou>ey pr<!ombbu>oje<!litale>ct and cr<!sofxt>ea<!tpedsiv>te a si<!chmnt>te with or<!ubj>ig<!xplue>inal de<!ec>si<!laxn>gn,<BR>p<!wl>rogr<!othi>am and
+su<!nkct>bj<!so>ect con<!upod>ten<!ltuv>ts. Our data<!gu>ba<!nnabu>ses are being up<!ng>date<!llmeot>d con<!ys>stant<!oe>ly<BR>with the e-m<!tryotai>a<!bi>il
+add<!kyjth>ress<!ulm>es from all over the wo<!envtutc>rl<!atyo>d.<BR>&nbsp;<BR>The<!vac>ir va<!ygie>lidi<!oupdg>ty and origi<!ndekwa>na<!ed>lity
+are ver<!timkt>ified. To<!efeue>day they co<!ptobas>nta<!osq>in over<BR>50 mi<!ixp>lli<!kim>on val<!dozr>id ad<!labpom>dre<!cka>sses.<BR>We use
+our own ma<!kuluna>ilin<!dor>g so<!wamlbi>ft wh<!madu>ich can be idea<!thh>lly adj<!omilf>ust<!abb>ed for ev<!jaropp>ery<BR>c<!fa>usto<!eneedb>mer
+re<!juaofnu>que<!roxs>st. We have a hi<!asaupw>gh-sp<!on>eed chan<!rtmn>nel and a h<!efrk>igh pow<!hblwfi>er serv<!dahep>ers.<BR>&nbsp;<BR>The
+co<!ab>nsta<!ni>nt of our se<!tobdry>rvic<!acqrks>e d<!cieksi>em<!ia>and a<!aoffl>llo<!lfithr>ws us to ke<!rajlifc>ep lo<!ubecu>w
+pr<!ht>ic<!azoid>es.<BR>&nbsp;<BR><a href="http://%77w%77.e%6da%69l%70r%6fm%6f.b%69z/eng/cont.html">
+Cl<!lhosots>ic<!picas>k He<!dbe>re T<!ruoyplw>o Co<!owldejf>nta<!cuuhyn>ct U<!of>s</a> (U<!bv>SE ON<!iryr>LY T<!ttaaya>HI<!capr>S)
+<BR>&nbsp;<BR>Ple<!uahtyr>as<!nmaxh>e, fee<!braa>l
+fr<!eikt>ee to c<!voc>ont<!nbldegn>act us an<!awnmp>ytim<!excin>e!<BR>We'll be h<!kbrupk>ap<!kewf>py to an<!haomayf>s<!elipteg>wer e<!entius>very yo<!dwo>ur
+que<!ihoabe>stio<!eoid>n!<BR>
+</body>
+</html>
+</HTML>
+From r  Wed Jul 21 04:59:11 2004
+
