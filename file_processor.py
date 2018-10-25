@@ -1,7 +1,19 @@
 import re
 
 
+def my_func(list):
+    list.append(4)
+
+
 def main():
+
+    list = [1, 2, 3]
+
+    my_func(list)
+
+    print(list)
+
+    return
 
     test_string = "From nowon 0568351987573036@xxx Thu Nov 10 00:20:13 +0000 2016"
 

@@ -1,6 +1,4 @@
 from sklearn import linear_model
-from sklearn.externals import joblib
-from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from bs4 import BeautifulSoup
 import pickle
@@ -185,13 +183,6 @@ def log_features(features, weights):
 
 def main():
 
-    with open('current.classifier.pkl', 'rb') as f:
-        classif = pickle.load(f)
-
-    print(classif)
-
-    return
-
     #######################
     # Process Scam E-Mails
     #######################
@@ -304,24 +295,20 @@ def main():
     # Use class_weight to lower scam weighting
     classifier = linear_model.SGDClassifier(max_iter=1000, tol=0.0001)
 
-    #vectorizer = CountVectorizer()
     vectorizer = TfidfVectorizer(ngram_range=(1, 3))
 
     vector_data = vectorizer.fit_transform(vector_data_text)
 
-    # with open('current.vectorizer.pkl', 'wb') as f:
-    #     pickle.dump(vectorizer, f)
-    #
-    # with open('current.vectorizer.pkl', 'rb') as f:
-    #     vectorizer = pickle.load(f)
+    classifier.fit(vector_data, label_data)
+
+    ###################
+    # STORE VECTORIZER
+    ###################
 
     filename = 'current.vectorizer.pkl'
     print("Storing vectorizer as " + filename)
-    #_ = joblib.dump(vectorizer, filename)
     with open(filename, 'wb') as f:
         _ = pickle.dump(vectorizer, f)
-
-    classifier.fit(vector_data, label_data)
 
     ###################
     # STORE CLASSIFIER
@@ -329,19 +316,18 @@ def main():
 
     filename = 'current.classifier.pkl'
     print("Storing classifier as " + filename)
-    #_ = joblib.dump(classifier, filename)
     with open(filename, 'wb') as f:
         _ = pickle.dump(classifier, f)
 
+    #################################
+    # LOAD CLASSIFIER AND VECTORIZER
+    #################################
 
-
-    return
-
-    ##################
-    # LOAD CLASSIFIER
-    ##################
-
-    #classifier = joblib.load(filename)
+    # with open('current.classifier.pkl', 'rb') as f:
+    #     classifier = pickle.load(f)
+    #
+    # with open('current.vectorizer.pkl', 'rb') as f:
+    #     vectorizer = pickle.load(f)
 
     #######################
     # ANALYZE TOP FEATURES
